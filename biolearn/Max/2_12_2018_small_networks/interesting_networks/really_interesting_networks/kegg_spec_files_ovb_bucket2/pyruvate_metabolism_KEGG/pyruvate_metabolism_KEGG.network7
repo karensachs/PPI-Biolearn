@@ -1,0 +1,47 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_pyruvate_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ALDH1B1 --> ME1
+LDHAL6A --> HAGH
+dis --> HAGH
+dis --> ALDH1B1
+GRHPR --> ME3
+PDHB --> DLAT
+MDH2 --> DLAT
+PDHB --> PCK2
+ACAT2 --> PCK2
+PDHB --> GRHPR
+dis --> ACYP1
+DLAT --> ACAT1
+HAGH --> DLD
+MDH2 --> DLD
+dis --> LDHA
+PDHB --> PDHA1
+LDHAL6A --> MDH1
+dis --> MDH1
+LDHC --> LDHAL6A
+dis --> ME2
+dis --> LDHC
+PC --> PDHB
+dis --> PDHB
+dis --> ALDH3A2
+PCK2 --> PCK1
+PDHA1 --> ACSS1
+dis --> ACSS1
+PDHA1 --> MDH2
+LDHA --> PKLR
+dis --> ACAT2
+AKR1B1
+ACSS2
+LDHB
+GLO1
+ACACA
+ALDH2
+ALDH9A1
+ALDH7A1

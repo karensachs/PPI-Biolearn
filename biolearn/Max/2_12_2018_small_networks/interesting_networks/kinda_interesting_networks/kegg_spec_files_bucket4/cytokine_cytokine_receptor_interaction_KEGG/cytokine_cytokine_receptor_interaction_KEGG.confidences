@@ -1,0 +1,13 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_cytokine_cytokine_receptor_interaction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> EGFR	100%
+dis --> IL6ST	100%
+FLT3 --- PDGFRB	90% (20% forward, 15% backward)
+IL18 --- PLEKHO2	90% (25% forward, 10% backward)

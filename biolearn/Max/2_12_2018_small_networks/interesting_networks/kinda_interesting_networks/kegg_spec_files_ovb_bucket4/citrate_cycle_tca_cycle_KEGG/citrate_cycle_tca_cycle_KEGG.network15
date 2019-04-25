@@ -1,0 +1,39 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_citrate_cycle_tca_cycle.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> IDH2
+SUCLA2 --> SDHA
+IDH3A --> CS
+dis --> CS
+IDH3B --> IDH3A
+dis --> IDH3A
+dis --> IDH1
+MDH1 --> SUCLG1
+dis --> FH
+PDHB --> DLAT
+dis --> PCK2
+dis --> PC
+dis --> OGDH
+dis --> DLD
+DLST --> PDHA1
+dis --> ACLY
+dis --> ACO2
+SUCLG1 --> SUCLA2
+PDHB --> SUCLG2
+dis --> MDH1
+IDH3G --> IDH3B
+dis --> ACO1
+DLAT --> IDH3G
+OGDH --> DLST
+OGDH --> OGDHL
+PDHA1 --> PDHB
+dis --> PDHB
+PCK2 --> PCK1
+SDHA --> SDHB
+FH --> MDH2

@@ -1,0 +1,32 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_mismatch_repair.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> RFC1
+MSH6 --> PCNA
+POLD1 --> PCNA
+POLD1 --> POLD2
+RFC4 --> MSH2
+RFC4 --> RFC2
+RFC3 --> RFC2
+MSH2 --> MSH6
+dis --> MSH6
+PCNA --> LIG1
+dis --> LIG1
+dis --> RPA3
+RPA3 --> RPA2
+dis --> SSBP1
+PCNA --> RPA1
+dis --> RPA1
+dis --> RFC4
+RFC5 --- RFC4
+dis --> RFC5
+RFC3 --- RFC5
+dis --> RFC3
+MSH6 --> POLD1
+dis --> POLD1

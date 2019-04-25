@@ -1,0 +1,22 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_pyrimidine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+POLR2A --- POLR2E	100% (70% forward, 30% backward)
+NME2 --- NME1	100% (55% forward, 45% backward)
+dis --> POLR2C	100%
+dis --> DPYD	100%
+dis --> NME3	100%
+dis --> DCTD	100%
+POLD2 --> POLD1	100% (95% forward, 5% backward)
+POLR2A --- POLR2I	95% (65% forward, 30% backward)
+dis --> POLD2	95%
+dis --> POLR2H	95%
+dis --> NME1	90%
+DPYD --> TYMP	85%
+POLR2C --> POLR2D	80% (75% forward, 0% backward)

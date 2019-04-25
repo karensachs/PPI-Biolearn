@@ -1,0 +1,20 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_citrate_cycle_tca_cycle.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PCK2 --- PCK1	100%
+IDH3B --- IDH3A	100% (15% forward, 5% backward)
+IDH3G --- IDH3B	100% (15% forward, 5% backward)
+OGDHL --- OGDH	100% (25% forward, 15% backward)
+PDHB --- PDHA1	100% (20% forward, 10% backward)
+dis --> IDH2	100%
+dis --> PC	100%
+dis --> ACLY	100%
+SUCLG1 --- MDH1	90% (55% forward, 5% backward)
+dis --> IDH1	90%
+SDHB --- SDHA	85% (35% forward, 25% backward)

@@ -1,0 +1,18 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_base_excision_repair.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+XRCC1 --- LIG3	100% (80% forward, 0% backward)
+POLD1 --- POLD2	100% (70% forward, 30% backward)
+dis --> LIG1	100%
+dis --> POLB	100%
+dis --> FEN1	100%
+dis --> XRCC1	100%
+PCNA --- FEN1	90% (50% forward, 40% backward)
+XRCC1 --- HMGB1	90% (80% forward, 0% backward)
+dis --> PARP1	90%

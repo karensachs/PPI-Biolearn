@@ -1,0 +1,29 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_pentose_phosphate_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> PGM2
+TALDO1 --- PGM2
+PRPS1 --> PRPS2
+dis --> PGLS
+G6PD --- PGD
+dis --> H6PD
+ALDOA --- ALDOC
+dis --> PRPS1
+dis --> TALDO1
+H6PD --- TALDO1
+PGLS --> RPE
+H6PD --> PGM1
+dis --> TKT
+PGLS --- TKT
+TALDO1 --> PFKP
+dis --> DERA
+FBP1
+PFKM
+GPI
+PFKL

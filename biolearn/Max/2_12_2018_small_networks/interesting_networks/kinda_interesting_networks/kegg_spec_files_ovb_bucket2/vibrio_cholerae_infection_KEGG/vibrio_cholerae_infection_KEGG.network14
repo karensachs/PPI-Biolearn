@@ -1,0 +1,37 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_vibrio_cholerae_infection.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ATP6V1A --> ATP6V1F
+dis --> ARF1
+PRKACA --> ATP6V1H
+PRKACA --> SEC61A1
+ATP6V1E1 --> ATP6V1D
+SEC61A1 --> TJP2
+SEC61A1 --> ATP6V1B2
+PLCG2 --> ATP6V1B2
+dis --> ATP6V0A1
+PRKACA --> PRKACB
+TJP2 --> TJP1
+PRKACA --> TJP1
+ATP6V1E1 --> ATP6V1B1
+dis --> ATP6V1B1
+ATP6V1A --> ATP6V1E1
+ATP6V0A1 --> ACTB
+ATP6V0A1 --> PRKACA
+PRKCA --> PLCG2
+dis --> PLCG2
+dis --> ATP6V1C1
+ATP6V1E1 --> ATP6V1G1
+dis --> PDIA4
+ACTB --> ACTG1
+dis --> SLC12A2
+ATP6V1B2 --> ATP6V1A
+GNAS
+ATP6V0D1
+TCIRG1

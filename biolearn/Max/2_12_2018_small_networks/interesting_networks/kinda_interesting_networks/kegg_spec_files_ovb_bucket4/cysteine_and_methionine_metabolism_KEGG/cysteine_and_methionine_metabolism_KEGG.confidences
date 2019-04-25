@@ -1,0 +1,26 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_cysteine_and_methionine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAT2B --- MAT2A	100% (85% forward, 15% backward)
+LDHC --- LDHAL6A	100% (75% forward, 25% backward)
+AHCYL1 --- AHCYL2	100% (65% forward, 35% backward)
+dis --> APIP	100%
+dis --> LDHB	100%
+dis --> SRM	100%
+dis --> LDHA	100%
+dis --> ADI1	100%
+dis --> SMS	100%
+dis --> GOT2	100%
+dis --> MTAP	100%
+dis --> MPST	95%
+dis --> DNMT1	95%
+dis --> AHCYL1	95%
+dis --> ENOPH1	85%
+dis --> MAT2B	85%
+dis --> GOT1	80%

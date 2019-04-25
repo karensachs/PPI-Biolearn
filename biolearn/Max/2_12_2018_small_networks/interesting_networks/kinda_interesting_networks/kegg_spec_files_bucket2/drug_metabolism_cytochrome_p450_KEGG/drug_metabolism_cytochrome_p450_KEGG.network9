@@ -1,0 +1,35 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_drug_metabolism_cytochrome_p450.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GSTM4 --> GSTM2
+MAOA --> GSTM2
+GSTM2 --> ADH5
+ADH4 --> ADH5
+GSTM4 --> GSTM5
+GSTA1 --- GSTA2
+ADH4 --> GSTM4
+GSTM3 --> GSTM4
+ADH1B --> ADH1C
+GSTT1 --> ADH1C
+MAOB --> MAOA
+GSTT1 --> MAOA
+ADH4 --- ADH1B
+ADH4 --- MAOB
+GSTM1 --> GSTP1
+dis --> GSTP1
+MAOB --> ALDH1A3
+dis --> ALDH1A3
+ADH4 --> MGST3
+GSTT1 --> MGST3
+ALDH1A3 --> GSTO1
+GSTM4 --> GSTM1
+GSTM5 --- GSTM1
+GSTK1
+GSTT2
+GSTZ1

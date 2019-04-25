@@ -1,0 +1,162 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/data/ccle_rppa_no_caution.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 HARD BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+C-Raf(MP05-739) --> Tuberin
+p70S6K_pT389 --> Rictor_pT1135
+RAD51 --> Cyclin_B1
+Akt_pT308 --> Tuberin_pT1462
+Bcl-xL --> Cyclin_D1
+EGFR --> MIG-6
+EGFR --> Caveolin-1
+EGFR --> EGFR_pY1173
+ER-alpha_pS118 --> EGFR_pY1173
+dis --> Src
+N-Ras --> CD31
+PEA15_pS116 --> Bcl-xL
+alpha-Catenin --> CD49b
+EGFR --> CD49b
+C-Raf_pS338 --> C-Raf(MP05-739)
+Syk --> Claudin-7
+dis --> Claudin-7
+Tuberin --> PDK1_pS241
+Caveolin-1 --> PKC-alpha
+PKC-delta_pS664 --> PKC-alpha
+PDK1_pS241 --> PDK1
+Caveolin-1 --> Heregulin
+B-Raf_pS445 --> GSK3-alpha-beta
+E-Cadherin --> beta-Catenin
+dis --> beta-Catenin
+PAI-1 --> Chk2
+PAI-1 --> c-Jun_pS73
+Claudin-7 --> E-Cadherin
+beta-Catenin --> alpha-Catenin
+E-Cadherin --> alpha-Catenin
+beta-Catenin --> beta-Catenin_pT41_S45
+ER-alpha_pS118 --> c-Met_pY1235
+Claudin-7 --> HER3
+E-Cadherin --> JAK2
+IGFBP2 --> EGFR
+dis --> EGFR
+Tuberin_pT1462 --> GSK3-alpha-beta_pS21_S9
+ACC_pS79 --> AMPK_pT172
+EGFR --> Gab2
+Stathmin --> Smad4
+N-Ras --> Smad4
+p70S6K --> DJ-1
+Caveolin-1 --> TAZ
+TTF1 --> MDM2_pS166
+SF2 --> ER-alpha_pS118
+14-3-3_beta --> PEA15_pS116
+MYH11 --> PEA15_pS116
+PEA15_pS116 --> TTF1
+PI3K-p85 --> p38_MAPK
+Claudin-7 --> ATM
+Smad1 --> Stathmin
+dis --> Stathmin
+Bcl-2 --> Bim(EP1036)
+Annexin 1 --> Transglutaminase
+Akt_pT308 --> PTEN
+Annexin 1 --> SF2
+Claudin-7 --> N-Cadherin
+beta-Catenin --> N-Cadherin
+PEA15_pS116 --> N-Cadherin
+4E-BP1_pT37_T46 --> 4E-BP1_pT70
+4E-BP1_pT37_T46 --> 4E-BP1
+p70S6K_pT389 --> 4E-BP1
+EGFR --> VEGFR2
+dis --> VEGFR2
+PEA15_pS116 --> YB-1
+Stathmin --> S6_pS235_S236
+Bim(CST2933) --> S6_pS235_S236
+Caveolin-1 --> Syk
+beta-Catenin --> p70S6K
+dis --> eIF4E
+FoxM1 --> Bap1 c-4
+TAZ --> PEA15
+PEA15_pS116 --> ETS-1
+TAZ --> Smad1
+S6_pS235_S236 --> S6_pS240_S244
+Cyclin_B1 --> FoxM1
+Stathmin --> YB-1_pS102
+PAI-1 --> FASN
+Myosin IIa pS1943 --> MYH11
+PEA15 --> Myosin IIa pS1943
+HER3 --> HER2
+TTF1 --> HER2
+E-Cadherin --> Shc_pY317
+Claudin-7 --> Rab25
+TTF1 --> C-Raf_pS338
+alpha-Catenin --> Raptor
+4E-BP1_pS65 --> 4E-BP1_pT37_T46
+MEK1_pS217_S221 --> MAPK_pT202_Y204
+Caveolin-1 --> Annexin 1
+Bap1 c-4 --> G6PD
+Src --> Src_pY527
+Bim(EP1036) --> Bim(CST2933)
+dis --> PI3K-p85
+SF2 --> MEK1_pS217_S221
+PI3K-p85 --> PREX1
+Raptor --> mTOR
+dis --> Bcl-2
+SF2 --> RBM15
+GSK3-alpha-beta_pS21_S9 --> PKC-pan_BetaII_pS660
+PKC-delta_pS664 --> PKC-pan_BetaII_pS660
+CDK1 --- TIGAR
+GSK3-alpha-beta_pS21_S9 --> GSK3_pS9
+Akt_pT308 --> Akt_pS473
+EGFR --> B-Raf_pS445
+Claudin-7 --> PKC-delta_pS664
+Rictor_pT1135 --> NDRG1_pT346
+S6_pS240_S244 --> PRAS40_pT246
+FASN --> ACC_pS79
+Bcl-xL --> TFRC
+PRAS40_pT246 --> Akt_pT308
+S6_pS240_S244 --> p70S6K_pT389
+E-Cadherin --> Lck
+dis --> Lck
+MDM2_pS166 --> N-Ras
+Rb_pS807_S811 --> RAD51
+Rab25 --> 4E-BP1_pS65
+dis --> p27_pT198
+dis --> STAT5-alpha
+Fibronectin --> p21
+dis --> Rb_pS807_S811
+PEA15 --> MSH2
+Caveolin-1 --> PAI-1
+p38_pT180_Y182 --- JNK_pT183_Y185
+Myosin IIa pS1943 --> PR
+PAI-1 --> Fibronectin
+p38_MAPK --> p38 alpha MAPK
+ADAR1
+AR
+ASNS
+53BP1
+ER-alpha
+Collagen_VI
+Porin
+Bax
+Cyclin_E1
+Smad3
+Akt
+p27
+STAT3_pY705
+IRS1
+Dvl3
+SCD1
+Notch1
+MEK1
+INPP4B
+Rad50
+PRDX1
+Bad_pS112
+GATA3
+c-Kit
+Annexin_VII
+14-3-3_zeta
+eEF2K

@@ -1,0 +1,25 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_adipocytokine_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PCK2 --- PCK1	100% (50% forward, 25% backward)
+AKT2 --- AKT1	100% (45% forward, 40% backward)
+PRKAG1 --- PRKAA1	100% (60% forward, 40% backward)
+dis --> IKBKB	100%
+dis --> ACSL4	100%
+dis --> PRKCQ	100%
+dis --> CPT1A	95%
+MAPK9 --> IKBKB	95% (90% forward, 5% backward)
+PRKCQ --- PTPN11	90% (75% forward, 5% backward)
+dis --> PRKAG1	90%
+dis --> STAT3	90%
+PRKCQ --> AKT2	85%
+dis --> RELA	85%
+dis --> ACSL3	85%
+PRKCQ --- RELA	80% (45% forward, 0% backward)
+dis --> PCK2	80%

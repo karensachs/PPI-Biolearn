@@ -1,0 +1,17 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_limonene_and_pinene_degradation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> EHHADH
+dis --> ALDH3A2
+dis --> HADHA
+dis --> ALDH7A1
+dis --> ALDH2
+dis --> ALDH9A1
+ALDH1B1
+ECHS1

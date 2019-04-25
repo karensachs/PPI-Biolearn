@@ -1,0 +1,14 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_notch_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> NCSTN	100%
+CREBBP --> EP300	100% (95% forward, 5% backward)
+SNW1 --- CREBBP	95% (65% forward, 30% backward)
+CTBP2 --- CTBP1	85% (70% forward, 5% backward)
+dis --> CTBP2	80%

@@ -1,0 +1,27 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_autoimmune_thyroid_disease.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HLA-E --> HLA-A
+HLA-B --> HLA-A
+HLA-DRB3 --> HLA-DRA
+dis --> HLA-DRA
+HLA-C --> HLA-E
+HLA-B --- HLA-E
+HLA-DRB1 --> HLA-DPB1
+HLA-DRB3 --> HLA-DPB1
+HLA-DRA --> HLA-DRB5
+HLA-DRB3 --> HLA-DRB5
+HLA-DRA --> HLA-DRB1
+dis --> HLA-DRB1
+HLA-C --> HLA-DRB3
+HLA-DRB1 --> HLA-DMB
+dis --> HLA-C
+HLA-DRB1 --> HLA-DPA1
+dis --> HLA-DPA1
+HLA-C --> HLA-B

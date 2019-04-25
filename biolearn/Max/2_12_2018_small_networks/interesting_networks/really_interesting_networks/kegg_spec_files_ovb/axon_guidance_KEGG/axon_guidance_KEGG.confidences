@@ -1,0 +1,39 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_axon_guidance.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAPK3 --- MAPK1	100% (80% forward, 15% backward)
+GNAI1 --- GNAI2	100% (45% forward, 35% backward)
+GNAI1 --- GNAI3	100% (40% forward, 40% backward)
+CFL2 --- CFL1	100% (85% forward, 15% backward)
+CDC42 --> RHOA	100%
+PAK3 --- PAK1	100% (55% forward, 20% backward)
+PAK3 --- PAK2	100% (50% forward, 45% backward)
+PPP3CA --- PPP3CB	100% (50% forward, 45% backward)
+RAC3 --- RAC1	100% (60% forward, 35% backward)
+NRAS --- HRAS	100% (50% forward, 40% backward)
+HRAS --- KRAS	100% (75% forward, 25% backward)
+dis --> GNAI2	100%
+dis --> MAPK3	100%
+dis --> CDK5	100%
+dis --> PTK2	100%
+dis --> RASA1	100%
+dis --> FES	100%
+dis --> ABLIM1	100%
+dis --> GSK3B	100%
+RAC3 --- ROCK1	95% (40% forward, 30% backward)
+ROCK1 --- ROCK2	95% (70% forward, 20% backward)
+dis --> SRGAP1	95%
+dis --> SRGAP2	95%
+dis --> PAK1	90%
+dis --> FYN	90%
+dis --> ROCK1	90%
+dis --> GNAI3	90%
+dis --> NCK2	90%
+GSK3B --> PAK4	85%
+dis --> LIMK2	85%

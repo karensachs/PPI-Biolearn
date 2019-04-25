@@ -1,0 +1,33 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_starch_and_sucrose_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> PGM2
+PYGM --- PGM2
+dis --> PYGB
+PYGM --- PYGB
+dis --> HK2
+HK3 --- HK2
+dis --> PYGM
+PYGL --- PYGM
+dis --> PYGL
+PGM1 --> GBE1
+dis --> GBE1
+UGP2 --> GYS1
+dis --> GAA
+PGM1 --> GPI
+PYGL --> PGM1
+dis --> HK1
+ENPP1 --- HK1
+dis --> ENPP1
+dis --> UGDH
+PGM1 --> UGP2
+dis --> UGP2
+dis --> AGL
+dis --> HK3
+HK1 --- HK3

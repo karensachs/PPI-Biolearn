@@ -1,0 +1,22 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_dna_replication.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+POLD2 --- POLD1	100% (60% forward, 35% backward)
+RFC3 --- RFC5	100% (75% forward, 25% backward)
+RPA3 --- RPA2	100% (5% forward, 0% backward)
+MCM6 --- MCM7	100% (70% forward, 5% backward)
+MCM6 --- MCM4	100% (50% forward, 20% backward)
+MCM2 --- MCM6	100% (40% forward, 25% backward)
+dis --> RPA1	100%
+MCM2 --- MCM4	95% (60% forward, 20% backward)
+dis --> MCM3	95%
+RFC4 --- RFC2	90% (70% forward, 5% backward)
+dis --> RFC1	90%
+MCM7 --- PCNA	80% (60% forward, 0% backward)
+RFC3 --- RFC2	80% (65% forward, 15% backward)

@@ -1,0 +1,25 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_glutathione_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GSTM1 --- GSTM4	100% (60% forward, 40% backward)
+GSTA2 --- GSTA1	100% (35% forward, 25% backward)
+GSTM5 --- GSTM1	100% (55% forward, 45% backward)
+dis --> GPX4	100%
+dis --> MGST3	100%
+dis --> GSR	100%
+dis --> GSTM3	100%
+dis --> GSS	95%
+dis --> ANPEP	95%
+dis --> GSTM4	95%
+dis --> GSTA2	90%
+GSTM4 --> GSTM2	90% (85% forward, 5% backward)
+GPX3 --- GPX1	85% (55% forward, 30% backward)
+dis --> GPX1	85%
+dis --> GGT5	85%
+GGT5 --- GPX3	80% (40% forward, 35% backward)

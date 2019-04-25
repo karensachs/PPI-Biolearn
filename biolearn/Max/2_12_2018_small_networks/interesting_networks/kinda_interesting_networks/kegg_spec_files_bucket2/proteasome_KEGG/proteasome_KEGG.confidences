@@ -1,0 +1,17 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_proteasome.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PSMB4 --- PSMB3	100% (65% forward, 0% backward)
+PSME1 --- PSME2	100% (45% forward, 10% backward)
+PSMC3 --- PSMC6	100% (40% forward, 5% backward)
+PSMB6 --- PSMB5	100% (45% forward, 30% backward)
+PSMB9 --- PSMB8	95% (35% forward, 25% backward)
+dis --> PSME4	90%
+PSMA5 --- PSMD7	85% (45% forward, 10% backward)
+PSMC1 --- PSMD2	80% (30% forward, 15% backward)

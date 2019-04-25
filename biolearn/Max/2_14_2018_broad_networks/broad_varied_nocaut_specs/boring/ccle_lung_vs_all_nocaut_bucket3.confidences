@@ -1,0 +1,44 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/ccle_varied_nocaut/ccle_lung_vs_all_nocaut.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 HARD BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MEK1_pS217_S221 --- MAPK_pT202_Y204	100%
+PDK1_pS241 --- PDK1	100%
+4E-BP1 --- 4E-BP1_pT37_T46	100%
+p38_MAPK --- p38_alpha_MAPK	100%
+Akt_pS473 --- Akt_pT308	100%
+Bim(EP1036) --- Bim(CST2933)	100%
+PEA15_pS116 --- ETS-1	100%
+PEA15_pS116 --- TTF1	100%
+CDK1 --- TIGAR	100%
+4E-BP1_pT70 --- 4E-BP1_pT37_T46	100%
+Raptor --- mTOR	100%
+Claudin-7 --- E-Cadherin	100%
+4E-BP1_pT37_T46 --- 4E-BP1_pS65	100%
+Caveolin-1 --- TAZ	100% (10% forward, 0% backward)
+Caveolin-1 --- PAI-1	100% (10% forward, 0% backward)
+Cyclin_B1 --- FoxM1	100%
+S6_pS240_S244 --- S6_pS235_S236	100%
+VEGFR2 --- EGFR	100% (10% forward, 0% backward)
+alpha-Catenin --- beta-Catenin	100% (40% forward, 5% backward)
+PKC-delta_pS664 --- PKC-alpha	100%
+Bcl-xL --- Cyclin_D1	100%
+GSK3-alpha-beta_pS21_S9 --- GSK3_pS9	100%
+EGFR --- Caveolin-1	100% (10% forward, 0% backward)
+Claudin-7 --- Rab25	95%
+PAI-1 --- Fibronectin	95% (10% forward, 0% backward)
+PEA15_pS116 --- Bcl-xL	90%
+PEA15_pS116 --- N-Cadherin	90% (45% forward, 0% backward)
+Smad4 --- N-Ras	90%
+PAI-1 --- Chk2	85% (10% forward, 0% backward)
+E-Cadherin --- alpha-Catenin	85% (40% forward, 0% backward)
+Caveolin-1 --- Annexin_1	80% (10% forward, 0% backward)
+Shc_pY317 --- E-Cadherin	80%
+Tuberin_pT1462 --- GSK3-alpha-beta_pS21_S9	80%
+TTF1 --- MDM2_pS166	80%
+beta-Catenin --- PI3K-p85	80% (30% forward, 0% backward)

@@ -1,0 +1,42 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_pancreatic_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> ARHGEF6
+dis --> ERBB2
+RAC1 --> CDC42
+dis --> IKBKB
+RALBP1 --> RELA
+dis --> MAPK9
+dis --> MAPK3
+RAC1 --> RAC2
+RAF1 --> SMAD4
+dis --> NFKB1
+RALBP1 --> ARAF
+RAC1 --> AKT1
+dis --> AKT1
+RAC1 --> MAP2K1
+RALB --> RALA
+RAC1 --> RALB
+dis --> RALB
+RAC3 --> RAC1
+RAC1 --> RB1
+AKT1 --> AKT2
+dis --> AKT2
+RAF1 --> RALBP1
+dis --> RAF1
+dis --> BCL2L1
+RALBP1 --> RAC3
+RAF1 --> SMAD2
+dis --> CDK4
+SMAD2 --> SMAD3
+RAC3 --> PIK3R1
+dis --> STAT1
+dis --> STAT3
+MAPK3 --> MAPK1
+KRAS

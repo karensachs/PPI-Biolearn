@@ -1,0 +1,47 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_prion_diseases.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> LAMC1
+C5 --> C9
+C8G --> C9
+C6 --> C7
+dis --> C7
+C1QC --> FYN
+dis --> FYN
+C7 --> C5
+C6 --> C5
+C8A --> MAPK3
+dis --> MAPK3
+C9 --> C8A
+dis --> C8A
+FYN --> MAP2K1
+C8A --> MAP2K1
+STIP1 --> PRKACB
+dis --> PRKACB
+dis --> SOD1
+C5 --> C8G
+C6 --> C8G
+dis --> HSPA5
+FYN --> PRKACA
+PRKACB --> PRKACA
+dis --> BAX
+C8A --> C1QB
+C1QC --> C1QB
+PRKACA --> PRNP
+dis --> PRNP
+MAP2K1 --> MAP2K2
+dis --> MAP2K2
+C1QB --> C1QA
+C1QC --> C1QA
+MAPK3 --> MAPK1
+MAP2K2 --> STIP1
+dis --> STIP1
+LAMC1 --> C6
+C8A --> C1QC
+dis --> C1QC

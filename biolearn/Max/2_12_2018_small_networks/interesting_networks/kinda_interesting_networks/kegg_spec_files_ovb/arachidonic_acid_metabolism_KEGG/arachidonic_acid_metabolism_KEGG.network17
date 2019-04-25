@@ -1,0 +1,24 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_arachidonic_acid_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> PTGES2
+dis --> GPX1
+dis --> GPX7
+GPX1 --> GPX3
+TBXAS1 --> ALOX5
+dis --> LTA4H
+dis --> CBR1
+dis --> AKR1C3
+dis --> CBR3
+CBR1 --- CBR3
+dis --> TBXAS1
+GPX4
+GGT5
+PTGS1
+PTGIS

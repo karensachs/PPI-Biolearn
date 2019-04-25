@@ -1,0 +1,22 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_protein_export.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+SPCS2 --> SRP72
+SRP72 --> SRP68
+dis --> SRPRB
+SRPRB --> SEC61A1
+SEC61A1 --> SPCS2
+SRPRB --> SEC62
+SPCS2 --> SRP14
+SRPRB --> SEC63
+SRP14 --> SRP9
+SRP19
+HSPA5
+SPCS3
+SRP54

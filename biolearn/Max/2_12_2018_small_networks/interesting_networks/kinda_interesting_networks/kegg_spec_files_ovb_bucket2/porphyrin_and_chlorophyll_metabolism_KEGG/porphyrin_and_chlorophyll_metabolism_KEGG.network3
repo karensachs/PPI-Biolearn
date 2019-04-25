@@ -1,0 +1,34 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_porphyrin_and_chlorophyll_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HMOX2 --> UROD
+dis --> UROD
+dis --> FTH1
+FTH1 --> CP
+ALAD --> CP
+EPRS --> HMOX2
+dis --> HMOX2
+HMOX1 --> HCCS
+dis --> HCCS
+CP --> EPRS
+HCCS --> EPRS
+dis --> BLVRA
+HMOX1 --> ALAD
+dis --> ALAD
+ALAD --> CPOX
+dis --> CPOX
+ALAD --> BLVRB
+HMOX1 --> BLVRB
+HMOX2 --> PPOX
+CPOX --> PPOX
+dis --> FECH
+FTH1 --> HMOX1
+ALAD --> MMAB
+dis --> MMAB
+HMBS

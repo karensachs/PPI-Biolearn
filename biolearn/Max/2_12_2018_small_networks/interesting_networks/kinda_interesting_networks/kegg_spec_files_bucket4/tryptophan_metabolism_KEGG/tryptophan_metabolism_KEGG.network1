@@ -1,0 +1,30 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_tryptophan_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> ACAT2
+WARS --> KYNU
+OGDHL --- HADH
+MAOB --> ALDH2
+WARS --> ALDH7A1
+HADHA --- ECHS1
+MAOA --> ALDH3A2
+MAOA --> CAT
+ECHS1 --- WARS2
+ACAT1 --- ALDH1B1
+ALDH2 --> HAAO
+HADH --- AFMID
+OGDH --- HADHA
+MAOA --> GCDH
+MAOB --> MAOA
+dis --> MAOB
+dis --> ALDH9A1
+HADH --- ACAT1
+GCDH --> WARS
+OGDH --- OGDHL
+EHHADH

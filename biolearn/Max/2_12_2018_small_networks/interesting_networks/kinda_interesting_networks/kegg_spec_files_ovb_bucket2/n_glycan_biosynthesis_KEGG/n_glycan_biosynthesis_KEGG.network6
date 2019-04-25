@@ -1,0 +1,30 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_n_glycan_biosynthesis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+RPN2 --> MOGS
+dis --> MOGS
+ALG5 --> DDOST
+dis --> DDOST
+DDOST --> RPN1
+ALG1 --> RPN1
+RPN2 --> RPN1
+STT3A --> ALG1
+dis --> ALG1
+ALG2 --- ALG5
+DPM1 --- ALG2
+DDOST --> RPN2
+dis --> RPN2
+RPN2 --> STT3A
+dis --> STT3A
+ALG1 --> STT3B
+RPN2 --> STT3B
+STT3A --> STT3B
+DDOST --> GANAB
+dis --> GANAB
+MAN2A1

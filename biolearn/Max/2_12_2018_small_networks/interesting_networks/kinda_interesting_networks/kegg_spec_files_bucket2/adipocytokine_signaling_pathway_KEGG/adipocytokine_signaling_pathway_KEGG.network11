@@ -1,0 +1,84 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_adipocytokine_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+NFKBIE --> ACSL3
+ACSL5 --> ACSL3
+NFKBIB --> PRKCQ
+RXRA --> PRKCQ
+PCK1 --> CD36
+IKBKB --> CD36
+IRS1 --> NFKBIA
+RXRG --> NFKBIA
+ACSL1 --> ACSL6
+CAMKK2 --> ACSL6
+ACACB --> STAT3
+ACSL1 --> STAT3
+ACACB --> AKT3
+NFKBIB --> AKT3
+NFKBIE --> PCK1
+MTOR --> PCK1
+AKT3 --> AKT1
+IKBKG --> AKT1
+PCK1 --> PCK2
+CD36 --> ACSL4
+ACSL1 --> ACSL4
+MAPK8 --- MAPK10
+NFKBIE --> RELA
+MAPK9 --> IKBKB
+AKT2 --> IKBKB
+PCK1 --> ACACB
+dis --> ACACB
+PCK1 --> IRS2
+IRS1 --> IRS2
+NFKBIB --> IRS2
+NFKBIE --> PRKAB1
+ACSL4 --> NFKB1
+ACSL5 --> NFKB1
+ACSL4 --> PRKAG1
+PRKAB1 --> PRKAG1
+IKBKG --> IRS1
+dis --> IRS1
+CD36 --> ACSL1
+ACSL5 --> ACSL1
+CPT1A --> ACSL1
+NFKBIB --> TRAF2
+CPT1A --> TRAF2
+PRKAG1 --> PRKAG2
+MAPK8 --- RXRB
+PRKCQ --> NFKBIE
+CAMKK2 --> NFKBIE
+MTOR --> ACSL5
+dis --> ACSL5
+RXRA --> RXRG
+TRADD --> RXRG
+MAPK8 --> PRKAA1
+PTPN11 --> PRKAA1
+MAPK10 --> NFKBIB
+RXRA --> NFKBIB
+PRKAB1 --> PRKAA2
+NFKBIB --> PRKAA2
+MAPK10 --> MAPK9
+RXRG --> MAPK9
+RXRB --- RXRA
+AKT3 --> AKT2
+dis --> AKT2
+MAPK8 --> PTPN11
+ACACB --> PTPN11
+IRS1 --> TRADD
+CD36 --> CPT1A
+ACACB --> CPT1A
+CAMKK2 --> CPT1A
+NFKBIB --> CHUK
+CAMKK2 --> CHUK
+PRKCQ --> IKBKG
+NFKBIB --> IKBKG
+PRKCQ --> CAMKK2
+RXRG --> CAMKK2
+RXRG --> MTOR
+dis --> MTOR

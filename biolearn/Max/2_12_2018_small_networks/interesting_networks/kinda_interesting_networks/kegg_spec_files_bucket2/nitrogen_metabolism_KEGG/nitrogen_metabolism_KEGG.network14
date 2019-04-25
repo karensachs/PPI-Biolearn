@@ -1,0 +1,20 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_nitrogen_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+CPS1 --- GLUL
+CA3 --- CA1
+CA2 --- CA1
+GLUD2 --> GLUD1
+CA12 --> GLUD2
+GLUL --- CTH
+CA3 --- CA2
+dis --> ASNS
+dis --> GLS
+dis --> CA12
+CA8

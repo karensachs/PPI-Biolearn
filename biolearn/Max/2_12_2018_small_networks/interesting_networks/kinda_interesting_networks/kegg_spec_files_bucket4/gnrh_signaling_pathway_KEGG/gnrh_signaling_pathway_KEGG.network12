@@ -1,0 +1,65 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_gnrh_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ITPR2 --> MAPK13
+PLCB2 --> ITPR2
+MMP14 --> PLCB3
+MAPK8 --> MAPK10
+GRB2 --> PRKCD
+MAPK1 --> MMP14
+MAPK7 --> CDC42
+MAP2K2 --> PRKX
+CAMK2B --> CAMK2G
+MAPK10 --> MAPK9
+ITPR2 --> ITPR3
+PRKACA --> PRKACB
+CAMK2B --> CAMK2A
+MMP2 --> JMJD7-PLA2G4B
+MAP2K2 --> MAP2K1
+dis --> EGFR
+MAP3K2 --> MAP2K3
+RAF1 --> MAP3K4
+MAPK12 --- PLA2G4A
+MAPK12 --- MAPK11
+GNAQ --> GNA11
+KRAS --> MAPK14
+RAF1 --> MAP2K2
+MAP3K3 --> GRB2
+PRKACA --> MAPK3
+PRKCB --> PTK2B
+PRKCA --> PRKCB
+PRKACB --> PRKACG
+SOS1 --> SOS2
+PRKACA --> RAF1
+MAP2K2 --> CAMK2B
+PRKACA --> MAPK8
+SOS1 --> SRC
+RAF1 --> MMP2
+MAP3K2 --> MAP3K3
+ITPR2 --> ITPR1
+MAP3K2 --> MAP2K6
+HRAS --> NRAS
+PRKCB --> SOS1
+CAMK2A --> CAMK2D
+EGFR --> PRKCA
+PRKCB --> PLCB2
+ITPR3 --> PRKACA
+KRAS --> HRAS
+ITPR2 --> GNAQ
+MAP2K2 --> MAPK7
+MAP2K2 --> MAP3K2
+MAP2K6 --> KRAS
+MAPK9 --> MAP2K4
+EGFR --> PLCB4
+MAPK3 --> MAPK1
+CALML3
+PLCB1
+CALML5
+MAP2K7
+GNAS

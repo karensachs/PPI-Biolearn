@@ -1,0 +1,28 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_cytokine_cytokine_receptor_interaction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PPBP --> CSF1R
+CSF1R --> KIT
+INHBA --> FLT1
+FLT3 --> FLT1
+dis --> EGFR
+PDGFRB --> INHBA
+IL18 --> INHBA
+FLT3 --> PLEKHO2
+dis --> PLEKHO2
+FLT3 --> PDGFRB
+CSF1R --> FLT3
+KIT --- FLT3
+PPBP --> IL6ST
+dis --> IL6ST
+PLEKHO2 --> IL18
+dis --> IL18
+CSF1R --> TGFB1
+FLT3 --- TGFB1
+EGFR --> PPBP

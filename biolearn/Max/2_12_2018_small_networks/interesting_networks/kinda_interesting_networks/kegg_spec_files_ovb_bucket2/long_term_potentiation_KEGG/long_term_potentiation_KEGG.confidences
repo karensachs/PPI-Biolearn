@@ -1,0 +1,22 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_long_term_potentiation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PPP1CB --- PPP1CC	100%
+PPP1CC --- PPP1CA	100%
+CAMK2B --- CAMK2A	100% (25% forward, 15% backward)
+NRAS --- HRAS	100% (30% forward, 15% backward)
+PRKACB --- PRKACA	100% (50% forward, 45% backward)
+dis --> ITPR3	100%
+MAP2K2 --- MAP2K1	95% (65% forward, 30% backward)
+HRAS --- KRAS	90% (25% forward, 15% backward)
+PPP1R12A --- CREBBP	90% (65% forward, 20% backward)
+PPP1R12A --- MAP2K2	90% (45% forward, 40% backward)
+CAMK2B --- CAMK2G	85% (35% forward, 0% backward)
+PPP1R12A --> PPP3CA	80%
+dis --> RPS6KA1	80%

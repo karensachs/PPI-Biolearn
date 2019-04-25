@@ -1,0 +1,21 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_selenoamino_acid_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+AHCYL1 --> AHCYL2
+dis --> PAPSS2
+dis --> MAT2B
+dis --> LCMT1
+MAT2B --> MAT2A
+AHCYL2 --> AHCY
+dis --> AHCYL1
+dis --> PAPSS1
+dis --> SCLY
+SEPHS1
+GGT5
+MARS

@@ -1,0 +1,34 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_cysteine_and_methionine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAT1A --- MAT2A
+dis --> ENOPH1
+DNMT3A --> AHCYL1
+LDHC --> AHCY
+MAT1A --- MAT2B
+AHCYL2 --> LDHC
+LDHAL6A --> SRM
+dis --> SRM
+LDHC --> LDHAL6A
+LDHAL6A --> DNMT1
+AHCYL1 --> AHCYL2
+LDHAL6A --> MPST
+dis --> LDHB
+CTH --> APIP
+DNMT3A --> CTH
+LDHAL6B --- LDHA
+LDHAL6A --> GOT1
+dis --> DNMT3A
+SDS
+GOT2
+MTAP
+ADI1
+MTR
+CBS
+SMS

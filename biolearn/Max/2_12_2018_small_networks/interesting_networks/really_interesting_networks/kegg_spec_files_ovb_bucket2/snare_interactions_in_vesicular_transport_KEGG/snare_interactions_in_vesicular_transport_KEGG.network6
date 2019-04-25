@@ -1,0 +1,35 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_snare_interactions_in_vesicular_transport.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+STX7 --> SNAP23
+GOSR1 --> SNAP23
+VAMP3 --> VAMP2
+dis --> VAMP2
+dis --> STX7
+GOSR1 --- STX7
+dis --> GOSR1
+STX4 --> STX5
+SNAP29 --> STX5
+SNAP23 --> VAMP8
+GOSR1 --> VAMP8
+GOSR2 --> VAMP3
+VAMP8 --> GOSR2
+STX4 --> GOSR2
+SNAP23 --> SEC22B
+STX7 --> USE1
+GOSR2 --> USE1
+VAMP3 --> STX12
+STX7 --> STX4
+VAMP8 --> STX4
+STX7 --> STX18
+STX5 --> STX18
+SNAP23 --> SNAP29
+VAMP8 --> SNAP29
+YKT6
+VAMP7

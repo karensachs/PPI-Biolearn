@@ -1,0 +1,37 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_cardiac_muscle_contraction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+COX7C --> COX5B
+UQCRC1 --> UQCRFS1
+COX5A --> COX6B1
+COX5B --> COX5A
+TPM2 --> TPM4
+UQCRH --> CYC1
+ATP1A3 --> COX4I1
+CYC1 --> UQCR10
+ATP1A2 --> ATP1B3
+TPM1 --> TPM2
+ATP1A1 --> ATP1B1
+COX7C --> TPM1
+UQCRB --> UQCRC1
+dis --> UQCRC1
+ATP1A2 --> ATP1A1
+COX4I1 --> COX6C
+TPM2 --> TPM3
+ATP1A1 --> ATP1A4
+ATP1A4 --> ATP1A3
+UQCRB --> UQCRH
+dis --> ATP1A2
+UQCRQ --> UQCRB
+ATP1A1 --> ATP2A2
+COX5A --> COX7A2
+COX6C --> UQCRQ
+COX4I1 --> COX7C
+dis --> COX7C
+UQCRC1 --> UQCRC2

@@ -1,0 +1,16 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_pentose_phosphate_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+TALDO1 --- ALDOB	100% (30% forward, 30% backward)
+ALDOA --- ALDOC	100% (55% forward, 0% backward)
+TKT --- TKTL2	100% (25% forward, 0% backward)
+PRPS1 --- PRPS2	100% (5% forward, 0% backward)
+FBP1 --- FBP2	100% (45% forward, 25% backward)
+dis --> RBKS	100%
+TALDO1 --- FBP2	85% (35% forward, 20% backward)

@@ -1,0 +1,36 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_bladder_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+RAF1 --> MAPK3
+CDKN2A --> CDH1
+MAP2K2 --> MAP2K1
+dis --> EGFR
+RAF1 --> ARAF
+BRAF --- ARAF
+EGFR --> DAPK2
+CDK4 --> RPS6KA5
+EGFR --> RAF1
+HRAS --> RAF1
+RAF1 --> RB1
+ARAF --- RB1
+RAF1 --> BRAF
+EGFR --> MMP9
+NRAS --> HRAS
+ARAF --> MAP2K2
+EGFR --> CDK4
+HRAS --> MMP2
+MAP2K2 --> THBS1
+MAP2K1 --> DAPK3
+HRAS --> KRAS
+EGFR --> NRAS
+MMP9 --> ERBB2
+RB1 --> CDKN2A
+RAF1 --> DAPK1
+CDH1 --> TYMP
+RAF1 --> MAPK1

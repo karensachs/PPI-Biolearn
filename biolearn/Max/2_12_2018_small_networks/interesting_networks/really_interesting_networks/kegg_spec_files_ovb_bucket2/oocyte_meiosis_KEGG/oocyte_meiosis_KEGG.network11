@@ -1,0 +1,73 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_oocyte_meiosis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PPP2CB --> PPP2CA
+dis --> PPP2CA
+PPP1CA --> PPP1CC
+PPP1CB --- PPP1CC
+ITPR2 --> SMC1A
+PRKACA --> SMC1A
+ITPR3 --> PRKACB
+ITPR2 --> PRKACB
+SMC3 --> MAP2K1
+PPP2R5A --> MAP2K1
+YWHAG --> YWHAQ
+PRKACA --> YWHAQ
+CAMK2B --> CAMK2G
+PPP2R5D --> ITPR3
+dis --> ITPR3
+YWHAQ --> CALML3
+MAPK3 --- MAPK1
+PPP2CA --> PPP2R1A
+dis --> PPP2R1A
+YWHAQ --> YWHAH
+SMC3 --> YWHAH
+dis --> IGF1R
+SMC3 --> PPP3CA
+ANAPC7 --> PPP3CA
+dis --> RPS6KA1
+SMC1A --> SLK
+SMC3 --> SLK
+SLK --> SKP1
+SMC3 --> SKP1
+CAMK2B --> CAMK2A
+CAMK2G --- CAMK2A
+MAPK3 --- CDK1
+YWHAB --> YWHAE
+SMC1A --> SMC3
+PRKACA --> SMC3
+ITPR3 --> ITPR2
+dis --> ITPR2
+SMC3 --> YWHAG
+PRKACA --> YWHAG
+SLK --> ANAPC2
+RPS6KA1 --> RPS6KA3
+PPP3CA --> PPP3CB
+ITPR2 --> ITPR1
+dis --> ITPR1
+PPP2R1A --> PPP2R1B
+PPP3CA --> CAMK2B
+YWHAQ --> YWHAZ
+dis --> YWHAZ
+PRKACB --> PRKACA
+dis --> PRKACA
+ANAPC2 --> CDC23
+CAMK2G --> CAMK2D
+CAMK2A --> CAMK2D
+SLK --> ANAPC7
+dis --> ANAPC7
+PPP1CA --> PPP1CB
+CDK1 --- CDK2
+PRKACA --> CUL1
+dis --> CUL1
+SKP1 --> PPP2R5A
+dis --> PPP2R5A
+ITPR1 --> PPP1CA
+PPP2R5D --- PPP2R5C
+YWHAZ --> YWHAB

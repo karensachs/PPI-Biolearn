@@ -1,0 +1,31 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_leishmania_infection.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MARCKSL1 --> ITGB1	100%
+MAPK3 --- MAPK1	100% (45% forward, 20% backward)
+HLA-DRB1 --- HLA-DPA1	100% (50% forward, 50% backward)
+NCF2 --- NCF1	100% (20% forward, 10% backward)
+dis --> MAPK14	100%
+dis --> MARCKSL1	100%
+dis --> MAPK3	100%
+dis --> NFKB1	100%
+dis --> ITGAM	100%
+dis --> TRAF6	100%
+dis --> MAPK13	100%
+dis --> HLA-DMB	100%
+dis --> NCF2	100%
+dis --> STAT1	100%
+NCF1 --- ITGB2	95% (45% forward, 0% backward)
+HLA-DRA --- HLA-DRB5	95% (55% forward, 35% backward)
+HLA-DRB5 --- HLA-DRB3	95% (80% forward, 5% backward)
+dis --> PTPN6	95%
+HLA-DRA --- HLA-DRB1	85% (60% forward, 25% backward)
+dis --> C3	85%
+NCF1 --- ITGAM	80% (15% forward, 10% backward)
+dis --> NCF1	80%

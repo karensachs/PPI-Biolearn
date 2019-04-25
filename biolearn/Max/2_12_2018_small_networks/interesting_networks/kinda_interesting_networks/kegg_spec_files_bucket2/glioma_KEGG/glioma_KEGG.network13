@@ -1,0 +1,53 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_glioma.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PRKCA --> CAMK2A
+PRKCA --> PRKCB
+PDGFRB --- MAP2K1
+MAPK3 --- PIK3CA
+PIK3R1 --- PIK3R2
+MAP2K2 --- ARAF
+dis --> EGFR
+AKT1 --> AKT3
+MAPK1 --> AKT3
+PIK3R1 --- RAF1
+MAPK1 --- PDGFRB
+RB1 --- AKT1
+dis --> CALML5
+CAMK2A --> CAMK2B
+PIK3R3 --- RB1
+PIK3R3 --- BRAF
+KRAS --> HRAS
+AKT2 --> HRAS
+MAP2K1 --- MAP2K2
+CAMK2B --> CAMK2G
+HRAS --> NRAS
+MAP2K2 --- PIK3R3
+PIK3R1 --- PIK3R3
+MAP2K2 --- PIK3R1
+MAP2K2 --- SOS1
+CAMK2A --> CAMK2D
+RB1 --- CDKN2A
+PIK3R1 --- AKT2
+PRKCB --> PLCG2
+PRKCB --> PIK3CD
+dis --> CDK6
+MAPK3 --- MAPK1
+SOS1 --> PRKCA
+MAPK1 --> PRKCA
+MTOR
+CALML3
+SOS2
+PIK3CB
+CDK4
+GRB2
+PLCG1
+IGF1R
+PTEN
+SHC1

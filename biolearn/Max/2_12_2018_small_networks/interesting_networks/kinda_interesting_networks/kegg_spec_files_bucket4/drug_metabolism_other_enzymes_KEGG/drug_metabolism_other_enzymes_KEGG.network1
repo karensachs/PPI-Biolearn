@@ -1,0 +1,31 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_drug_metabolism_other_enzymes.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+UMPS --> GMPS
+TK1 --> UCK2
+UPP1 --> DPYD
+XDH --> UCKL1
+IMPDH1 --> IMPDH2
+dis --> UPP1
+UPP1 --> CDA
+dis --> TK1
+UMPS --> HPRT1
+IMPDH1 --> UMPS
+XDH --> ITPA
+dis --> IMPDH1
+UMPS --> CES2
+IMPDH1 --> DPYS
+UPP1 --> TYMP
+GMPS --> XDH
+UCK2 --> TK2
+CES2 --> CES1
+UCK1
+NAT1
+GUSB
+TPMT

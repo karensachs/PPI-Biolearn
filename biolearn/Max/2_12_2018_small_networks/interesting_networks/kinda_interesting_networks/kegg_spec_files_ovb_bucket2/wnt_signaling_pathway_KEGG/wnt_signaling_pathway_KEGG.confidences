@@ -1,0 +1,23 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_wnt_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PPP3CA --> PPP3CB	100%
+CAMK2B --- CAMK2A	100% (55% forward, 45% backward)
+PRKACA --- PRKACB	100% (55% forward, 45% backward)
+RAC3 --- RAC1	100% (55% forward, 45% backward)
+PPP2R5D --- PPP2R5C	100%
+PPP2CB --- PPP2CA	100% (20% forward, 0% backward)
+dis --> CSNK1E	100%
+TBL1X --> TBL1XR1	100% (95% forward, 5% backward)
+dis --> CUL1	95%
+CREBBP --- EP300	90% (75% forward, 15% backward)
+SMAD2 --- SMAD3	90% (80% forward, 10% backward)
+PPP2R1A --- PPP2R1B	85% (10% forward, 5% backward)
+ROCK2 --- SKP1	80% (70% forward, 10% backward)
+dis --> PPP2R5A	80%

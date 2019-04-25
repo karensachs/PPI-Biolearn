@@ -1,0 +1,34 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_vasopressin_regulated_water_reabsorption.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+RAB5B --> RAB5C
+dis --> GNAS
+dis --> DYNC1LI2
+DYNC1LI2 --> DYNC1I2
+dis --> DYNC1H1
+dis --> DCTN5
+dis --> DYNLL1
+RAB11B --> RAB11A
+dis --> VAMP2
+STX4 --> ARHGDIA
+dis --> PRKACB
+DCTN1 --> DCTN2
+dis --> DYNLL2
+PRKACB --> PRKACA
+dis --> DYNC1LI1
+dis --> RAB11B
+RAB5B --> RAB5A
+dis --> RAB5B
+DCTN2 --> DCTN4
+dis --> DCTN1
+PRKACB --> STX4
+dis --> NSF
+dis --> DCTN6
+CREB1
+ARHGDIB

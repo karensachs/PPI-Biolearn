@@ -1,0 +1,38 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_galactose_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HK2 --> AKR1B1
+UGP2 --> PGM1
+LALBA --> PGM1
+AKR1B1 --> PFKM
+B4GALT1 --> PFKM
+PFKL --> GALK2
+PGM1 --> GAA
+AKR1B1 --> PGM2
+PGM1 --> PGM2
+GALK2 --> UGP2
+GALK2 --> HK2
+dis --> HK2
+HK3 --> GALE
+PGM1 --> GLA
+dis --> GLA
+PGM1 --> B4GALT1
+GALE --> B4GALT1
+GALK1 --> PFKL
+dis --> PFKL
+AKR1B1 --> LALBA
+GALK2 --> LALBA
+dis --> HK3
+GLA --> GLB1
+AKR1B1 --> HK1
+GLA --> HK1
+B4GALT1 --> PFKP
+HK3 --> PFKP
+HK1 --> GALT
+dis --> GALT

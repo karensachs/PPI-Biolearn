@@ -1,0 +1,35 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_dna_replication.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> RFC1
+MCM7 --> PCNA
+MCM6 --> MCM7
+MCM2 --> MCM7
+POLD1 --> POLD2
+dis --> POLD2
+RFC1 --> RFC3
+RFC5 --> MCM3
+RFC3 --> RFC2
+RFC4 --> RFC2
+PCNA --> LIG1
+MCM2 --> MCM6
+MCM5 --> MCM6
+PCNA --> FEN1
+RPA3 --- RPA2
+dis --> RPA1
+MCM3 --> MCM2
+MCM6 --> MCM4
+MCM2 --> MCM4
+MCM6 --> RFC4
+RFC3 --> RFC5
+MCM3 --> MCM5
+MCM2 --- MCM5
+FEN1 --> POLD1
+dis --> POLD1
+SSBP1

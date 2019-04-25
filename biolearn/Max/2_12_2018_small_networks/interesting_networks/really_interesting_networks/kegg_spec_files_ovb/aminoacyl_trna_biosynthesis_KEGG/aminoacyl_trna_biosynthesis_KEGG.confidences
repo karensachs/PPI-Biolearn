@@ -1,0 +1,32 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_aminoacyl_trna_biosynthesis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+TARS --- TARSL2	100% (5% forward, 0% backward)
+IARS --- LARS	100% (25% forward, 5% backward)
+HARS2 --- HARS	100% (65% forward, 0% backward)
+FARSA --- FARSB	100% (80% forward, 20% backward)
+dis --> SARS	100%
+dis --> GARS	100%
+dis --> YARS2	100%
+dis --> TARS	100%
+dis --> CARS2	100%
+dis --> HARS2	100%
+EPRS --> DARS	100% (95% forward, 5% backward)
+KARS --- AARS	95% (65% forward, 25% backward)
+dis --> IARS	95%
+dis --> WARS2	95%
+dis --> TARSL2	95%
+dis --> QARS	90%
+dis --> NARS	90%
+dis --> AARS2	85%
+dis --> TARS2	85%
+dis --> VARS	80%
+dis --> LARS	80%
+dis --> EPRS	80%
+dis --> FARSA	80%

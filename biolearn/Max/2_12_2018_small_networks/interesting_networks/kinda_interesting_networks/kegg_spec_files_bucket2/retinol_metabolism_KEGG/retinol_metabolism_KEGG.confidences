@@ -1,0 +1,17 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_retinol_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+RDH11 --- RETSAT	100% (60% forward, 5% backward)
+ADH1B --- ADH4	100% (30% forward, 25% backward)
+ADH1B --- ADH1C	100% (40% forward, 20% backward)
+ADH4 --- ALDH1A1	100% (55% forward, 5% backward)
+ADH1C --- ALDH1A2	100% (50% forward, 10% backward)
+ALDH1A2 --- RDH11	100% (45% forward, 30% backward)
+dis --> DHRS3	100%
+RETSAT --- DHRS4	80% (40% forward, 20% backward)

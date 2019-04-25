@@ -1,0 +1,28 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_graft_versus_host_disease.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HLA-E --> HLA-A
+HLA-B --> HLA-A
+HLA-DRB3 --> HLA-DRA
+dis --> HLA-DRA
+HLA-C --> HLA-E
+HLA-DRA --> HLA-DPB1
+HLA-DRB3 --> HLA-DPB1
+HLA-DRA --> HLA-DRB5
+HLA-DRB1 --> HLA-DRB5
+HLA-DRA --> HLA-DRB1
+HLA-DPB1 --> HLA-DRB1
+HLA-C --> HLA-DRB3
+HLA-DRB5 --> HLA-DMB
+HLA-DRB1 --> HLA-DMB
+HLA-DRA --> HLA-DPA1
+HLA-DRB1 --> HLA-DPA1
+HLA-C --> HLA-B
+HLA-E --- HLA-B
+dis --> HLA-C

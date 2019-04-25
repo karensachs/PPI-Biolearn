@@ -1,0 +1,52 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_wnt_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> PPP2CA
+dis --> CSNK2A2
+dis --> PRKACB
+CAMK2B --> CAMK2G
+RAC3 --> CREBBP
+SMAD2 --> SMAD3
+PPP2CB --> PPP2R1A
+PPP3CB --> PPP3CA
+ROCK1 --> SKP1
+dis --> CAMK2A
+TBL1X --> TBL1XR1
+dis --> TBL1X
+PRKACB --> ROCK2
+CREBBP --> EP300
+dis --> CTNNB1
+ROCK2 --> PPP3CB
+CAMK2A --> CAMK2B
+dis --> RUVBL1
+PRKACB --> PRKACA
+RAC2 --> PRKCA
+RAC1 --> RAC3
+ROCK2 --> ROCK1
+ROCK1 --> SMAD2
+dis --> CSNK1E
+CAMK2B --> CAMK2D
+RAC2 --> GSK3B
+ROCK1 --> RAC2
+RAC2 --> RAC1
+RAC2 --> RHOA
+dis --> CUL1
+PPP2CA --> PPP2CB
+dis --> PPP2R5A
+PPP2R5D --- PPP2R5C
+SMAD4
+CTBP2
+CSNK2B
+CACYBP
+PLCB3
+PPP2R1B
+CSNK2A1
+CTBP1
+CSNK1A1
+MAPK9

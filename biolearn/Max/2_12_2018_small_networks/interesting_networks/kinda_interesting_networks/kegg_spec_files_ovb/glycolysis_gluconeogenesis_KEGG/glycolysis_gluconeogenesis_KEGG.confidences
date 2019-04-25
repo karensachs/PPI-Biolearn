@@ -1,0 +1,39 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_glycolysis_gluconeogenesis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PCK2 --- PCK1	100% (70% forward, 25% backward)
+PDHA1 --- PDHB	100% (50% forward, 50% backward)
+ALDOA --- ALDOC	100% (55% forward, 40% backward)
+ADH1B --- ADH1C	100% (65% forward, 35% backward)
+ENO1 --- ENO3	100% (55% forward, 30% backward)
+PGK1 --- PGK2	100% (65% forward, 30% backward)
+LDHC --- LDHAL6A	100% (70% forward, 30% backward)
+PDHB --- DLAT	100% (75% forward, 25% backward)
+dis --> ACSS2	100%
+dis --> HK2	100%
+dis --> LDHB	100%
+dis --> FBP1	100%
+dis --> ALDH2	100%
+dis --> AKR1A1	100%
+dis --> GALM	100%
+dis --> PFKM	100%
+dis --> HK1	100%
+dis --> ALDH3A2	100%
+dis --> ALDH7A1	100%
+dis --> BPGM	100%
+dis --> ACSS1	100%
+ENO3 --- ENO2	95% (50% forward, 40% backward)
+dis --> ALDH1A3	95%
+dis --> ALDOA	95%
+dis --> ALDH9A1	95%
+ADH1B --> ADH5	90% (85% forward, 5% backward)
+TPI1 --- GAPDH	85% (55% forward, 30% backward)
+dis --> PGM1	85%
+dis --> ENO2	80%
+dis --> PGAM2	80%

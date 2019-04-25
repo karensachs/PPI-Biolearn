@@ -1,0 +1,46 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_glutathione_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> ANPEP
+GSTA2 --> GSTK1
+GSTM4 --> GSTM2
+GGCT --> IDH2
+dis --> GGCT
+GGCT --> GSTZ1
+GSTZ1 --> GSR
+GSTO1 --> GSTM5
+RRM1 --> RRM2
+GPX4 --> GPX1
+GSTO1 --> IDH1
+GSTZ1 --> GSS
+GSTA1 --> GSTA2
+GSTM1 --> GSTM4
+dis --> GSTA1
+GSTM3 --> SRM
+dis --> RRM1
+GPX1 --> GPX7
+GSR --> G6PD
+dis --> GSTT1
+GPX3 --> GGT5
+dis --> GSTP1
+GCLC --> TXNDC12
+GPX1 --> GPX3
+GSS --> GSTM3
+PGD --> OPLAH
+GPX7 --> MGST3
+G6PD --> PGD
+GPX4 --> GSTO1
+GSTM3 --> GPX4
+SRM --> SMS
+GSTP1 --> RRM2B
+GSTA1 --> GCLC
+GSTM5 --> GSTM1
+GSTT2
+GCLM
+LAP3

@@ -1,0 +1,74 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_nod_like_receptor_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAP3K7 --> MAPK13
+MAP3K7 --> CASP8
+CHUK --> CASP8
+SUGT1 --> NFKBIA
+MAPK1 --> NFKBIA
+dis --> NFKBIA
+HSP90B1 --> IL18
+MAPK3 --> IL18
+HSP90AA1 --> HSP90AB1
+dis --> HSP90AB1
+NFKBIB --> BIRC2
+CHUK --> BIRC2
+MAPK12 --> MAPK11
+MAPK13 --> MAPK12
+MAPK9 --> MAPK12
+TRAF6 --- CARD8
+TRAF6 --- TAB1
+TAB1 --> MAPK10
+NFKBIB --> MAPK10
+MAPK10 --> MAPK8
+NFKBIB --> MAPK8
+PYCARD --> MAPK14
+CHUK --> MAPK14
+TAB1 --> IKBKB
+MAPK9 --> IKBKB
+NFKBIB --> RELA
+CHUK --> RELA
+HSP90AB1 --> RIPK2
+MAPK8 --> RIPK2
+NFKB1 --> RIPK2
+TRAF6 --- TRIP6
+IL18 --> NFKB1
+TRAF6 --> NFKB1
+TAB1 --> MAP3K7
+NFKBIB --> MAP3K7
+MAPK10 --- MAP3K7
+TRIP6 --> PYCARD
+dis --> PYCARD
+CARD8 --- HSP90AA1
+CARD8 --> NFKBIB
+MAPK1 --> NFKBIB
+RELA --> TAB2
+MAPK8 --> MAPK9
+dis --> MAPK9
+NFKB1 --> XIAP
+MAP3K7 --> XIAP
+TAB1 --> SUGT1
+CASP1 --> SUGT1
+MAP3K7 --> TAB3
+TAB1 --> PSTPIP1
+NFKBIB --> PSTPIP1
+CASP1 --> PSTPIP1
+MAPK8 --> CHUK
+NFKBIB --> CHUK
+IKBKG --> CHUK
+MAP3K7 --> IKBKG
+NFKBIB --> IKBKG
+dis --> HSP90B1
+CASP1 --> CARD9
+dis --> CARD9
+MAPK3 --> MAPK1
+HSP90AB1 --> MAPK3
+TRIP6 --> MAPK3
+IL18 --> CASP1
+CARD8 --> CASP1

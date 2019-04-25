@@ -1,0 +1,19 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_histidine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> ALDH1B1
+dis --> MAOA
+dis --> HNMT
+dis --> ALDH2
+dis --> ALDH1A3
+dis --> LCMT1
+dis --> MAOB
+dis --> ALDH9A1
+MAOA --> ALDH3A2
+dis --> ALDH7A1

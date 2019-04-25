@@ -1,0 +1,28 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_notch_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> NOTCH2
+CREBBP --- NOTCH2
+dis --> HDAC1
+CREBBP --- HDAC1
+SNW1 --> HDAC2
+NOTCH2 --> DTX3L
+dis --> SNW1
+CREBBP --- SNW1
+dis --> CTBP2
+CTBP1 --- CTBP2
+NOTCH2 --> NUMB
+CREBBP --> NUMB
+dis --> CREBBP
+ADAM17 --- CREBBP
+dis --> NCSTN
+dis --> ADAM17
+dis --> EP300
+CREBBP --- EP300
+dis --> CTBP1

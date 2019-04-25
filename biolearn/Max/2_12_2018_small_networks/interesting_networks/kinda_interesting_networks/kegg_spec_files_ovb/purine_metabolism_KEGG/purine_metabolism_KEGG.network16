@@ -1,0 +1,61 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_purine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+POLR2A --- AMPD2
+dis --> PAPSS2
+PRPS2 --- PRPS1
+dis --> ENPP1
+dis --> NT5C
+POLD1 --- POLD2
+dis --> GMPS
+dis --> GMPR2
+POLR2A --- POLR2I
+POLR2A --- GUK1
+POLR2C --> POLR2D
+dis --> IMPDH1
+NME1 --> NME2
+dis --> RRM2B
+dis --> POLR2C
+dis --> POLR1C
+POLR2A --- GMPR
+dis --> PNPT1
+dis --> NT5C2
+dis --> GART
+dis --> ATIC
+POLR2A --- POLR2E
+dis --> NME1
+dis --> AK1
+dis --> POLR1A
+dis --> PAPSS1
+ADA
+IMPDH2
+POLR2B
+DCK
+RRM1
+PKLR
+ADK
+APRT
+PAICS
+NT5E
+NUDT2
+POLR2H
+PNP
+AMPD3
+FHIT
+ADSS
+NUDT5
+POLR3A
+ITPA
+HPRT1
+GUCY1B3
+PPAT
+AK2
+NME3
+ADSL
+PFAS

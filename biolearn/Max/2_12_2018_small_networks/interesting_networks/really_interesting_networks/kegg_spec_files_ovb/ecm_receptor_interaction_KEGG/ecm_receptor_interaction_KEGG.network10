@@ -1,0 +1,73 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_ecm_receptor_interaction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HSPG2 --> COL4A2
+LAMC2 --> COL4A2
+LAMA4 --> LAMC1
+LAMA5 --> LAMC1
+LAMC1 --> LAMB1
+COL5A2 --> LAMB1
+LAMC1 --> LAMB2
+TNXB --> LAMB2
+dis --> AGRN
+ITGA6 --- AGRN
+COL4A1 --> ITGA1
+LAMC2 --> LAMA3
+COL4A1 --> ITGB1
+COL2A1 --> CD47
+COL5A2 --> COMP
+THBS2 --> COL11A1
+COL5A2 --> COL11A1
+ITGA1 --> CD44
+dis --> CD44
+COL6A2 --> TNXB
+COL5A2 --> ITGB5
+dis --> ITGB5
+LAMC2 --> LAMB3
+THBS2 --> FN1
+COL5A1 --> FN1
+HSPG2 --> DAG1
+LAMA5 --> COL4A1
+COL1A1 --> THBS1
+dis --> THBS1
+THBS1 --> THBS2
+dis --> THBS2
+FN1 --> ITGA5
+dis --> ITGA5
+COMP --> THBS4
+COMP --> THBS3
+ITGA6 --> THBS3
+ITGA1 --> COL2A1
+dis --> COL2A1
+FN1 --> TNC
+ITGB5 --> ITGAV
+LAMB1 --> HSPG2
+dis --> HSPG2
+COL5A2 --> COL5A1
+dis --> ITGB4
+ITGA6 --- ITGB4
+VWF --> LAMA4
+COL6A3 --> COL6A2
+COL1A1 --> COL3A1
+HSPG2 --> VTN
+COL6A1 --> VWF
+ITGA1 --> LAMC2
+dis --> LAMC2
+COL3A1 --> COL5A2
+dis --> COL5A2
+COL1A2 --> COL6A3
+dis --> COL6A3
+dis --> ITGA6
+COL5A1 --> COL1A2
+COL1A1 --> COL1A2
+ITGA1 --> COL1A1
+COL6A3 --> COL6A1
+COL6A2 --- COL6A1
+dis --> LAMA5
+AGRN --- LAMA5

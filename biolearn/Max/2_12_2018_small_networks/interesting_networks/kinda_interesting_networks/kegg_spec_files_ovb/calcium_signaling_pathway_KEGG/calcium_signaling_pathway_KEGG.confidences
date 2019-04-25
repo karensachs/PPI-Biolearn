@@ -1,0 +1,28 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_calcium_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+SLC25A5 --- SLC25A6	100% (60% forward, 40% backward)
+PRKACB --- PRKACA	100% (50% forward, 50% backward)
+PPP3CA --- PPP3CB	100% (65% forward, 35% backward)
+GNA11 --- GNAQ	100% (55% forward, 45% backward)
+ATP2B2 --- ATP2B3	100% (55% forward, 45% backward)
+ATP2A2 --- ATP2A1	100% (80% forward, 20% backward)
+dis --> ERBB2	100%
+dis --> VDAC2	100%
+dis --> PDGFRB	100%
+SLC25A6 --- SLC25A4	95% (70% forward, 25% backward)
+ATP2A2 --- ATP2A3	95% (65% forward, 25% backward)
+dis --> PHKB	95%
+dis --> PRKCA	95%
+CAMK2A --- CAMK2B	90% (50% forward, 40% backward)
+ATP2B1 --> ITPR2	90%
+CAMK2D --- CAMK2G	90% (65% forward, 25% backward)
+dis --> MYLK	85%
+ATP2B3 --- ATP2B4	80% (60% forward, 20% backward)
+dis --> CAMK2D	80%

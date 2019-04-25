@@ -1,0 +1,23 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_b_cell_receptor_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+INPP5D --- VAV1	100% (60% forward, 35% backward)
+MAPK3 --- MAPK1	100% (85% forward, 15% backward)
+PPP3CA --- PPP3CB	100% (60% forward, 40% backward)
+RAC2 --- SYK	100% (85% forward, 10% backward)
+HRAS --- NRAS	100% (50% forward, 45% backward)
+dis --> GRB2	100%
+RAC1 --> RAC3	100% (90% forward, 5% backward)
+INPP5D --- PTPN6	95% (75% forward, 20% backward)
+MAP2K2 --- MAP2K1	95% (60% forward, 30% backward)
+dis --> LYN	95%
+RAC2 --- RAC1	90% (55% forward, 30% backward)
+HRAS --- KRAS	90% (55% forward, 30% backward)
+dis --> RELA	90%
+dis --> MAPK3	80%

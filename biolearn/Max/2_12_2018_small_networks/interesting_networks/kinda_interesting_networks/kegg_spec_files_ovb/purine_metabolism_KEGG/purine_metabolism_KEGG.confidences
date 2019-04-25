@@ -1,0 +1,24 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_purine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PRPS1 --- PRPS2	100% (10% forward, 0% backward)
+POLR2A --- AMPD2	100% (75% forward, 10% backward)
+POLR2A --- POLR2I	100% (80% forward, 5% backward)
+POLR2A --- POLR2E	100% (75% forward, 10% backward)
+NME2 --- NME1	100% (60% forward, 40% backward)
+dis --> PAPSS2	100%
+dis --> NT5C2	100%
+dis --> POLR1A	100%
+dis --> PAPSS1	100%
+POLD2 --- POLD1	95%
+POLR2A --- GMPR	95% (80% forward, 5% backward)
+dis --> RRM2B	90%
+dis --> NT5C	85%
+dis --> GMPR2	85%
+POLR2A --- GUK1	80% (65% forward, 5% backward)

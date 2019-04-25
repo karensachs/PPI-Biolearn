@@ -1,0 +1,60 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_rna_degradation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PAPOLB --> DIS3
+LSM6 --> MPHOSPH6
+WDR61 --> DCP1A
+PAPOLA --> PAPOLG
+LSM6 --> CNOT4
+DCP1A --> LSM3
+EXOSC6 --> EXOSC8
+LSM2 --> LSM4
+CNOT4 --> EXOSC4
+EXOSC9 --> DCPS
+DCP1A --> CNOT7
+PNPT1 --> HSPD1
+LSM6 --> PARN
+LSM1 --> DDX6
+LSM1 --> PAPOLB
+EXOSC6 --> NAA38
+ENO3 --> ENO2
+CNOT7 --> PNPT1
+LSM1 --> LSM5
+LSM1 --> TTC37
+EXOSC2 --> EXOSC3
+PAPOLB --> PAPOLA
+WDR61 --> EXOSC6
+EXOSC6 --> EXOSC2
+EXOSC1 --> EXOSC2
+LSM1 --> EDC4
+CNOT3 --> ENO1
+EXOSC6 --> CNOT3
+EXOSC3 --> EXOSC10
+EXOSC2 --> EXOSC5
+LSM6 --> CNOT10
+ENO2 --> CNOT6L
+WDR61 --> SKIV2L2
+CNOT10 --> XRN1
+EDC4 --> XRN2
+LSM6 --> LSM2
+LSM1 --> PATL1
+EXOSC4 --> EXOSC1
+EXOSC6 --> CNOT2
+TTC37 --> SKIV2L
+EXOSC6 --> LSM6
+LSM6 --> LSM7
+PAPOLA --> CNOT1
+EXOSC2 --> EXOSC7
+PAPOLA --> HSPA9
+ENO1 --> ENO3
+LSM1 --> WDR61
+dis --> LSM1
+EXOSC6 --> DCP1B
+EXOSC6 --> EDC3
+EXOSC3 --> EXOSC9

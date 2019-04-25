@@ -1,0 +1,43 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_proteasome.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PSME2 --- PSME1
+PSMB6 --> PSMD3
+PSMA5 --- PSMA6
+PSMD3 --> PSMD4
+PSMB9 --> PSMB8
+PSMD4 --> PSMA1
+PSMA2 --- PSMB1
+PSMD11 --- PSMC2
+PSMC4 --- PSMC6
+PSMC6 --- PSMC3
+PSMA5 --- PSMA2
+PSMD11 --- PSMD13
+dis --> PSMB3
+PSMD11 --- PSMD1
+PSMB3 --> PSMD7
+PSMC2 --- PSMC4
+PSMD2 --- PSMC1
+PSMB6 --> PSMB5
+dis --> PSMB6
+PSMB5 --> PSMB9
+PSMD8
+PSMA3
+PSMC5
+PSMB7
+PSMA4
+PSMD6
+PSMA7
+PSMD14
+PSMF1
+PSME3
+PSMB4
+PSMB10
+PSMB2
+PSMD12

@@ -1,0 +1,21 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_tyrosine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ADH1C --- ADH1B	100% (45% forward, 30% backward)
+ADH1C --- AOC3	100% (70% forward, 25% backward)
+dis --> FAH	100%
+dis --> MAOA	100%
+dis --> COMT	100%
+dis --> LCMT1	100%
+dis --> MAOB	100%
+dis --> GOT2	100%
+ADH1B --> ADH5	100% (95% forward, 5% backward)
+dis --> GSTZ1	95%
+dis --> ALDH1A3	95%
+dis --> MIF	90%

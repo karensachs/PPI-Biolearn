@@ -1,0 +1,13 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_butanoate_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PDHB --- PDHA1	100% (50% forward, 35% backward)
+dis --> ABAT	90%
+dis --> HMGCS1	85%
+PDHB --- HADHA	80% (65% forward, 5% backward)

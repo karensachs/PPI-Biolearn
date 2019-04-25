@@ -1,0 +1,73 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_non_small_cell_lung_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+AKT2 --> MAPK3
+MAPK1 --> MAPK3
+PLCG2 --> PRKCB
+PRKCA --- PRKCB
+PIK3CA --> CASP9
+PIK3R1 --> CASP9
+MAP2K2 --> MAP2K1
+PIK3R3 --> PIK3CA
+STK4 --> PIK3CA
+MAP2K2 --> PIK3R2
+CDKN2A --> EGFR
+dis --> EGFR
+AKT2 --> ARAF
+SOS1 --> SOS2
+CDKN2A --> SOS2
+AKT1 --- AKT3
+PIK3R2 --> RAF1
+ARAF --> RAF1
+RAF1 --> PIK3CB
+ARAF --> RB1
+HRAS --> FOXO3
+RXRG --> FOXO3
+ARAF --> BRAF
+KRAS --> HRAS
+BAD --> HRAS
+ARAF --> MAP2K2
+AKT3 --> MAP2K2
+NRAS --> CDK4
+SOS1 --> CDK4
+MAP2K1 --> GRB2
+CASP9 --> PLCG1
+RXRB --> FHIT
+CDK6 --> FHIT
+dis --> KRAS
+HRAS --> NRAS
+ARAF --> PIK3R3
+BAD --> PIK3R3
+CDK6 --> RASSF5
+PIK3R1 --> RXRB
+RXRA --> RXRG
+ARAF --> PIK3R1
+MAP2K2 --> PIK3R1
+RXRB --> ERBB2
+PRKCB --> SOS1
+PIK3R3 --> SOS1
+BAD --> RXRA
+RB1 --> CDKN2A
+CDK4 --> CDKN2A
+PIK3R2 --> BAD
+PIK3R1 --> BAD
+AKT3 --> AKT2
+dis --> AKT2
+STK4 --> PLCG2
+RXRG --> STK4
+dis --> STK4
+PRKCB --> PIK3CD
+ERBB2 --> PIK3CD
+PLCG2 --> CDK6
+MAPK1 --> CDK6
+dis --> CDK6
+CASP9 --> MAPK1
+CDKN2A --> MAPK1
+PLCG2 --> PRKCA
+PDPK1

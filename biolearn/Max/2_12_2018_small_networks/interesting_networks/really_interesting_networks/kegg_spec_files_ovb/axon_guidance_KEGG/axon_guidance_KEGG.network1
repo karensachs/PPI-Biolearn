@@ -1,0 +1,71 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_axon_guidance.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> SRGAP1
+ROCK1 --- SRGAP1
+dis --> GNAI2
+FES --- GNAI2
+dis --> MAPK3
+dis --> GNAI1
+GNAI2 --- GNAI1
+SRGAP1 --> PAK4
+NCK1 --> PAK4
+CFL1 --> CFL2
+ROCK1 --> CFL2
+PAK3 --> PAK1
+dis --> PAK1
+GNAI1 --> CDC42
+ROCK1 --> CDC42
+HRAS --> KRAS
+dis --> KRAS
+MAPK3 --> MAPK1
+GNAI2 --> PAK3
+PPP3CA --> ITGB1
+ROCK1 --> ITGB1
+dis --> CDK5
+RAC2 --> FYN
+dis --> FYN
+dis --> SRGAP2
+SRGAP1 --- SRGAP2
+PPP3CB --> PPP3CA
+RAC1 --> PPP3CA
+RAC3 --> CFL1
+RHOA --> CFL1
+dis --> PTK2
+ROCK1 --> ROCK2
+dis --> RASA1
+ROCK2 --> PPP3CB
+RHOA --> PPP3CB
+dis --> FES
+CDK5 --- FES
+FES --> NCK1
+ROCK1 --> NCK1
+RAC1 --> ABLIM1
+dis --> ABLIM1
+dis --> LIMK2
+dis --> RAC3
+ROCK1 --- RAC3
+dis --> ROCK1
+GNAI1 --- ROCK1
+RAC1 --> GSK3B
+dis --> GSK3B
+RAC1 --> RAC2
+dis --> NRAS
+dis --> DPYSL2
+RAC3 --- DPYSL2
+RAC3 --> RAC1
+ROCK1 --> RAC1
+PAK3 --> PAK2
+FYN --> PAK2
+CDC42 --> RHOA
+RAC3 --> RHOA
+NRAS --> HRAS
+dis --> GNAI3
+GNAI1 --- GNAI3
+NCK1 --> NCK2

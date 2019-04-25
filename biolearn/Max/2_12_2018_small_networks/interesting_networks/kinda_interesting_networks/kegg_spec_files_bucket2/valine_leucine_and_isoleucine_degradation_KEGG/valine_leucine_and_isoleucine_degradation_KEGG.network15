@@ -1,0 +1,47 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_valine_leucine_and_isoleucine_degradation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HADHA --- ACAT2
+ACAT1 --- HADH
+PCCA --- ALDH2
+HADH --- ALDH3A2
+BCKDHB --- BCKDHA
+BCAT2 --- ACADSB
+PCCA --- ECHS1
+ALDH3A2 --- ACADS
+ACADM --- DBT
+ALDH6A1 --- AUH
+HIBADH --- HADHA
+ALDH6A1 --- MCEE
+ALDH6A1 --- IVD
+HIBADH --- BCKDHB
+ALDH6A1 --- ALDH9A1
+ACADSB --- ABAT
+MUT --- MCCC1
+ALDH6A1 --- PCCA
+AUH --- HIBADH
+HIBADH --- ACAT1
+AUH --- HMGCL
+PCCA --- PCCB
+HADHA --- HSD17B10
+ALDH7A1
+MCCC2
+ALDH1B1
+OXCT1
+HMGCS2
+DLD
+ACAA2
+BCAT1
+HIBCH
+HADHB
+EHHADH
+HMGCS1
+ACAA1
+ACAD8
+dis

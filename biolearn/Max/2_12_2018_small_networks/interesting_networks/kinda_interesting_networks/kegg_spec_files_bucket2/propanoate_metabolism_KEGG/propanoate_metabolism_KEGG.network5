@@ -1,0 +1,65 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_propanoate_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+SUCLG2 --> ACAT2
+HIBCH --> ACAT2
+ACAT1 --> ACSS2
+dis --> ACSS2
+MCEE --> ACADM
+ALDH6A1 --- ACADM
+LDHAL6A --> SUCLA2
+HIBCH --> SUCLA2
+LDHAL6B --> ALDH2
+PCCA --> ALDH2
+HIBCH --> MLYCD
+ALDH6A1 --> ALDH7A1
+ALDH6A1 --> ECHS1
+SUCLG1 --> ECHS1
+ABAT --> ALDH3A2
+HIBCH --> ALDH3A2
+MCEE --> SUCLG2
+SUCLG2 --> ACSS1
+LDHAL6B --> ALDH1B1
+SUCLG2 --> HADHA
+dis --> HADHA
+HIBCH --> MCEE
+dis --> MCEE
+LDHAL6A --> LDHC
+SUCLG1 --> LDHC
+ACACA --> ACACB
+SUCLG1 --> LDHAL6A
+HIBCH --> LDHAL6A
+ACSS3 --> LDHAL6A
+ACSS2 --> LDHAL6B
+HADHA --> LDHAL6B
+LDHA --> LDHAL6B
+MCEE --> ALDH6A1
+SUCLG2 --- ALDH6A1
+LDHAL6A --> ALDH9A1
+ALDH6A1 --> ALDH9A1
+ALDH6A1 --> ABAT
+dis --> ABAT
+HIBCH --> PCCA
+PCCB --> PCCA
+EHHADH --- SUCLG1
+SUCLG1 --> HIBCH
+dis --> HIBCH
+ACADM --> ACAT1
+HADHA --> ACAT1
+ECHS1 --> MUT
+ACAT1 --> MUT
+HIBCH --> LDHB
+dis --> LDHB
+LDHB --> ACACA
+ACAT1 --> ACSS3
+ACACA --> ACSS3
+SUCLG2 --> LDHA
+LDHAL6A --> LDHA
+SUCLG2 --> PCCB
+ACSS3 --> PCCB

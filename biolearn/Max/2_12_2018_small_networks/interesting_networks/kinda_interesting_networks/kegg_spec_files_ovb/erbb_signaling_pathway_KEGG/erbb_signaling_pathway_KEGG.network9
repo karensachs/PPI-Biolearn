@@ -1,0 +1,69 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_erbb_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> ERBB2
+ARAF --> MAP2K4
+dis --> MAP2K4
+dis --> STAT5B
+STAT5A --- STAT5B
+RAF1 --> MAPK3
+dis --> MAPK3
+NCK1 --> PAK4
+GSK3B --> PAK4
+MAP2K2 --> MAP2K1
+CAMK2D --> CAMK2G
+dis --> CAMK2G
+PAK3 --> PAK1
+dis --> PAK1
+HRAS --> KRAS
+MAPK3 --> MAPK1
+dis --> MAPK1
+PAK2 --> PAK3
+dis --> AKT1
+CAMK2B --> CAMK2A
+dis --> CAMK2A
+dis --> PLCG2
+dis --> PTK2
+RAF1 --> MTOR
+dis --> MTOR
+CAMK2G --> CAMK2B
+CAMK2D --> CAMK2B
+NCK2 --> NCK1
+dis --> NCK1
+MTOR --> CRK
+dis --> CRK
+ERBB2 --> SHC1
+MAP2K2 --> RAF1
+PIK3R1 --> RAF1
+dis --> PRKCA
+PLCG2 --- PRKCA
+GSK3B --> CAMK2D
+dis --> CAMK2D
+MAP2K2 --> GSK3B
+dis --> GSK3B
+MAP2K4 --> MAPK9
+dis --> MAPK9
+AKT1 --> GRB2
+MAP2K2 --- GRB2
+dis --> STAT5A
+PLCG2 --- STAT5A
+GSK3B --> SRC
+dis --> SRC
+STAT5B --> NRAS
+ERBB2 --> PAK2
+dis --> AKT2
+AKT1 --- AKT2
+NRAS --> HRAS
+MTOR --> NCK2
+dis --> NCK2
+dis --> CRKL
+AKT1 --> MAP2K2
+GSK3B --> PIK3R1
+MAP2K2 --> PIK3R1
+RAF1 --> ARAF

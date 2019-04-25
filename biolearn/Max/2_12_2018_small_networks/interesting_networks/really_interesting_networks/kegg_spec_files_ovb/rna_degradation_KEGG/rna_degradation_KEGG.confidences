@@ -1,0 +1,26 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_rna_degradation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+EXOSC2 --- EXOSC7	100% (65% forward, 35% backward)
+EXOSC6 --- LSM6	100% (70% forward, 30% backward)
+ENO1 --- ENO3	100% (65% forward, 35% backward)
+dis --> XRN2	100%
+dis --> SKIV2L	100%
+dis --> WDR61	100%
+dis --> PNPT1	100%
+dis --> DDX6	100%
+dis --> HSPA9	100%
+EXOSC6 --- CNOT3	95% (85% forward, 10% backward)
+SKIV2L --> TTC37	95%
+dis --> EDC4	95%
+dis --> LSM3	95%
+ENO3 --- ENO2	85% (65% forward, 20% backward)
+dis --> CNOT7	85%
+dis --> CNOT1	85%
+EXOSC2 --- EXOSC9	80% (60% forward, 20% backward)

@@ -1,0 +1,174 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/data/ccle_rppa_no_caution.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 HARD BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+C-Raf(MP05-739) --> Tuberin
+GSK3_pS9 --> Rictor_pT1135
+p27_pT198 --> ADAR1
+MSH2 --> Cyclin_B1
+GSK3_pS9 --> Tuberin_pT1462
+Bcl-xL --> Cyclin_D1
+GATA3 --> AR
+EGFR --> MIG-6
+EGFR --> Caveolin-1
+Bcl-xL --> EGFR_pY1173
+Src_pY527 --> Src
+PEA15 --> CD31
+N-Ras --> CD31
+PRAS40_pT246 --> 14-3-3_beta
+Claudin-7 --> Bcl-xL
+PEA15_pS116 --> Bcl-xL
+alpha-Catenin --> CD49b
+EGFR --> CD49b
+Bap1 c-4 --> 53BP1
+ER-alpha_pS118 --> ER-alpha
+PR --> ER-alpha
+alpha-Catenin --> C-Raf(MP05-739)
+E-Cadherin --> Claudin-7
+Tuberin --> PDK1_pS241
+PAI-1 --> PKC-alpha
+PDK1_pS241 --> PDK1
+Caveolin-1 --> Heregulin
+Akt --> GSK3-alpha-beta
+dis --> beta-Catenin
+PAI-1 --> Chk2
+PAI-1 --> c-Jun_pS73
+PKC-alpha --> E-Cadherin
+alpha-Catenin --> E-Cadherin
+beta-Catenin --> alpha-Catenin
+beta-Catenin --> beta-Catenin_pT41_S45
+SF2 --> c-Met_pY1235
+E-Cadherin --> HER3
+STAT5-alpha --> JAK2
+GSK3-alpha-beta --> EGFR
+dis --> EGFR
+GSK3-alpha-beta --> GSK3-alpha-beta_pS21_S9
+ACC_pS79 --> AMPK_pT172
+EGFR --> Gab2
+RBM15 --> Porin
+c-Kit --- IGFBP2
+Bcl-2 --> Smad4
+N-Ras --> Smad4
+EGFR --> Bax
+EGFR --> DJ-1
+Caveolin-1 --> TAZ
+TTF1 --> MDM2_pS166
+Bad_pS112 --> p38_pT180_Y182
+SF2 --> ER-alpha_pS118
+Transglutaminase --> Smad3
+mTOR --> Akt
+Bim(EP1036) --> p27
+ETS-1 --> PEA15_pS116
+PEA15_pS116 --> TTF1
+PI3K-p85 --> p38_MAPK
+TIGAR --- CDK1
+Shc_pY317 --> STAT3_pY705
+MIG-6 --> IRS1
+Claudin-7 --> ATM
+Smad4 --> Stathmin
+S6_pS235_S236 --> Stathmin
+Bim(CST2933) --> Bim(EP1036)
+MIG-6 --> Transglutaminase
+TAZ --> Transglutaminase
+Akt_pT308 --> PTEN
+dis --> PTEN
+alpha-Catenin --> SCD1
+Annexin 1 --> SF2
+beta-Catenin --> N-Cadherin
+PEA15_pS116 --> N-Cadherin
+4E-BP1_pT37_T46 --> 4E-BP1_pT70
+alpha-Catenin --> 4E-BP1
+EGFR --> VEGFR2
+PEA15_pS116 --> YB-1
+S6_pS240_S244 --> S6_pS235_S236
+Claudin-7 --> Syk
+dis --> Syk
+alpha-Catenin --> p70S6K
+eIF4E --> MEK1
+Caveolin-1 --> eIF4E
+PEA15 --> Bap1 c-4
+TAZ --> PEA15
+Smad3 --> ETS-1
+Caveolin-1 --> Smad1
+p70S6K_pT389 --> S6_pS240_S244
+Cyclin_B1 --> FoxM1
+Bap1 c-4 --> FoxM1
+Rab25 --> INPP4B
+SF2 --> Rad50
+S6_pS235_S236 --> YB-1_pS102
+PAI-1 --> FASN
+Myosin IIa pS1943 --> MYH11
+PAI-1 --> Myosin IIa pS1943
+MSH2 --> HER2
+dis --> HER2
+alpha-Catenin --> Shc_pY317
+G6PD --> PRDX1
+Claudin-7 --> Rab25
+C-Raf(MP05-739) --> C-Raf_pS338
+PKC-pan_BetaII_pS660 --> Bad_pS112
+mTOR --> Raptor
+Rictor_pT1135 --> 4E-BP1_pT37_T46
+4E-BP1 --> 4E-BP1_pT37_T46
+MEK1_pS217_S221 --> MAPK_pT202_Y204
+Caveolin-1 --> Annexin 1
+SF2 --> G6PD
+dis --> Src_pY527
+ER-alpha --> GATA3
+GSK3-alpha-beta --> GATA3
+S6_pS235_S236 --> Bim(CST2933)
+dis --> PI3K-p85
+STAT5-alpha --- PI3K-p85
+YB-1_pS102 --> MEK1_pS217_S221
+ER-alpha --> PREX1
+PI3K-p85 --> PREX1
+Tuberin --> mTOR
+Bim(EP1036) --> Bcl-2
+dis --> Bcl-2
+SF2 --> RBM15
+GSK3-alpha-beta_pS21_S9 --> PKC-pan_BetaII_pS660
+PKC-delta_pS664 --> PKC-pan_BetaII_pS660
+GSK3-alpha-beta_pS21_S9 --> GSK3_pS9
+GSK3_pS9 --> Akt_pS473
+dis --> Akt_pS473
+EGFR --> B-Raf_pS445
+PKC-alpha --> PKC-delta_pS664
+STAT5-alpha --> PKC-delta_pS664
+PRAS40_pT246 --> NDRG1_pT346
+Akt_pS473 --> PRAS40_pT246
+4E-BP1_pS65 --> PRAS40_pT246
+FASN --> ACC_pS79
+dis --> eEF2K
+Bcl-xL --> TFRC
+Akt_pS473 --> Akt_pT308
+Rictor_pT1135 --> p70S6K_pT389
+E-Cadherin --> Lck
+dis --> Lck
+PEA15_pS116 --> N-Ras
+S6_pS240_S244 --> N-Ras
+Cyclin_B1 --> RAD51
+S6_pS240_S244 --> 4E-BP1_pS65
+4E-BP1_pT37_T46 --> 4E-BP1_pS65
+dis --> p27_pT198
+dis --> STAT5-alpha
+Fibronectin --> p21
+alpha-Catenin --> Rb_pS807_S811
+FoxM1 --> Rb_pS807_S811
+Stathmin --> MSH2
+PEA15 --> MSH2
+Caveolin-1 --> PAI-1
+p38_pT180_Y182 --> JNK_pT183_Y185
+EGFR_pY1173 --> PR
+PAI-1 --> Fibronectin
+p38_MAPK --> p38 alpha MAPK
+ASNS
+Collagen_VI
+Cyclin_E1
+Dvl3
+Notch1
+Annexin_VII
+14-3-3_zeta

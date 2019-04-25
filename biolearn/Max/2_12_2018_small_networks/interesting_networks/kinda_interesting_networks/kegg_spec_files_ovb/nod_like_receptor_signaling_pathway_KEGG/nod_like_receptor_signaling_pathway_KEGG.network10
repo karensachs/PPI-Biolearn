@@ -1,0 +1,30 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_nod_like_receptor_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> MAPK14
+dis --> HSP90B1
+dis --> IKBKB
+MAPK9 --- IKBKB
+dis --> MAPK9
+MAPK3 --- MAPK9
+dis --> RELA
+dis --> MAPK3
+dis --> NFKB1
+CASP1 --- NFKB1
+dis --> HSP90AB1
+MAPK3 --- HSP90AB1
+dis --> CASP1
+HSP90AB1 --> HSP90AA1
+dis --> TRIP6
+dis --> TRAF6
+dis --> MAPK13
+dis --> CASP8
+dis --> SUGT1
+dis --> PYCARD
+MAPK3 --> MAPK1

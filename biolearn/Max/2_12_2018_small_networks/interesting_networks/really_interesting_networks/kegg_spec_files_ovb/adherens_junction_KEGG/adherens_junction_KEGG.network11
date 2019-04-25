@@ -1,0 +1,76 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_adherens_junction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> CTNNB1
+dis --> ERBB2
+CREBBP --> IGF1R
+dis --> IGF1R
+LMO7 --> ACTN2
+dis --> ACTN2
+dis --> CSNK2B
+CSNK2A1 --- CSNK2B
+SRC --> FYN
+YES1 --> FYN
+dis --> MAPK3
+RAC1 --> RAC2
+CREBBP --> SMAD4
+ERBB2 --> CSNK2A2
+dis --> SRC
+RAC1 --> LMO7
+dis --> LMO7
+CTNNA1 --> CDH1
+dis --> CDH1
+ERBB2 --> PTPRF
+RAC3 --> RAC1
+CSNK2A2 --> SORBS1
+VCL --> SORBS1
+CDC42 --> RHOA
+LMO7 --> TJP1
+IGF1R --> INSR
+RAC3 --> INSR
+dis --> YES1
+SRC --- YES1
+ACTN2 --> ACTN3
+ACTG1 --> ACTB
+LMO7 --> CTNND1
+CTNNA2 --> CTNND1
+RAC3 --> WASF2
+ACTN3 --> ACTN1
+RAC3 --> ACTN1
+dis --> BAIAP2
+RAC3 --> CREBBP
+dis --> CREBBP
+dis --> WASL
+ACTN2 --> VCL
+dis --> VCL
+FYN --> RAC3
+dis --> RAC3
+RAC2 --> PTPN6
+dis --> PTPN6
+SMAD4 --> SMAD2
+RAC3 --> SMAD2
+dis --> CSNK2A1
+ACTN2 --> ACTN4
+ACTN1 --> ACTN4
+RAC2 --> CTNNA2
+CTNNA1 --> CTNNA2
+VCL --> IQGAP1
+SMAD2 --> SMAD3
+ACTN3 --> ACTG1
+dis --> ACTG1
+SMAD2 --> PARD3
+dis --> PARD3
+CDC42 --> PTPN1
+dis --> PTPN1
+dis --> ACP1
+CREBBP --> EP300
+RAC1 --> CDC42
+dis --> CDC42
+CTNNB1 --> CTNNA1
+MAPK3 --> MAPK1

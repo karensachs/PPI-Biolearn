@@ -1,0 +1,50 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_peroxisome.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> PEX14
+ABCD3 --- PEX14
+ACAA1 --> SCP2
+HMGCL --> HSD17B4
+dis --> HSD17B4
+SOD1 --> IDH1
+SCP2 --> ACOX1
+GSTK1 --> PRDX1
+PRDX5 --> ECI2
+dis --> ECI2
+PEX14 --> EHHADH
+GSTK1 --> EHHADH
+PEX14 --> PRDX5
+SOD1 --- PRDX5
+PEX14 --> SOD1
+ACAA1 --> GSTK1
+ACSL4 --> GSTK1
+dis --> PEX5
+dis --> ACSL3
+ABCD3 --- ACSL3
+HMGCL --> ECH1
+PEX14 --> SOD2
+ACSL4 --> SOD2
+HSD17B4 --> AGPS
+dis --> PEX19
+PEX14 --- PEX19
+SOD2 --> ACSL1
+ACSL4 --> ACSL1
+PEX14 --> DHRS4
+PEX19 --> DHRS4
+dis --> ABCD3
+PEX14 --> CAT
+CAT --> PMVK
+dis --> PMVK
+SOD1 --> ACAA1
+dis --> ACAA1
+ACAA1 --> HMGCL
+CAT --> ACSL4
+dis --> ACSL4
+IDH2
+NUDT19

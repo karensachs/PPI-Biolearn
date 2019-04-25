@@ -1,0 +1,27 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_progesterone_mediated_oocyte_maturation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HSP90AB1 --- HSP90AA1	100% (70% forward, 20% backward)
+PRKACA --- PRKACB	100% (55% forward, 10% backward)
+MAPK8 --- MAPK10	100% (50% forward, 40% backward)
+PIK3R3 --- PIK3R1	100% (65% forward, 15% backward)
+GNAI1 --- GNAI3	100% (45% forward, 25% backward)
+MAPK1 --- MAPK3	100% (55% forward, 40% backward)
+RPS6KA3 --- PIK3CD	95% (80% forward, 5% backward)
+AKT3 --- AKT1	95% (55% forward, 30% backward)
+RPS6KA2 --- RPS6KA6	95% (45% forward, 25% backward)
+dis --> PGR	95%
+PRKACA --- PIK3R3	90% (40% forward, 15% backward)
+RPS6KA2 --- RPS6KA1	90% (65% forward, 0% backward)
+RPS6KA2 --- RPS6KA3	90% (60% forward, 5% backward)
+RAF1 --- CDC23	85% (40% forward, 40% backward)
+AKT3 --- AKT2	80% (65% forward, 10% backward)
+CDK1 --- MAD2L1	80% (45% forward, 35% backward)
+MAPK8 --- MAPK9	80% (65% forward, 15% backward)
+PIK3R3 --- ARAF	80% (45% forward, 15% backward)

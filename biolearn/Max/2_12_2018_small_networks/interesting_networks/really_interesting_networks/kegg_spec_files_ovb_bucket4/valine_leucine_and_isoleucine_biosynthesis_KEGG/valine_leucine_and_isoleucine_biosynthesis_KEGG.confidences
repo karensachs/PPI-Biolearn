@@ -1,0 +1,14 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_valine_leucine_and_isoleucine_biosynthesis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PDHB --- PDHA1	100% (85% forward, 0% backward)
+dis --> BCAT2	100%
+dis --> IARS	95%
+dis --> PDHB	85%
+IARS --> LARS	80% (75% forward, 5% backward)

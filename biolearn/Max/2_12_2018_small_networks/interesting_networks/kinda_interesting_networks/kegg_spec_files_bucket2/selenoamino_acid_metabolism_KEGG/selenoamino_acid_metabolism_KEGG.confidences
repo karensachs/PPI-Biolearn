@@ -1,0 +1,18 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_selenoamino_acid_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAT2A --- MAT1A	100% (55% forward, 35% backward)
+AHCYL1 --- AHCYL2	100% (65% forward, 30% backward)
+CTH --- MARS2	95% (50% forward, 45% backward)
+AHCYL2 --- METTL2B	90% (65% forward, 15% backward)
+dis --> PAPSS2	90%
+MAT2A --- MAT2B	85% (45% forward, 35% backward)
+PAPSS1 --- CBS	85% (65% forward, 15% backward)
+AHCYL2 --- AHCY	85% (75% forward, 5% backward)
+dis --> SEPHS2	85%

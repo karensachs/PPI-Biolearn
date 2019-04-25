@@ -1,0 +1,41 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_metabolism_of_xenobiotics_by_cytochrome_p450.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GSTA2 --> GSTA1
+dis --> GSTM1
+dis --> MGST3
+dis --> GSTA2
+AKR1C2 --> AKR1C1
+dis --> AKR1C2
+GSTP1 --- AKR1C2
+AKR1C3 --> ADH5
+dis --> EPHX1
+dis --> ALDH1A3
+AKR1C2 --- ALDH1A3
+dis --> GSTK1
+dis --> GSTM5
+GSTM1 --- GSTM5
+dis --> GSTZ1
+GSTP1 --- GSTZ1
+dis --> GSTT1
+AKR1C1 --> AKR1C3
+AKR1C4 --- AKR1C3
+ADH1C --> ADH1B
+dis --> ADH1B
+AKR1C1 --> AKR1C4
+dis --> GSTP1
+GSTM1 --> GSTM4
+GSTM5 --> GSTM4
+AKR1C1 --> ADH1C
+dis --> ADH1C
+dis --> GSTO1
+GSTM4 --> GSTM2
+dis --> GSTM2
+GSTM2 --> GSTM3
+dis --> GSTM3

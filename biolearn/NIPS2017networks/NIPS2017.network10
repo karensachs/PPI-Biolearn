@@ -1,0 +1,180 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999 = 64.58002781666607
+# data DataPointPerLine /Users/karensachs/Dropbox/Matlab/Bahareh/MS_Human_experiment_26863_illustration_56411_spill_applied_events/Plate 1_pt1-1.fcs_spill_applied_Effector CD4+ T cell.txt
+# Sample 0.9
+# Time ROOT
+# SykInh ROOT    
+# BCL-2(_48 IGNORE
+# crassin ROOT       
+# Ras ROOT
+# Streptonigrin ROOT
+# GDC ROOT        
+# Rapamycin ROOT       
+# Sunitinib ROOT       
+# VX680 ROOT       
+# Orthovanadate ROOT
+# cKit(C_96 IGNORE
+# Imatinib ROOT       
+# GCSF ROOT
+# pCreb_72 IGNORE
+# GM-CSF ROOT
+# Jak2 ROOT       
+# Cyclin_48 IGNORE
+# pRb_0 IGNORE
+# IKK ROOT       
+# Sox2(TOTAL)(Gd160)Dd IGNORE
+# IL-2 ROOT
+# IL-3 ROOT
+# IL-12 ROOT
+# pRb_96 IGNORE
+# G-CSF ROOT
+# BAY ROOT       
+# MAC ROOT
+# Jak3 ROOT       
+# Cyclin_72 IGNORE
+# Sox2(T_72 IGNORE
+# PP2 ROOT       
+# pRb_48 IGNORE
+# cKit(C_48 IGNORE
+# CD45 IGNORE
+# IFN-\alpha ROOT
+# CD44 IGNORE
+# Dasatinib ROOT       
+# PMA/Ionomycine ROOT
+# staurosporine ROOT
+# Cyclin_0 IGNORE
+# pCreb_48 IGNORE
+# BTK ROOT       
+# Gr-1 IGNORE
+# LPS ROOT
+# Jak1 ROOT       
+# cKit(C_72 IGNORE
+# H89 ROOT       
+# MekI ROOT
+# cKit(C_0 IGNORE
+# IFN-\gamma ROOT
+# BCL-2(_0 IGNORE
+# GO69 ROOT       
+# GD ROOT
+# LckInh ROOT       
+# PMA ROOT
+# BCR-XL ROOT
+# GM ROOT
+# Reference IGNORE
+# Flt3i ROOT
+# BCL-2(_72 IGNORE
+# SP6 ROOT       
+# pRb_72 IGNORE
+# Sox2(T_48 IGNORE
+# Pi3kI ROOT
+# B220 IGNORE
+# Sox2(T_96 IGNORE
+# CD11b(Mac-1)(Nd148)Dd ROOT
+# PD ROOT
+# CD5 IGNORE
+# SCF ROOT
+# BAY ROOT
+# SB202 ROOT       
+# Myc_0 IGNORE
+# Sox2(T_0 IGNORE
+# staurosporine ROOT       
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+Time --> Event #
+CD24_(Pr141Di) --- Event #
+CD3_(Sm147Di) --> Event_length
+CD132_(Dy164Di) --> Event_length
+DNA2_(Ir193Di) --> Event_length
+CD4_(Nd145Di) --> BC1_(Pd102Di)
+CD45RO_(Eu151Di) --> BC1_(Pd102Di)
+BC1_(Pd102Di) --> BC2_(Pd104Di)
+CD183_(La139Di) --> BC2_(Pd104Di)
+CD45RO_(Eu151Di) --> BC2_(Pd104Di)
+BC1_(Pd102Di) --> BC3_(Pd105Di)
+BC2_(Pd104Di) --> BC3_(Pd105Di)
+bc_separation_dist --> BC3_(Pd105Di)
+BC2_(Pd104Di) --> BC4_(Pd106Di)
+BC3_(Pd105Di) --> BC4_(Pd106Di)
+bc_separation_dist --> BC4_(Pd106Di)
+BC1_(Pd102Di) --> BC5_(Pd108Di)
+BC3_(Pd105Di) --> BC5_(Pd108Di)
+mahalanobis_dist --> BC5_(Pd108Di)
+BC1_(Pd102Di) --> BC6_(Pd110Di)
+BC3_(Pd105Di) --> BC6_(Pd110Di)
+mahalanobis_dist --> BC6_(Pd110Di)
+Event # --> CD61_(In113Di)
+CD7_(Nd148Di) --> HLA-DR_(In115Di)
+CD38_(Sm149Di) --> HLA-DR_(In115Di)
+BC2_(Pd104Di) --> Ba138Di
+BC1_(Pd102Di) --> CD183_(La139Di)
+CD4_(Nd145Di) --> CD183_(La139Di)
+CD3_(Sm147Di) --> CD183_(La139Di)
+Time --> Cd66b_(Ce140Di)
+Time --> CD24_(Pr141Di)
+Cd66b_(Ce140Di) --- CD24_(Pr141Di)
+CD7_(Nd148Di) --> CD19_(Nd142Di)
+CD3_(Sm147Di) --> PSTAT1_(Nd143Di)
+Time --> CD11b_(Nd144Di)
+CD4_(Nd145Di) --> CD11b_(Nd144Di)
+CD132_(Dy164Di) --> CD4_(Nd145Di)
+CD3_(Sm147Di) --- CD4_(Nd145Di)
+CD4_(Nd145Di) --> CD8a_(Nd146Di)
+CD3_(Sm147Di) --> CD8a_(Nd146Di)
+CD132_(Dy164Di) --> CD3_(Sm147Di)
+CD183_(La139Di) --> CD7_(Nd148Di)
+CD3_(Sm147Di) --> CD7_(Nd148Di)
+CD7_(Nd148Di) --> CD38_(Sm149Di)
+CD279_(Lu175Di) --> CD38_(Sm149Di)
+CD7_(Nd148Di) --> CD56_(Sm150Di)
+CD4_(Nd145Di) --> CD45RO_(Eu151Di)
+CD3_(Sm147Di) --> CD45RO_(Eu151Di)
+CD3_(Sm147Di) --> CD1C_(Sm152Di)
+CD45RO_(Eu151Di) --> CD1C_(Sm152Di)
+CD7_(Nd148Di) --> CD45RA_(Eu153Di)
+CD45RO_(Eu151Di) --> CD45RA_(Eu153Di)
+CD3_(Sm147Di) --> PSTAT5_(Sm154Di)
+Event_length --> PSTAT3_(Gd158Di)
+CD132_(Dy164Di) --> CD14_(Gd160Di)
+CD4_(Nd145Di) --> CD123_(Dy161Di)
+CD7_(Nd148Di) --> CD197_(Dy162Di)
+CD132_(Dy164Di) --> CD197_(Dy162Di)
+Event_length --> NFK-B_(Dy163Di)
+CD3_(Sm147Di) --> NFK-B_(Dy163Di)
+CD132_(Dy164Di) --> NFK-B_(Dy163Di)
+Event # --> CD132_(Dy164Di)
+CD132_(Dy164Di) --> CD16_(Ho165Di)
+CD141_(Tm169Di) --> CD16_(Ho165Di)
+CD132_(Dy164Di) --> HIF-Aa_(Er166Di)
+BC2_(Pd104Di) --> MAPKAPK2_(Er167Di)
+CD132_(Dy164Di) --> MAPKAPK2_(Er167Di)
+CD132_(Dy164Di) --> PERK_(Er168Di)
+CD132_(Dy164Di) --> CD141_(Tm169Di)
+CD274_(Yb176Di) --> CD141_(Tm169Di)
+beadDist --> CD141_(Tm169Di)
+CD132_(Dy164Di) --> CD195_(Er170Di)
+PCREB_(Yb174Di) --> CD195_(Er170Di)
+BC3_(Pd105Di) --> PCREB_(Yb174Di)
+CD132_(Dy164Di) --> PCREB_(Yb174Di)
+CD183_(La139Di) --> CD279_(Lu175Di)
+CD141_(Tm169Di) --> CD279_(Lu175Di)
+beadDist --> CD279_(Lu175Di)
+Event_length --> CD274_(Yb176Di)
+CD4_(Nd145Di) --> CD274_(Yb176Di)
+CD132_(Dy164Di) --> CD274_(Yb176Di)
+BC1_(Pd102Di) --> DNA1_(Ir191Di)
+BC3_(Pd105Di) --> DNA2_(Ir193Di)
+DNA1_(Ir191Di) --> DNA2_(Ir193Di)
+CD183_(La139Di) --> beadDist
+CD24_(Pr141Di) --> beadDist
+PAKT_(Tb159Di) --> beadDist
+BC2_(Pd104Di) --> mahalanobis_dist
+BC4_(Pd106Di) --> mahalanobis_dist
+bc_separation_dist --> mahalanobis_dist
+Gd155Di
+P38_(Gd156Di)
+CD11C_(Gd157Di)
+P53_(Yb171Di)
+S6_(Yb172Di)
+CD33_(Yb173Di)

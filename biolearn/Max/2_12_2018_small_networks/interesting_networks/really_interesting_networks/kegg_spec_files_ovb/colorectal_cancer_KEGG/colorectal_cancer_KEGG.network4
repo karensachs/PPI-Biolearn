@@ -1,0 +1,42 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_colorectal_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+RAC3 --> GSK3B
+dis --> GSK3B
+dis --> CTNNB1
+RAC1 --- CTNNB1
+ARAF --> MAPK9
+dis --> MAPK9
+dis --> APPL1
+RAF1 --> MAPK3
+dis --> MAPK3
+RAC1 --> RAC2
+PIK3R1 --> SMAD4
+RAC1 --> ARAF
+GSK3B --> AKT1
+dis --> AKT1
+GSK3B --> MAP2K1
+MSH6 --> MSH2
+dis --> MSH6
+dis --> CASP3
+RAC1 --> RHOA
+dis --> RAC1
+AKT2 --- RAC1
+dis --> AKT2
+RAC1 --> RAF1
+dis --> BAX
+RAC1 --> RAC3
+PIK3R1 --> SMAD2
+MAPK9 --> CYCS
+dis --> CYCS
+SMAD2 --> SMAD3
+RAC3 --> PIK3R1
+dis --> PIK3R1
+dis --> KRAS
+MAPK3 --> MAPK1

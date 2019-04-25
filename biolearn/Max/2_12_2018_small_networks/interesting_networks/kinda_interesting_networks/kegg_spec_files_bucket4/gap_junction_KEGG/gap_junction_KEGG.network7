@@ -1,0 +1,64 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_gap_junction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+TUBA4A --- TUBA8
+PRKACB --- ITPR2
+PLCB1 --> PLCB3
+MAP2K2 --- PRKX
+TUBB --- TUBA1C
+PRKACA --- ITPR3
+PRKACA --- PRKACB
+TJP1 --> PLCB1
+GNAI1 --- GUCY1B3
+MAP2K2 --- MAP2K1
+dis --> EGFR
+PLCB1 --> CSNK1D
+MAPK3 --- GNA11
+MAP3K2 --- MAP2K2
+TUBB2B --- TUBB4B
+RAF1 --- GRB2
+GNAI1 --- GNAI2
+RAF1 --- MAPK3
+GUCY1B3 --- GUCY1A3
+GUCY1B3 --- PRKG1
+SOS1 --- PRKCB
+PRKACB --- PRKACG
+SOS1 --- SOS2
+PRKACB --- RAF1
+PRKG1 --- PDGFRB
+TUBA1C --- TUBA1B
+TUBA1B --- TUBA3E
+PLCB1 --> SRC
+TUBA1B --- TUBA4A
+SOS1 --- GNAI3
+PRKACA --- TUBB8
+GNAI1 --- ITPR1
+TUBB2A --- TUBB2B
+TUBAL3 --- NRAS
+TUBB2B --- TUBAL3
+GUCY1B3 --- GNAS
+PRKCB --- PRKCA
+PRKCB --- PLCB2
+TUBB1 --- TUBB3
+GNAI1 --- PRKACA
+TUBB3 --- TUBB2A
+NRAS --- HRAS
+GNA11 --- GNAQ
+TUBB2B --- TUBB
+TUBA1B --- MAPK7
+PRKACA --- MAP3K2
+HRAS --- KRAS
+TUBB2B --- TUBB6
+TUBB8 --- TUBB1
+MAPK7 --- PLCB4
+GNAI3 --- GNAI1
+RAF1 --- MAPK1
+MAP3K2 --> TJP1
+dis --> TJP1
+CDK1

@@ -1,0 +1,66 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_antigen_processing_and_presentation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> HLA-A
+HLA-E --- HLA-A
+CTSS --> LGMN
+dis --> LGMN
+dis --> NFYB
+HLA-C --> IFI30
+PSME2 --> PSME1
+dis --> HSPA1L
+HSPA4 --> HSPA2
+dis --> HSPA2
+HLA-DPB1 --> HSPA8
+dis --> HSPA8
+HLA-DRB5 --> HLA-DRA
+HLA-DPA1 --> HLA-DRA
+TAP2 --> TAPBP
+HLA-B --> TAPBP
+HLA-DRA --> CTSS
+dis --> CTSS
+dis --> HLA-E
+HLA-B --- HLA-E
+CTSS --> HLA-DPB1
+HLA-DPA1 --> HLA-DPB1
+HLA-A --> TAP2
+dis --> HSP90AB1
+dis --> CALR
+HLA-A --> CD74
+HLA-E --> CD74
+TAP2 --> TAP1
+HLA-DRB1 --> HLA-DRB5
+dis --> HLA-DRB5
+HSP90AB1 --> HSP90AA1
+dis --> CANX
+HLA-A --- CANX
+HLA-DPA1 --> HLA-DRB1
+dis --> HSPA5
+CALR --- HSPA5
+CD74 --> HLA-DRB3
+HLA-DRB5 --> HLA-DRB3
+dis --> PSME2
+HLA-DPA1 --> HLA-DMB
+dis --> HLA-DMB
+TAP2 --> CTSB
+HLA-E --> HLA-C
+HLA-B --> HLA-C
+HSPA1L --> HSPA6
+HSPA6 --> HSPA4
+dis --> HSPA4
+CD74 --> HLA-DPA1
+dis --> PDIA3
+dis --> B2M
+HLA-A --- B2M
+dis --> PSME3
+HSP90AB1 --- PSME3
+HSPA1L --> HSPA1B
+dis --> HLA-B
+PSME2 --- HLA-B
+CREB1

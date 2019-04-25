@@ -1,0 +1,13 @@
+DefaultNetworkName results/Staur_PMA_Bcells_BDe3_400cells_4dose
+discretescore BDe 5
+VariableStatusFile biolearn.columnstatus.txt
+algorithm GreedyHillClimbing 5
+data MultipleInputFiles DataPointPerLine fldrugdata_staurosporine_IgM+Bcells_PMAo_4highdose.filelist.txt
+sample 400
+DiscretizationBuckets 3 soft bydistance
+numruns 3
+confidencethreshold 50
+discretizedFileSuffix discr
+constraint ParentMaximum 4 
+Prior EdgePenalty Fraction .2
+batch

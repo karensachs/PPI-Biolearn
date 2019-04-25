@@ -1,0 +1,15 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_type_i_diabetes_mellitus.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HLA-DRB1 --- HLA-DPA1	100% (70% forward, 25% backward)
+dis --> HLA-DMB	100%
+HLA-B --- HLA-C	95% (80% forward, 15% backward)
+dis --> HLA-A	95%
+HLA-DRA --- HLA-DRB5	90% (45% forward, 40% backward)
+HLA-DRB5 --- HLA-DRB3	80% (65% forward, 15% backward)

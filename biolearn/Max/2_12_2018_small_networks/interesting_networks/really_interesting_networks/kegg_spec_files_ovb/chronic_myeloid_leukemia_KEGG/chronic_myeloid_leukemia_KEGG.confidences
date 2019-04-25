@@ -1,0 +1,31 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_chronic_myeloid_leukemia.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+STAT5A --- STAT5B	100% (50% forward, 15% backward)
+NRAS --- HRAS	100% (50% forward, 50% backward)
+PIK3R1 --- MAP2K2	100% (70% forward, 30% backward)
+dis --> MAPK3	100%
+dis --> NFKB1	100%
+dis --> AKT1	100%
+dis --> CRK	100%
+dis --> AKT2	100%
+dis --> CTBP2	100%
+dis --> BCL2L1	100%
+MAPK3 --> MAPK1	100% (95% forward, 0% backward)
+MAP2K2 --> MAP2K1	100% (95% forward, 5% backward)
+HRAS --> KRAS	100% (90% forward, 5% backward)
+dis --> PTPN11	95%
+dis --> SHC1	95%
+dis --> CDK4	95%
+dis --> CRKL	95%
+PIK3R1 --> SMAD4	90%
+dis --> IKBKB	90%
+dis --> STAT5A	85%
+dis --> PIK3R1	85%
+CTBP2 --- CTBP1	80% (65% forward, 5% backward)

@@ -1,0 +1,23 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_rna_polymerase.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+POLR2A --> POLR2E
+dis --> POLR2B
+dis --> POLR2C
+POLR2D --- POLR2C
+POLR2A --> POLR2I
+dis --> POLR1C
+dis --> POLR2D
+POLR1C --- POLR2D
+POLR2E --> POLR3A
+dis --> POLR3A
+dis --> POLR2H
+dis --> POLR1A
+dis --> POLR2A
+POLR2C --- POLR2A

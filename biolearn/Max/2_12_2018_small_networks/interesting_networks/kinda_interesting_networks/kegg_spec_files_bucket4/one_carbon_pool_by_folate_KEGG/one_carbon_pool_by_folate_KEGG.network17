@@ -1,0 +1,21 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_one_carbon_pool_by_folate.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MTHFD1L --> ATIC
+dis --> MTHFD1L
+GART --> DHFR
+dis --> MTHFD2
+dis --> GART
+MTR
+SHMT2
+MTHFS
+ALDH1L1
+SHMT1
+MTHFR
+MTHFD1

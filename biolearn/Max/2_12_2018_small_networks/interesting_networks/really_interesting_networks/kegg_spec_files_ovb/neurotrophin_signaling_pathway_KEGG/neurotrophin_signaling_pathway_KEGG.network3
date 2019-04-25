@@ -1,0 +1,74 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_neurotrophin_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+YWHAE --> MAPK3
+dis --> MAPK3
+dis --> RAP1A
+RAP1B --- RAP1A
+MAP2K2 --> MAP2K1
+YWHAZ --> YWHAQ
+dis --> YWHAQ
+CAMK2D --> CAMK2G
+dis --> BAX
+dis --> CALML3
+PIK3R1 --> MAPKAPK2
+PIK3R1 --> CDC42
+dis --> CDC42
+HRAS --> KRAS
+MAPK3 --> MAPK1
+YWHAQ --> YWHAH
+RAC1 --> YWHAH
+YWHAQ --> PTPN11
+dis --> RPS6KA1
+dis --> AKT1
+GSK3B --- AKT1
+dis --> RAP1B
+MAP2K1 --> ARHGDIA
+CAMK2G --> CAMK2A
+YWHAB --> YWHAE
+dis --> YWHAE
+dis --> MAPK13
+ARHGDIB --> PLCG2
+dis --> PLCG2
+YWHAH --> YWHAG
+PIK3R1 --> YWHAG
+dis --> MAPK14
+PIK3R1 --> RELA
+PLCG2 --> RPS6KA3
+dis --> RPS6KA3
+dis --> NFKB1
+NFKB1 --> ARHGDIB
+CAMK2A --> CAMK2B
+GSK3B --> YWHAZ
+dis --> SORT1
+dis --> CRK
+dis --> SHC1
+RAC1 --> RAF1
+dis --> PRKCD
+dis --> CAMK2D
+dis --> GSK3B
+CAMK2D --- GSK3B
+PLCG2 --> CSK
+dis --> CSK
+dis --> IKBKB
+dis --> MAPK9
+AKT1 --> GRB2
+RAF1 --> GRB2
+dis --> NRAS
+GSK3B --> RAC1
+CDC42 --> RHOA
+dis --> TRAF6
+dis --> AKT2
+AKT1 --- AKT2
+NRAS --> HRAS
+dis --> CRKL
+RAC1 --> MAP2K2
+RAC1 --> PIK3R1
+dis --> PIK3R1
+YWHAQ --> YWHAB

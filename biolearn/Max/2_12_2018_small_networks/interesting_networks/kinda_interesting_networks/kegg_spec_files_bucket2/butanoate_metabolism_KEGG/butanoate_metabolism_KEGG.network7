@@ -1,0 +1,37 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_butanoate_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HADHA --- ACAT2
+ACAT1 --- HADH
+L2HGDH --> BDH1
+PDHA1 --> BDH1
+ACADS --> ALDH2
+BDH1 --> ECHS1
+ALDH9A1 --> ALDH3A2
+HMGCL --> L2HGDH
+ALDH5A1 --- PDHA1
+HMGCL --> ACADS
+PDHA1 --- PDHB
+dis --> OXCT1
+HMGCS2 --- OXCT1
+PDHB --- HADHA
+ALDH5A1 --- PDHA2
+dis --> HMGCS2
+PDHB --- BDH2
+ECHS1 --> ALDH9A1
+dis --> ABAT
+PDHA1 --- ACAT1
+HADH --- EHHADH
+dis --> HMGCS1
+PDHA1 --> HMGCL
+dis --> HMGCL
+AACS
+ALDH7A1
+ALDH1B1
+AKR1B10

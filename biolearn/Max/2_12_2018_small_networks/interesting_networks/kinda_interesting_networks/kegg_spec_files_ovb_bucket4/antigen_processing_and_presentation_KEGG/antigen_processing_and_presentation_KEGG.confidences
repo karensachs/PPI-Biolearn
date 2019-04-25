@@ -1,0 +1,20 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_antigen_processing_and_presentation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HSPA1L --- HSPA1B	100% (55% forward, 15% backward)
+PSME2 --- PSME1	100% (30% forward, 0% backward)
+dis --> HSPA2	100%
+HLA-A --- HLA-E	90% (60% forward, 10% backward)
+TAP2 --- TAP1	90% (55% forward, 15% backward)
+HSP90AB1 --- HSP90AA1	90% (75% forward, 10% backward)
+HLA-DRB5 --- HLA-DRA	90% (30% forward, 10% backward)
+TAPBP --- TAP2	85% (40% forward, 25% backward)
+dis --> HSP90AB1	85%
+dis --> CANX	85%
+HLA-DRB1 --- HLA-DRB5	80% (25% forward, 10% backward)

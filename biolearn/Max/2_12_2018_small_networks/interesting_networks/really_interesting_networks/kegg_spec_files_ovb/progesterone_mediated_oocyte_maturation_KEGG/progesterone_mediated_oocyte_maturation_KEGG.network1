@@ -1,0 +1,43 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_progesterone_mediated_oocyte_maturation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GNAI1 --> ANAPC7
+dis --> MAPK14
+PIK3R1 --> IGF1R
+dis --> IGF1R
+dis --> GNAI2
+GNAI1 --- GNAI2
+dis --> RPS6KA3
+AKT2 --> MAPK9
+dis --> MAPK9
+ARAF --> MAPK3
+dis --> MAPK3
+dis --> GNAI1
+dis --> RPS6KA1
+CDK1 --> CDK2
+CDK1 --> HSP90AB1
+MAP2K1 --> AKT1
+dis --> AKT1
+PIK3R1 --> PRKACB
+PIK3R1 --> MAP2K1
+PRKACA --> ARAF
+HSP90AB1 --> HSP90AA1
+dis --> CDK1
+AKT1 --> AKT2
+dis --> AKT2
+PIK3R1 --> RAF1
+PRKACB --> PRKACA
+dis --> MAPK13
+dis --> ANAPC2
+RAF1 --> CDC23
+dis --> CDC23
+GNAI1 --> GNAI3
+GNAI1 --> PIK3R1
+dis --> MAPK1
+KRAS

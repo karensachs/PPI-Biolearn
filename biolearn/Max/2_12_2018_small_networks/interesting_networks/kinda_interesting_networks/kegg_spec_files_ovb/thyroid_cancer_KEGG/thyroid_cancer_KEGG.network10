@@ -1,0 +1,29 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_thyroid_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> CTNNB1
+TPR --- CTNNB1
+dis --> MAPK3
+MAPK1 --- MAPK3
+dis --> TPR
+MAP2K2 --- TPR
+dis --> TFG
+HRAS --> NRAS
+dis --> MAP2K1
+dis --> CDH1
+CTNNB1 --- CDH1
+dis --> HRAS
+TPR --> TPM3
+dis --> MAP2K2
+MAP2K1 --- MAP2K2
+TPM3 --> CCDC6
+dis --> CCDC6
+HRAS --> KRAS
+dis --> MAPK1
+MAP2K1 --- MAPK1

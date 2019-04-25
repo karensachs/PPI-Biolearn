@@ -1,0 +1,55 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_arrhythmogenic_right_ventricular_cardiomyopathy_arvc.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+DSG2 --> CTNNB1
+CTNNA2 --> CTNNB1
+ITGA5 --> DES
+dis --> DES
+EMD --> ITGA1
+ITGA1 --> ITGB1
+dis --> ITGB1
+ACTN3 --> ACTN2
+dis --> ACTN2
+ITGAV --> ITGB5
+dis --> ITGB5
+DES --> DAG1
+dis --> DAG1
+ACTN3 --> LMNA
+dis --> DSP
+ITGB1 --> ITGA6
+dis --> ITGA6
+EMD --> ACTN3
+ACTN1 --> ACTN3
+DSG2 --> JUP
+dis --> JUP
+ACTB --> ITGA5
+ITGAV --> ITGA5
+ACTG1 --> ACTB
+dis --> EMD
+PKP2 --- EMD
+ITGAV --> ACTN1
+dis --> ACTN1
+ITGB1 --> ITGAV
+dis --> ITGAV
+ITGA6 --> ITGB4
+dis --> ITGB4
+dis --> ATP2A2
+EMD --- ATP2A2
+DSC2 --> DSG2
+dis --> DSG2
+ACTN3 --> ACTN4
+ACTN1 --> ACTN4
+PKP2 --> CTNNA2
+ACTN1 --> ACTG1
+dis --> ACTG1
+CTNNA2 --> CTNNA1
+dis --> PKP2
+DSP --- PKP2
+ITGB4 --> DSC2
+dis --> DSC2

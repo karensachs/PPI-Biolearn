@@ -1,0 +1,48 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_oocyte_meiosis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PPP2CA --- PPP2CB	100% (60% forward, 30% backward)
+PPP1CC --- PPP1CB	100% (70% forward, 10% backward)
+PPP1CC --- PPP1CA	100% (70% forward, 15% backward)
+MAPK3 --- MAPK1	100% (65% forward, 30% backward)
+SMC1A --- SLK	100% (70% forward, 20% backward)
+SMC1A --> SKP1	100%
+SMC1A --- SMC3	100% (55% forward, 45% backward)
+PPP3CA --- PPP3CB	100% (55% forward, 40% backward)
+CAMK2A --- CAMK2B	100% (45% forward, 40% backward)
+YWHAZ --- YWHAQ	100% (55% forward, 40% backward)
+PRKACA --- PRKACB	100% (25% forward, 15% backward)
+PPP2R5D --- PPP2R5C	100% (45% forward, 30% backward)
+dis --> MAPK3	100%
+dis --> PRKACB	100%
+dis --> ITPR3	100%
+dis --> CALML3	100%
+dis --> IGF1R	100%
+dis --> YWHAE	100%
+YWHAG --- YWHAB	95% (75% forward, 20% backward)
+dis --> RPS6KA1	95%
+YWHAH --- YWHAG	90% (55% forward, 35% backward)
+CDK1 --- CDK2	90% (40% forward, 20% backward)
+CAMK2B --- CAMK2G	90% (65% forward, 10% backward)
+dis --> PPP3CA	90%
+dis --> ITPR1	90%
+dis --> PPP2R1B	90%
+dis --> YWHAZ	90%
+dis --> PRKACA	90%
+YWHAQ --- YWHAH	85% (55% forward, 30% backward)
+CAMK2A --- CAMK2D	85% (70% forward, 15% backward)
+SMC1A --> ANAPC2	80%
+ITPR2 --- ITPR1	80% (40% forward, 0% backward)
+dis --> PPP2CA	80%
+dis --> SMC1A	80%
+dis --> CDK1	80%
+dis --> ITPR2	80%
+dis --> RPS6KA3	80%
+dis --> ANAPC7	80%
+dis --> CUL1	80%

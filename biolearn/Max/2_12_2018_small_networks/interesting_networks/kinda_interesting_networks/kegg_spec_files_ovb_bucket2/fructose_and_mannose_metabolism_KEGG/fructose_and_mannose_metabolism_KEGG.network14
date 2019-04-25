@@ -1,0 +1,43 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_fructose_and_mannose_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+SORD --> AKR1B1
+ALDOC --> AKR1B1
+TSTA3 --> GMPPA
+GMPPA --> GMPPB
+PMM2 --> GMPPB
+PFKP --> TSTA3
+PFKL --- TSTA3
+dis --> HK2
+PFKP --- HK2
+SORD --> MPI
+ALDOC --> MPI
+PFKL --> PMM2
+dis --> PMM2
+SORD --> FBP1
+PMM2 --> GMDS
+dis --> GMDS
+dis --> SORD
+HK3 --- SORD
+dis --> TPI1
+PFKP --- TPI1
+TSTA3 --> ALDOC
+AKR1B1 --> FUK
+dis --> FUK
+SORD --> ALDOA
+ALDOC --> ALDOA
+FUK --> PFKM
+dis --> HK1
+dis --> HK3
+dis --> PFKP
+HK3 --- PFKP
+TSTA3 --> PHPT1
+FBP1 --> PHPT1
+dis --> PHPT1
+PFKP --> PFKL

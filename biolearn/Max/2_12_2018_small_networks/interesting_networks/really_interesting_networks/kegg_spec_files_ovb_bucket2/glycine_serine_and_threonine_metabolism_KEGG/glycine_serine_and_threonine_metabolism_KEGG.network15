@@ -1,0 +1,25 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_glycine_serine_and_threonine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+AOC3 --> SHMT2
+PHGDH --> SHMT2
+dis --> SHMT2
+MAOA --> AOC3
+dis --> AOC3
+PSAT1 --> PHGDH
+dis --> PHGDH
+MAOB --> MAOA
+dis --> MAOA
+MAOA --> SHMT1
+MAOA --> GATM
+PHGDH --> DLD
+dis --> DLD
+GLDC --> PSAT1
+dis --> GLDC
+DLD --> MAOB

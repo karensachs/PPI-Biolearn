@@ -1,0 +1,24 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_melanogenesis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GNAI2 --- GNAO1	100% (65% forward, 30% backward)
+GNAI1 --- GNAI3	100% (65% forward, 35% backward)
+PRKACA --- PRKACB	100% (55% forward, 45% backward)
+NRAS --- HRAS	100% (20% forward, 0% backward)
+HRAS --- KRAS	100% (20% forward, 0% backward)
+MAP2K2 --- MAP2K1	100% (80% forward, 20% backward)
+dis --> GNAQ	100%
+MAPK3 --> MAPK1	100% (95% forward, 5% backward)
+CREBBP --- EP300	95% (85% forward, 10% backward)
+dis --> CAMK2D	95%
+GNAI2 --> PRKCA	90%
+CAMK2A --- CAMK2B	90% (70% forward, 20% backward)
+GSK3B --- MAP2K2	90% (50% forward, 40% backward)
+dis --> GNAS	85%
+GSK3B --> CREBBP	80% (75% forward, 5% backward)

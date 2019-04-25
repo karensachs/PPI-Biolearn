@@ -1,0 +1,15 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_abc_transporters.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> ABCB7
+ABCB7 --> ABCC1
+TAP1 --> TAP2
+dis --> TAP1
+dis --> ABCD3
+TAP2 --> ABCB10

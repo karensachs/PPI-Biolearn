@@ -1,0 +1,42 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_long_term_potentiation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> CAMK2D
+RPS6KA3 --> PLCB3
+PPP1CC --> PPP1CB
+dis --> RPS6KA3
+PPP1CA --> PPP1CC
+dis --> MAPK3
+PPP1R12A --> PPP3CA
+PPP3CA --> PPP3CB
+dis --> RPS6KA1
+CAMK2D --> CAMK2B
+dis --> RAP1A
+MAP2K2 --> ARAF
+RAP1A --> RAP1B
+HRAS --- NRAS
+CAMK2D --> MAP2K1
+PPP1R12A --> PRKACB
+CAMK2D --> CAMK2A
+CAMK2D --> CAMK2G
+dis --> ITPR3
+KRAS --- HRAS
+MAP2K2 --> PPP1R12A
+PPP1R12A --> RAF1
+PRKACB --> PRKACA
+dis --> PRKCA
+dis --> CALML3
+PPP1R12A --> CREBBP
+PPP1R12A --> ITPR2
+dis --> GNAQ
+dis --> PPP1CA
+MAP2K1 --> MAP2K2
+CREBBP --> EP300
+ITPR1
+MAPK1

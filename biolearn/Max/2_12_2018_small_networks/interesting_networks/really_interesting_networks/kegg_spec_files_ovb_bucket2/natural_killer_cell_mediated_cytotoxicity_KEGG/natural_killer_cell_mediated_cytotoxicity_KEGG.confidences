@@ -1,0 +1,33 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_natural_killer_cell_mediated_cytotoxicity.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+KRAS --- HRAS	100% (35% forward, 25% backward)
+MAPK1 --- MAPK3	100% (25% forward, 5% backward)
+HLA-A --- HLA-E	100% (60% forward, 40% backward)
+PPP3CA --- PPP3CB	100% (70% forward, 30% backward)
+RAC3 --- RAC1	100% (50% forward, 25% backward)
+HLA-B --- HLA-C	100% (55% forward, 45% backward)
+NRAS --- HRAS	100% (75% forward, 20% backward)
+ITGB2 --- VAV1	100% (55% forward, 35% backward)
+dis --> PLCG2	100%
+dis --> HLA-C	100%
+HLA-B --- HLA-A	95% (80% forward, 15% backward)
+PLCG2 --> ICAM1	95% (90% forward, 5% backward)
+VAV1 --- PTPN6	90% (75% forward, 0% backward)
+RAC3 --- MAP2K2	90% (70% forward, 20% backward)
+MAP2K2 --- MAP2K1	90% (70% forward, 20% backward)
+HLA-C --> HLA-E	90% (85% forward, 5% backward)
+RAC2 --- RAC3	85% (60% forward, 25% backward)
+NRAS --- KRAS	85% (65% forward, 15% backward)
+dis --> MAP2K1	85%
+dis --> NRAS	85%
+PIK3R1 --> BID	85% (80% forward, 0% backward)
+RAC2 --- SYK	80% (70% forward, 5% backward)
+RAC2 --- RAC1	80% (50% forward, 25% backward)
+RAC1 --- PIK3R1	80% (50% forward, 20% backward)

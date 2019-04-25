@@ -1,0 +1,36 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_cell_cycle.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+SMC1A --- SMC3	100% (50% forward, 50% backward)
+SMC1A --- GSK3B	100% (75% forward, 20% backward)
+STAG2 --- STAG1	100% (55% forward, 25% backward)
+MCM6 --- MCM2	100% (50% forward, 40% backward)
+SMAD2 --- SMAD3	100% (60% forward, 40% backward)
+dis --> ATM	100%
+dis --> YWHAE	100%
+dis --> STAG1	100%
+dis --> GSK3B	100%
+dis --> RAD21	100%
+SMC1A --> SKP1	100% (95% forward, 5% backward)
+CREBBP --> EP300	100% (95% forward, 5% backward)
+YWHAQ --- YWHAZ	95% (75% forward, 15% backward)
+MCM2 --- MCM3	95% (45% forward, 40% backward)
+MCM2 --- MCM4	95% (70% forward, 20% backward)
+YWHAG --- YWHAH	95% (65% forward, 30% backward)
+YWHAB --- YWHAE	95% (55% forward, 15% backward)
+dis --> CDK4	95%
+YWHAH --- YWHAQ	90% (55% forward, 35% backward)
+MCM3 --- MCM5	90% (60% forward, 20% backward)
+GSK3B --- PRKDC	90% (75% forward, 5% backward)
+dis --> SKP1	90%
+MCM6 --- MCM4	85% (55% forward, 15% backward)
+dis --> SMC3	85%
+dis --> CDC23	85%
+MCM7 --- MCM6	80% (40% forward, 35% backward)
+MCM7 --- MCM5	80% (40% forward, 35% backward)

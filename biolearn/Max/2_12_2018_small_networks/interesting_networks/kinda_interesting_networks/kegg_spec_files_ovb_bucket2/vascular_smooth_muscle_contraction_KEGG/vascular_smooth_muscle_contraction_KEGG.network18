@@ -1,0 +1,46 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_vascular_smooth_muscle_contraction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GNA12 --> GNA13
+PPP1CA --- PPP1CC
+MAP2K2 --> MYL6B
+MYL6B --> MAP2K1
+PRKACA --> PRKACB
+ITPR1 --> ITPR3
+dis --> ITPR3
+PRKCQ --> PPP1R12A
+MYL6 --- MYL9
+PRKCQ --> CALD1
+ITPR2 --> GNAQ
+MAPK3 --- MAPK1
+ITPR3 --> PRKCQ
+MAP2K2 --> PRKCQ
+MYL9 --- MYLK
+ACTG2 --- ACTA2
+dis --> ITPR2
+PPP1R12A --> ROCK2
+GNAQ --> GNA11
+ITPR2 --> ITPR1
+PPP1R12A --> RAF1
+PRKCQ --> PRKACA
+ROCK2 --> ROCK1
+MYL9 --- ACTG2
+ITPR1 --> PRKCD
+PPP1CC --- PPP1CB
+MYLK --- MYH11
+PRKACA --> RHOA
+ITPR2 --> MAP2K2
+CALD1 --> GNA12
+PRKCQ --> ARAF
+ARHGEF1
+CALML3
+PLCB3
+PRKCA
+GUCY1B3
+GNAS

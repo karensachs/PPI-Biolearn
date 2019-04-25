@@ -1,0 +1,76 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_chronic_myeloid_leukemia.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> CDKN1B
+CDKN1B --> ABL1
+CBL --> CBLB
+SOS1 --> BCR
+AKT2 --> MAPK3
+MAPK1 --> MAPK3
+MAP2K2 --> MAP2K1
+MAPK3 --> PIK3CA
+HDAC1 --> CBL
+STAT5A --> STAT5B
+RB1 --> PIK3R2
+SMAD3 --> PIK3R2
+dis --> BCL2L1
+MAP2K2 --> ARAF
+PIK3R1 --> ARAF
+CTBP1 --- CTBP2
+ABL1 --> AKT3
+AKT1 --> AKT3
+PIK3R2 --> RAF1
+PIK3R1 --> RAF1
+PIK3R1 --> HDAC1
+MAPK3 --> SOS2
+SOS1 --> SOS2
+RAF1 --> PIK3CB
+MAP2K2 --> AKT1
+PIK3R3 --> RB1
+SMAD4 --> HDAC2
+SMAD3 --> HDAC2
+RB1 --> RELA
+ARAF --> BRAF
+MAP2K1 --> IKBKB
+dis --> IKBKB
+ABL1 --> MAP2K2
+PIK3R3 --> MAP2K2
+CDKN1B --> CDK4
+PTPN11 --> STAT5A
+MAP2K1 --> GRB2
+CTBP2 --- CRK
+HRAS --> KRAS
+SMAD4 --> KRAS
+HRAS --- NRAS
+MAP2K2 --> TGFB1
+PIK3R1 --> PIK3R3
+ABL1 --> PIK3R1
+RAF1 --> SMAD4
+PIK3R1 --> SMAD4
+PIK3CD --> SOS1
+IKBKG --> SOS1
+RB1 --> CDKN2A
+CDK4 --> CDKN2A
+PIK3R1 --> BAD
+PIK3R3 --- BAD
+PIK3R1 --> AKT2
+MAP2K1 --> PTPN11
+CDK6 --> PIK3CD
+MAP2K2 --> CHUK
+PIK3R1 --> CHUK
+PIK3R3 --> IKBKG
+PIK3R3 --> SMAD3
+CRK --- SHC1
+dis --> CDK6
+MAP2K1 --> MAPK1
+NFKBIA
+NFKB1
+CRKL
+GAB2
+RUNX1

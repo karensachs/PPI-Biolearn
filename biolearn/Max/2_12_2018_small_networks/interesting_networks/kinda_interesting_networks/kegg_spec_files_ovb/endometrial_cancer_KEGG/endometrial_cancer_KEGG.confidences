@@ -1,0 +1,17 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_endometrial_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+NRAS --- HRAS	100%
+HRAS --- KRAS	100%
+dis --> ERBB2	100%
+MAP2K2 --- MAP2K1	95% (80% forward, 0% backward)
+dis --> AKT2	90%
+GSK3B --- PIK3R1	85% (35% forward, 35% backward)
+CTNNA2 --- CTNNB1	80% (5% forward, 0% backward)
+dis --> MAPK3	80%

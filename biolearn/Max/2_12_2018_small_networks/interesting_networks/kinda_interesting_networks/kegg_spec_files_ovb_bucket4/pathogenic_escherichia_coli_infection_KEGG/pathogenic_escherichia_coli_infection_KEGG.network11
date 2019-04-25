@@ -1,0 +1,53 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_pathogenic_escherichia_coli_infection.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> ARPC1A
+TUBA1B --> TUBA4A
+dis --> ARHGEF2
+dis --> CTNNB1
+ARPC5 --> ARPC2
+RHOA --> CDC42
+ROCK2 --> ITGB1
+dis --> ITGB1
+TUBB6 --> TUBB
+ARPC1B --> ARPC4
+dis --> ARPC5
+TUBB2B --> TUBB4B
+dis --> FYN
+dis --> KRT18
+TUBB --> TUBB2B
+TUBA4A --> TUBA8
+dis --> YWHAZ
+CTTN --> EZR
+CTNNB1 --> CDH1
+YWHAZ --> YWHAQ
+dis --> NCK1
+dis --> TUBB6
+ITGB1 --> RHOA
+ARPC2 --> ARPC1B
+TUBA1B --> TUBA3E
+TUBB2B --> TUBB3
+TUBB8 --> TUBB1
+ACTG1 --> ACTB
+TUBB --> TUBA1B
+ARPC1B --> PRKCA
+dis --> WASL
+dis --> NCK2
+ROCK2 --> ROCK1
+TUBB3 --> TUBB8
+dis --> CTTN
+TUBB2B --> TUBB2A
+TUBA1B --> TUBA1C
+ARPC4 --> ACTG1
+NCL --> ROCK2
+ARPC5 --> ARPC5L
+FYN --> TUBAL3
+ARPC1B --> HCLS1
+CTTN --> NCL
+CD14

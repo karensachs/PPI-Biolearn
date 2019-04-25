@@ -1,0 +1,29 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_epithelial_cell_signaling_in_helicobacter_pylori_infection.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ATP6V1B2 --- ATP6V1A	100% (50% forward, 45% backward)
+RAC1 --- CDC42	100% (75% forward, 15% backward)
+dis --> F11R	100%
+dis --> ATP6V0A1	100%
+RAC1 --> TJP1	100% (95% forward, 5% backward)
+ATP6V1E1 --> ATP6V1C1	100% (95% forward, 5% backward)
+ATP6V1E1 --- ATP6V1D	95% (60% forward, 15% backward)
+PLCG2 --- CSK	95% (40% forward, 15% backward)
+ATP6V1A --- ATP6V1E1	95% (75% forward, 15% backward)
+dis --> IKBKB	95%
+dis --> PLCG2	95%
+dis --> ATP6V1C1	95%
+F11R --- RAC1	90% (80% forward, 5% backward)
+PLCG2 --- LYN	90% (80% forward, 10% backward)
+dis --> ADAM10	90%
+RAC1 --- PTPN11	85% (75% forward, 5% backward)
+RAC1 --- ADAM10	85% (65% forward, 15% backward)
+LYN --> SRC	85%
+dis --> RELA	85%
+F11R --> ATP6V1H	80% (75% forward, 5% backward)

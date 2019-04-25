@@ -1,0 +1,49 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_leishmania_infection.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ITGAM --> NCF1
+NCF2 --> NCF1
+dis --> MAPK14
+ITGB2 --> MARCKSL1
+dis --> MARCKSL1
+MARCKSL1 --> ITGB1
+dis --> RELA
+MAPK1 --> MAPK3
+dis --> MAPK3
+HLA-DRB5 --> HLA-DRA
+PTPN6 --> HLA-DRA
+HLA-DRA --> NFKB1
+dis --> NFKB1
+ITGB2 --> HLA-DPB1
+HLA-DRB1 --> HLA-DPB1
+dis --> ITGAM
+NCF1 --> HLA-DRB5
+dis --> HLA-DRB5
+NCF1 --> ITGB2
+dis --> ITGB2
+dis --> TRAF6
+HLA-DRA --> HLA-DRB1
+HLA-DRB5 --> HLA-DRB1
+HLA-DRB5 --> HLA-DRB3
+HLA-DRB1 --> HLA-DRB3
+dis --> MAPK13
+ITGB2 --> HLA-DMB
+dis --> HLA-DMB
+ITGB2 --> PTPN6
+dis --> PTPN6
+NCF1 --> C3
+dis --> C3
+HLA-DRA --> HLA-DPA1
+HLA-DRB1 --> HLA-DPA1
+dis --> NCF2
+ITGAM --- NCF2
+NCF1 --> STAT1
+dis --> STAT1
+HLA-DRB1 --> MAPK1
+dis --> MAPK1

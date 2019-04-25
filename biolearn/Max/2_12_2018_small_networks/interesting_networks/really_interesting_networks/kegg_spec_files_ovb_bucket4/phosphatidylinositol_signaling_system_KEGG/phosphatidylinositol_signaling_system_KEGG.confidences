@@ -1,0 +1,21 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_phosphatidylinositol_signaling_system.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PIP4K2A --- PIP4K2B	100% (80% forward, 20% backward)
+dis --> ITPR3	100%
+dis --> CALML3	100%
+dis --> INPPL1	95%
+dis --> IMPA1	95%
+dis --> PLCD1	95%
+ITPR3 --> ITPR2	90%
+dis --> PIP4K2C	90%
+dis --> OCRL	90%
+dis --> PIP4K2A	85%
+INPP5D --- PLCG2	80% (50% forward, 30% backward)
+INPP5D --> PRKCA	80% (75% forward, 5% backward)

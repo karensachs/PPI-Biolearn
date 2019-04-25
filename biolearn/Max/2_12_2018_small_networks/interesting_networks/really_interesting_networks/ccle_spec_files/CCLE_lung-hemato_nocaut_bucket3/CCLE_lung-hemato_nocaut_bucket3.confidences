@@ -1,0 +1,75 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/data/ccle_rppa_no_caution.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 HARD BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+Caveolin-1 --> Heregulin	100%
+Caveolin-1 --> TAZ	100%
+Caveolin-1 --- PAI-1	100% (85% forward, 15% backward)
+Bcl-xL --- Cyclin_D1	100% (75% forward, 0% backward)
+Claudin-7 --- E-Cadherin	100% (50% forward, 50% backward)
+Claudin-7 --- Rab25	100% (70% forward, 25% backward)
+PDK1_pS241 --- PDK1	100% (55% forward, 15% backward)
+alpha-Catenin --- E-Cadherin	100% (70% forward, 30% backward)
+EGFR --> MIG-6	100%
+EGFR --- Caveolin-1	100% (55% forward, 45% backward)
+EGFR --- VEGFR2	100% (85% forward, 15% backward)
+Smad4 --- N-Ras	100% (45% forward, 40% backward)
+PEA15_pS116 --- ETS-1	100% (55% forward, 20% backward)
+TTF1 --- PEA15_pS116	100% (45% forward, 20% backward)
+Bim(EP1036) --- Bim(CST2933)	100% (60% forward, 40% backward)
+S6_pS235_S236 --- S6_pS240_S244	100% (50% forward, 50% backward)
+FoxM1 --- Cyclin_B1	100% (60% forward, 40% backward)
+FASN --- ACC_pS79	100% (50% forward, 15% backward)
+Raptor --- mTOR	100% (55% forward, 25% backward)
+4E-BP1_pT37_T46 --- 4E-BP1_pT70	100% (85% forward, 5% backward)
+4E-BP1_pT37_T46 --- 4E-BP1_pS65	100% (45% forward, 45% backward)
+MAPK_pT202_Y204 --- MEK1_pS217_S221	100% (60% forward, 40% backward)
+TIGAR --- CDK1	100% (5% forward, 0% backward)
+GSK3_pS9 --- GSK3-alpha-beta_pS21_S9	100% (45% forward, 40% backward)
+Akt_pS473 --- Akt_pT308	100% (50% forward, 35% backward)
+PKC-delta_pS664 --- PKC-alpha	100% (60% forward, 40% backward)
+PKC-delta_pS664 --- PKC-pan_BetaII_pS660	100% (75% forward, 25% backward)
+ACC_pS79 --- AMPK_pT172	100% (65% forward, 0% backward)
+p70S6K_pT389 --- Rictor_pT1135	100% (75% forward, 15% backward)
+RAD51 --- Rb_pS807_S811	100% (55% forward, 45% backward)
+PAI-1 --> c-Jun_pS73	100%
+Fibronectin --> p21	100%
+dis --> beta-Catenin	100%
+dis --> PI3K-p85	100%
+PAI-1 --> Fibronectin	100% (95% forward, 5% backward)
+C-Raf(MP05-739) --> C-Raf_pS338	100% (90% forward, 5% backward)
+p38_MAPK --> p38_alpha_MAPK	100% (90% forward, 10% backward)
+4E-BP1_pT37_T46 --> 4E-BP1	100% (90% forward, 10% backward)
+Src --- Src_pY527	95% (80% forward, 10% backward)
+beta-Catenin --- alpha-Catenin	95% (60% forward, 30% backward)
+alpha-Catenin --> CD49b	95%
+EGFR --- CD49b	95% (80% forward, 15% backward)
+GSK3-alpha-beta_pS21_S9 --- Tuberin_pT1462	95% (65% forward, 15% backward)
+p38_pT180_Y182 --- JNK_pT183_Y185	95% (5% forward, 0% backward)
+PEA15_pS116 --> N-Cadherin	95%
+Myosin IIa_pS1943 --- MYH11	95% (70% forward, 20% backward)
+EGFR --> Transglutaminase	90%
+PEA15_pS116 --- Bcl-xL	90% (70% forward, 0% backward)
+N-Ras --- CD31	90% (75% forward, 0% backward)
+dis --> Bcl-2	90%
+dis --> Lck	90%
+PAI-1 --> Chk2	90% (85% forward, 5% backward)
+Caveolin-1 --- Annexin_1	85% (55% forward, 30% backward)
+SF2 --> RBM15	85%
+S6_pS240_S244 --- p70S6K_pT389	85% (55% forward, 30% backward)
+PR --- EGFR_pY1173	85% (40% forward, 20% backward)
+dis --> p27_pT198	85%
+dis --> STAT5-alpha	85%
+Bcl-xL --- TFRC	80% (65% forward, 0% backward)
+beta-Catenin --> N-Cadherin	80%
+E-Cadherin --> Lck	80%
+EGFR --> Gab2	80%
+TAZ --> Smad1	80%
+TTF1 --- MDM2_pS166	80% (45% forward, 20% backward)
+PI3K-p85 --> p38_MAPK	80%
+dis --> Syk	80%

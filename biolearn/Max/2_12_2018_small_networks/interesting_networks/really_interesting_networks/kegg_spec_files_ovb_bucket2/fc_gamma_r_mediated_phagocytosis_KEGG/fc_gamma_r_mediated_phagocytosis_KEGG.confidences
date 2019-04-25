@@ -1,0 +1,43 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_fc_gamma_r_mediated_phagocytosis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+CFL2 --- CFL1	100% (55% forward, 45% backward)
+MAPK1 --- MAPK3	100% (80% forward, 15% backward)
+ARPC1B --- ARPC2	100% (60% forward, 40% backward)
+ARPC1B --- ARPC4	100% (60% forward, 35% backward)
+DOCK2 --- VAV1	100% (70% forward, 30% backward)
+MARCKSL1 --- MARCKS	100% (45% forward, 40% backward)
+HCK --- LYN	100% (60% forward, 35% backward)
+RAC1 --- RAC2	100% (65% forward, 30% backward)
+MARCKS --- PIK3R1	100% (80% forward, 10% backward)
+DNM3 --- DNM2	100% (65% forward, 35% backward)
+dis --> ARPC1A	100%
+dis --> DNM1	100%
+dis --> WASL	100%
+ARPC5 --> ARPC5L	95%
+DOCK2 --- PTPRC	95% (75% forward, 20% backward)
+dis --> PLCG2	95%
+dis --> MARCKSL1	95%
+DOCK2 --> INPP5D	95% (90% forward, 5% backward)
+AKT1 --- AKT2	90% (45% forward, 35% backward)
+PTPRC --- INPP5D	90% (45% forward, 15% backward)
+PTPRC --- VAV1	90% (35% forward, 25% backward)
+MARCKS --> RAF1	90%
+MARCKS --- RAC1	90% (40% forward, 20% backward)
+DNM3 --- DNM1	90% (60% forward, 20% backward)
+dis --> MAP2K1	90%
+dis --> DNM3	90%
+DOCK2 --> HCK	90% (85% forward, 5% backward)
+MAP2K1 --> ARPC5	85%
+dis --> PIP4K2B	85%
+dis --> CDC42	85%
+DOCK2 --> NCF1	85% (80% forward, 0% backward)
+DNM1 --> GSN	80%
+MARCKS --- PIP4K2B	80% (65% forward, 0% backward)
+ARPC5 --> PRKCA	80% (75% forward, 5% backward)

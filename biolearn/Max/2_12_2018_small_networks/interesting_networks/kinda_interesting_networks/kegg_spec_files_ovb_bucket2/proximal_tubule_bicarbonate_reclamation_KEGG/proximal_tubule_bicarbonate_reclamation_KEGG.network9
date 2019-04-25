@@ -1,0 +1,27 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_proximal_tubule_bicarbonate_reclamation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ATP1A2 --> SLC25A10
+PCK1 --- PCK2
+ATP1A2 --> GLS
+dis --> GLS
+ATP1A1 --> ATP1B3
+ATP1A1 --> ATP1B1
+ATP1A3 --> ATP1B1
+dis --> ATP1A1
+ATP1A1 --> MDH1
+dis --> ATP1A4
+ATP1A1 --- ATP1A4
+ATP1A1 --> ATP1A3
+ATP1A2 --> ATP1A3
+ATP1A1 --> ATP1A2
+ATP1A4 --> ATP1A2
+GLUD1 --- PCK1
+GLUD1 --- GLUD2
+GLS --> CA2

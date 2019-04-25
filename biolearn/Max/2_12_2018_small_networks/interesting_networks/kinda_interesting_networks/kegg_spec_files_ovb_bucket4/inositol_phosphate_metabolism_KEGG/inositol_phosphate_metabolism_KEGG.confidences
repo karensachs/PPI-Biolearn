@@ -1,0 +1,22 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_inositol_phosphate_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PIP4K2A --- PIP4K2B	100% (60% forward, 20% backward)
+dis --> MINPP1	100%
+dis --> INPPL1	100%
+dis --> IMPA1	100%
+dis --> PIP4K2C	100%
+dis --> ALDH6A1	100%
+dis --> PLCG2	100%
+dis --> PLCD1	100%
+dis --> TPI1	90%
+dis --> ISYNA1	90%
+dis --> PLCB3	85%
+dis --> OCRL	85%
+dis --> PIP4K2A	80%

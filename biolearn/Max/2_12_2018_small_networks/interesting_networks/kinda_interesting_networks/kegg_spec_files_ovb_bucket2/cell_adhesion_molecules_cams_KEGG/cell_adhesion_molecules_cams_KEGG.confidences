@@ -1,0 +1,36 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_cell_adhesion_molecules_cams.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HLA-DRB5 --- HLA-DRA	100% (55% forward, 45% backward)
+HLA-A --- HLA-E	100% (65% forward, 30% backward)
+ITGB1 --- PECAM1	100% (85% forward, 15% backward)
+ITGB1 --- GLG1	100% (65% forward, 20% backward)
+PTPRC --- ITGB2	100% (60% forward, 40% backward)
+HLA-B --- HLA-A	100% (75% forward, 20% backward)
+ITGB2 --- ITGAM	100% (80% forward, 20% backward)
+ITGAV --- VCAN	100% (60% forward, 35% backward)
+HLA-C --- HLA-B	100% (55% forward, 45% backward)
+dis --> F11R	100%
+dis --> PTPRF	100%
+dis --> VCAM1	100%
+dis --> CADM1	100%
+dis --> CDH1	100%
+CADM1 --- NEO1	95% (80% forward, 0% backward)
+F11R --- ITGB1	90% (55% forward, 20% backward)
+F11R --- GLG1	90% (55% forward, 15% backward)
+HLA-DRB1 --- HLA-DRB5	90% (50% forward, 40% backward)
+HLA-DPA1 --- HLA-DRB1	90% (50% forward, 40% backward)
+HLA-C --- HLA-E	90% (80% forward, 10% backward)
+dis --> NEO1	90%
+dis --> HLA-C	90%
+PTPRC --> PECAM1	90% (85% forward, 5% backward)
+F11R --- HLA-B	80% (70% forward, 10% backward)
+HLA-DRA --- HLA-DRB1	80% (45% forward, 25% backward)
+ITGB1 --- CADM1	80% (50% forward, 10% backward)
+dis --> HLA-DPA1	80%

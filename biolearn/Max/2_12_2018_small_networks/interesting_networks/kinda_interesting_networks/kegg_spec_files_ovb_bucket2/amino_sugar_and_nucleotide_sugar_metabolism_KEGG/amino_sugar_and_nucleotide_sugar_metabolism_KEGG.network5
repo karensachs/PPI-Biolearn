@@ -1,0 +1,63 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_amino_sugar_and_nucleotide_sugar_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MPI --> CYB5R1
+HK1 --> CYB5R1
+GMPPB --> GMPPA
+GALE --> GMPPB
+RENBP --> PGM2
+dis --> PGM2
+GALK1 --> NAGK
+dis --> NAGK
+PMM2 --> GALK1
+GNPDA2 --> GALK1
+CYB5R3 --> HK2
+dis --> HK2
+GPI --> TSTA3
+dis --> TSTA3
+GALK1 --> MPI
+GFPT2 --> MPI
+GMPPB --> CYB5R3
+UGP2 --> CYB5R3
+GMPPB --> PMM2
+dis --> PMM2
+PMM2 --> GMDS
+dis --> GMDS
+TSTA3 --> GALE
+PGM1 --> GALT
+dis --> GALT
+GNPDA1 --> HEXB
+CYB5R1 --> NANS
+dis --> NANS
+PMM2 --> RENBP
+HK3 --> RENBP
+GPI --> GNPNAT1
+GALE --> GALK2
+PMM2 --> PGM3
+GFPT2 --> PGM3
+UAP1 --> FUK
+CYB5R3 --> GFPT2
+GFPT1 --> GFPT2
+PMM2 --> GNPDA1
+dis --> GNPDA1
+UGP2 --> GPI
+GNPDA2 --> GFPT1
+HEXB --> PGM1
+UGP2 --> PGM1
+NAGK --> HK1
+dis --> HK1
+GFPT2 --> UGDH
+dis --> UGDH
+dis --> UGP2
+GNPDA1 --> GNPDA2
+dis --> GNPDA2
+GFPT2 --> UAP1
+CYB5R1 --> HK3
+dis --> HK3
+HEXB --> HEXA

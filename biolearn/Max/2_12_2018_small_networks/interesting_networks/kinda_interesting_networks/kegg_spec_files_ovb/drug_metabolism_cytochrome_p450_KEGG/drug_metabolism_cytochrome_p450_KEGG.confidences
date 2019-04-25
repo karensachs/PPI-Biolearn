@@ -1,0 +1,22 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_drug_metabolism_cytochrome_p450.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GSTA1 --- GSTA2	100% (50% forward, 50% backward)
+GSTM5 --- GSTM1	100% (45% forward, 30% backward)
+ADH1C --- ADH1B	100% (55% forward, 45% backward)
+dis --> MAOA	100%
+dis --> MGST3	100%
+dis --> MAOB	100%
+dis --> GSTP1	100%
+dis --> GSTO1	100%
+GSTM1 --- GSTM4	95% (75% forward, 15% backward)
+dis --> GSTZ1	95%
+dis --> ALDH1A3	95%
+GSTM4 --- GSTM2	90% (80% forward, 10% backward)
+dis --> GSTM5	80%

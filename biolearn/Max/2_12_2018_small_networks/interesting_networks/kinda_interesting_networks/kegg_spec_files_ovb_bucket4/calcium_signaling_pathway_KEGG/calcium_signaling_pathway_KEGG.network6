@@ -1,0 +1,46 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_calcium_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+SLC25A5 --- SLC25A6
+dis --> ERBB2
+SLC25A31 --- SLC25A5
+PRKACA --> PRKACB
+CAMK2A --> CAMK2G
+ATP2A3 --> ITPR3
+dis --> CALML3
+GNA11 --> GNAQ
+SLC25A6 --- SLC25A4
+PRKACB --> PPP3CA
+dis --> PHKB
+dis --> CAMK2A
+dis --> PLCG2
+ATP2B2 --> ATP2B1
+ATP2A2 --> ITPR2
+dis --> GNA11
+PRKACB --> ATP2B2
+PPP3CA --> PPP3CB
+ITPR3 --> ITPR1
+CAMK2A --> CAMK2B
+ITPR3 --> GNA14
+ATP2B3 --> ATP2B4
+ITPR3 --> PRKACA
+ATP2A2 --> ATP2A3
+VDAC2 --- VDAC1
+ATP2A1 --> ATP2A2
+CAMK2A --> CAMK2D
+ATP2B2 --> ATP2B3
+dis --> ATP2A1
+PLCD1
+VDAC3
+MYLK
+PPID
+PLCB3
+PRKCA
+PDGFRB
+GNAS

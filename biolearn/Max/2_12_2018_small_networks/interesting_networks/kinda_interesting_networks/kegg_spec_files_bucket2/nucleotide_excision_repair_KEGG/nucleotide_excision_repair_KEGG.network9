@@ -1,0 +1,48 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_nucleotide_excision_repair.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GTF2H2 --- RPA1
+CUL4B --- CUL4A
+RPA3 --- RPA2
+POLD1 --> PCNA
+GTF2H2 --- CUL4B
+POLD3 --> POLD1
+dis --> POLD1
+POLD1 --> POLD2
+dis --> DDB1
+GTF2H2 --- GTF2H3
+CUL4B --- RPA3
+GTF2H2 --- ERCC2
+RFC2 --> RFC3
+LIG1 --> POLD3
+RFC4 --> ERCC5
+GTF2H2 --> ERCC5
+ERCC5 --> GTF2H1
+dis --> DDB2
+GTF2H2 --- RBX1
+RFC3 --> RFC5
+GTF2H2 --- CCNH
+ERCC6 --- CETN2
+ERCC3 --- GTF2H4
+GTF2H2 --- CDK7
+RBX1 --- RAD23A
+RFC3 --> LIG1
+GTF2H2 --- ERCC3
+CETN2 --- RFC1
+RFC4 --> RFC2
+GTF2H2 --> RFC2
+CETN2 --- GTF2H2
+RAD23A --> XPA
+GTF2H2 --> XPA
+CCNH --- MNAT1
+XPC
+POLE4
+POLE3
+RAD23B
+ERCC4

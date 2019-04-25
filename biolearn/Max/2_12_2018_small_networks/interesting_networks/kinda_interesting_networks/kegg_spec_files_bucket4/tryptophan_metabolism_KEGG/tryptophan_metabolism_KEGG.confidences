@@ -1,0 +1,13 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_tryptophan_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+OGDH --- OGDHL	100% (45% forward, 10% backward)
+ACAT1 --- HADH	90% (25% forward, 20% backward)
+dis --> WARS	85%
+MAOA --- ALDH3A2	80% (55% forward, 0% backward)

@@ -1,0 +1,52 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_tgf_beta_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+THBS3 --> LTBP1
+SKP1 --> LTBP1
+dis --> PPP2CA
+ROCK1 --- PPP2CA
+THBS4 --> DCN
+dis --> DCN
+dis --> MAPK3
+dis --> SMAD4
+SKP1 --- SMAD4
+dis --> PPP2R1B
+ROCK1 --- PPP2R1B
+dis --> ZFYVE16
+dis --> THBS3
+COMP --- THBS3
+dis --> SKP1
+ROCK1 --- SKP1
+CREBBP --> RHOA
+ROCK1 --> RHOA
+dis --> THBS1
+THBS2 --- THBS1
+dis --> THBS2
+COMP --- THBS2
+COMP --> THBS4
+PPP2CA --> PPP2CB
+ROCK1 --> CREBBP
+SMAD2 --> CREBBP
+SKP1 --> CUL1
+dis --> ROCK1
+ROCK2 --- ROCK1
+dis --> SMAD2
+SMAD1 --- SMAD2
+dis --> SMAD5
+SKP1 --- SMAD5
+dis --> SMAD3
+SMAD2 --- SMAD3
+dis --> SMAD1
+SMAD5 --- SMAD1
+dis --> ROCK2
+THBS3 --- ROCK2
+CREBBP --> EP300
+dis --> COMP
+MAPK3 --> MAPK1
+PPP2CB --> PPP2R1A

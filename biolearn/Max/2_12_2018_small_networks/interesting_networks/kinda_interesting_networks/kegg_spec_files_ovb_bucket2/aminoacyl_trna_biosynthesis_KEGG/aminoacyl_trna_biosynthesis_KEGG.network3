@@ -1,0 +1,45 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_aminoacyl_trna_biosynthesis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+IARS2 --> SARS2
+MARS --> IARS2
+dis --> IARS2
+dis --> GARS
+RARS --- QARS
+dis --> AARS2
+AARS --> KARS
+IARS2 --> DARS2
+AARS --> VARS
+HARS2 --- HARS
+NARS2 --> LARS2
+LARS --> EPRS
+dis --> EPRS
+EPRS --> YARS
+IARS2 --> TARS2
+dis --> TARS2
+LARS --- MARS
+TARSL2 --> TARS
+dis --> TARS
+LARS --- IARS
+KARS --> WARS
+GARS --> AARS
+MARS --> AARS
+dis --> CARS2
+MARS --- RARS
+SARS --> WARS2
+IARS2 --> WARS2
+EPRS --> DARS
+TARS2 --> DARS
+dis --> FARSB
+MARS --> NARS2
+dis --> NARS2
+dis --> CARS
+FARSB --> FARSA
+NARS
+YARS2

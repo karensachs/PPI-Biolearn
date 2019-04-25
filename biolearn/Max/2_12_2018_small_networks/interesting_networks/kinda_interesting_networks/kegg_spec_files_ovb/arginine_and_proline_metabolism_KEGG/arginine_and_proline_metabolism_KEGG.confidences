@@ -1,0 +1,32 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_arginine_and_proline_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+P4HA1 --- P4HA2	100% (30% forward, 5% backward)
+GLUD1 --- GLUD2	100% (50% forward, 40% backward)
+CKMT2 --- CKMT1A	100% (55% forward, 45% backward)
+dis --> GLUL	100%
+dis --> GATM	100%
+dis --> ALDH2	100%
+dis --> ALDH4A1	100%
+dis --> OAT	100%
+dis --> ALDH18A1	100%
+dis --> MAOB	100%
+dis --> ALDH9A1	100%
+dis --> GOT2	100%
+dis --> ALDH3A2	100%
+dis --> ASS1	100%
+dis --> CKB	100%
+PYCR1 --- PYCR2	95% (60% forward, 25% backward)
+dis --> P4HA1	95%
+dis --> SRM	95%
+dis --> SMS	95%
+dis --> MAOA	90%
+dis --> ASL	90%
+dis --> LAP3	90%
+dis --> ALDH7A1	90%

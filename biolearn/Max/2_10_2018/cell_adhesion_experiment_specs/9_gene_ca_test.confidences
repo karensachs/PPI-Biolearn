@@ -1,0 +1,16 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/cell_adhesion_experiment/9_gene_ca_test.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ITGB1 --- ITGAV	100% (40% forward, 10% backward)
+ITGB1 --- CD99	100% (35% forward, 15% backward)
+PECAM1 --- CDH5	100% (35% forward, 20% backward)
+PTPRC --- ITGB2	100% (35% forward, 5% backward)
+ITGB1 --- PECAM1	90% (35% forward, 10% backward)
+PECAM1 --- PTPRC	85% (30% forward, 15% backward)
+CD99 --- ITGA4	80% (40% forward, 15% backward)

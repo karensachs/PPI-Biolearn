@@ -1,0 +1,20 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_dilated_cardiomyopathy.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PRKACB --- PRKACA	100% (85% forward, 15% backward)
+TPM1 --- TPM2	100% (55% forward, 45% backward)
+ACTG1 --- ACTB	100% (50% forward, 25% backward)
+ITGAV --- ITGB5	100% (75% forward, 20% backward)
+dis --> ATP2A2	100%
+TPM2 --> TPM4	100% (90% forward, 10% backward)
+ITGB4 --- ITGA6	95% (55% forward, 40% backward)
+dis --> DES	95%
+ITGB1 --- ITGA1	90% (55% forward, 35% backward)
+dis --> DAG1	85%
+TPM2 --- TPM3	80% (60% forward, 20% backward)

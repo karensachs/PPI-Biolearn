@@ -1,0 +1,24 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_non_small_cell_lung_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+NRAS --- HRAS	100% (75% forward, 25% backward)
+NRAS --- KRAS	100% (70% forward, 30% backward)
+MAP2K1 --- MAP2K2	100% (55% forward, 45% backward)
+PIK3R1 --- MAP2K2	100% (55% forward, 35% backward)
+KRAS --- HRAS	100% (35% forward, 15% backward)
+MAPK1 --- MAPK3	100% (20% forward, 5% backward)
+dis --> PLCG2	100%
+AKT2 --- AKT1	95% (80% forward, 15% backward)
+dis --> MAP2K1	95%
+MAP2K2 --- ARAF	90% (70% forward, 20% backward)
+MAP2K2 --> RAF1	90% (85% forward, 0% backward)
+PLCG2 --- STK4	85% (70% forward, 0% backward)
+PIK3R1 --- RB1	85% (45% forward, 20% backward)
+PIK3R1 --> AKT2	85%
+PRKCA --> PLCG2	85% (80% forward, 5% backward)

@@ -1,0 +1,29 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_lysine_degradation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> SETD2
+dis --> PLOD3
+PLOD1 --- PLOD2
+OGDHL --- OGDH
+dis --> ALDH9A1
+DLST --- OGDHL
+dis --> ALDH3A2
+dis --> ACAT2
+HADHA
+AASDHPPT
+EHMT2
+ALDH1B1
+TMLHE
+ACAT1
+ALDH2
+EHHADH
+HADH
+ALDH7A1
+GCDH
+ECHS1

@@ -1,0 +1,36 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_gap_junction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GUCY1B3 --- GUCY1A3	100% (25% forward, 10% backward)
+GNA11 --- GNAQ	100% (25% forward, 20% backward)
+MAP2K2 --- MAP2K1	100% (65% forward, 0% backward)
+MAP2K2 --- MAPK7	100% (80% forward, 5% backward)
+MAP2K2 --- MAP3K2	100% (35% forward, 30% backward)
+MAPK3 --- MAPK1	100% (35% forward, 30% backward)
+TUBA1B --- TUBA1C	100% (35% forward, 20% backward)
+TUBA1B --- TUBA4A	100% (40% forward, 20% backward)
+TUBB2B --- TUBB2A	100% (20% forward, 10% backward)
+PRKACA --- PRKACB	100% (35% forward, 15% backward)
+HRAS --- NRAS	100% (40% forward, 10% backward)
+HRAS --- KRAS	100% (35% forward, 10% backward)
+GNAI1 --- GNAI3	100% (45% forward, 15% backward)
+TUBB4B --- TUBB2B	95% (15% forward, 15% backward)
+PRKCB --- PLCB2	95% (40% forward, 5% backward)
+TUBA1B --- TUBA3E	95% (50% forward, 20% backward)
+TUBA4A --- TUBA8	95% (65% forward, 5% backward)
+TUBB8 --- TUBB1	95% (40% forward, 40% backward)
+TUBB2B --- TUBB	95% (20% forward, 15% backward)
+PRKCA --- PRKCB	95% (25% forward, 15% backward)
+MAP2K2 --- PRKX	85% (60% forward, 0% backward)
+TUBB4B --- TUBB2A	85% (25% forward, 20% backward)
+ITPR2 --- ITPR1	80% (30% forward, 5% backward)
+TUBB4B --- TUBB	80% (25% forward, 15% backward)
+GNAI2 --- GNAQ	80% (15% forward, 15% backward)
+PRKACA --- GNAI1	80% (20% forward, 20% backward)
+dis --> EGFR	80%

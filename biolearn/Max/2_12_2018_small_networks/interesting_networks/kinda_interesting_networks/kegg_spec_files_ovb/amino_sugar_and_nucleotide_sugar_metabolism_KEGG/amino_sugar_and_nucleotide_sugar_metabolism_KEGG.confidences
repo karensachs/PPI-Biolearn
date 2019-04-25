@@ -1,0 +1,20 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_amino_sugar_and_nucleotide_sugar_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GNPDA1 --- GNPDA2	100% (25% forward, 10% backward)
+dis --> MPI	100%
+dis --> GALT	100%
+dis --> UGDH	100%
+HEXA --- HEXB	95% (30% forward, 0% backward)
+dis --> CYB5R1	95%
+dis --> UAP1	95%
+GFPT1 --- GFPT2	85% (65% forward, 15% backward)
+dis --> NANS	85%
+GMPPB --- GMPPA	80% (50% forward, 30% backward)
+dis --> GFPT1	80%

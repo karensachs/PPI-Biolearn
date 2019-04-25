@@ -1,0 +1,19 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_glycine_serine_and_threonine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PHGDH --- PSAT1	100% (45% forward, 35% backward)
+MAOA --- AOC3	100% (70% forward, 15% backward)
+MAOB --- MAOA	100% (65% forward, 25% backward)
+dis --> MAOA	100%
+dis --> DLD	100%
+dis --> GLDC	100%
+PHGDH --- SHMT2	95% (55% forward, 20% backward)
+dis --> SHMT2	90%
+dis --> AOC3	85%
+MAOA --> GATM	80% (75% forward, 0% backward)

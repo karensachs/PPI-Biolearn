@@ -1,0 +1,41 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_fc_epsilon_ri_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> PRKCD
+dis --> MAP2K6
+LYN --> VAV1
+dis --> MAPK14
+VAV1 --> INPP5D
+dis --> MAP2K4
+dis --> GRB2
+RAC2 --> FYN
+dis --> FYN
+MAP2K4 --> MAPK9
+MAPK1 --> MAPK3
+INPP5D --> RAC2
+dis --> RAC2
+RAC1 --> AKT1
+HRAS --> NRAS
+RAC2 --> MAP2K1
+RAC2 --> RAC1
+dis --> AKT2
+dis --> HRAS
+RAC2 --> MAP2K3
+RAC1 --> RAF1
+dis --> MAPK13
+INPP5D --> PRKCA
+INPP5D --> PLCG2
+RAC1 --> RAC3
+RAC2 --> MAP2K2
+RAC2 --> PIK3R1
+dis --> LYN
+RAC2 --> SYK
+HRAS --> KRAS
+RAC2 --> MAPK1
+VAV2

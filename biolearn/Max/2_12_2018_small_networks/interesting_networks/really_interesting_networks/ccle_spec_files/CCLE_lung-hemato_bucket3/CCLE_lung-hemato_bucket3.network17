@@ -1,0 +1,493 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/data/ccle_rppa.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 HARD BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+E-Cadherin --> Tuberin
+mTOR --> Tuberin
+Claudin-7 --> VAV1_Caution
+dis --> VAV1_Caution
+Rictor_Caution --> Rictor_pT1135
+GSK3_pS9 --> Rictor_pT1135
+p70S6K_pT389 --> Rictor_pT1135
+Cyclin_B1 --> MSH6_Caution
+Annexin 1 --> MSH6_Caution
+PAI-1 --> MSH6_Caution
+PKC-pan_BetaII_pS660 --> GAPDH_Caution
+eEF2_Caution --> GAPDH_Caution
+ERK2_Caution --> ADAR1
+Porin --> ADAR1
+SETD2_Caution --> ADAR1
+14-3-3_beta --> ACVRL1_Caution
+N-Ras --> ACVRL1_Caution
+FoxM1 --> Cyclin_B1
+Chk1_Caution --> Cyclin_B1
+E-Cadherin --> Tuberin_pT1462
+GSK3-alpha-beta_pS21_S9 --> Tuberin_pT1462
+Bcl-xL --> Cyclin_D1
+N-Cadherin --> Cyclin_D1
+HER3 --> AR
+GATA3 --> AR
+MDMX_MDM4(BetIHC-00108)_Caution --> AR
+FRA1_Caution --> MIG-6
+S6_pS235_S236 --> MIG-6
+PKC-alpha --> PKC-alpha_pS657_Caution
+CD20 _Caution --> PKC-alpha_pS657_Caution
+EGFR --> Caveolin-1
+YAP_pS127_Caution --> Caveolin-1
+EGFR --> EGFR_pY1068_Caution
+HER2_pY1248_Caution --> EGFR_pY1068_Caution
+Smad1 --> EGFR_pY1068_Caution
+Rictor_pT1135 --> mTOR_pS2448_Caution
+N-Ras --> mTOR_pS2448_Caution
+EGFR_pY1173 --> Bid_Caution
+Bcl-xL --> Bid_Caution
+EGFR_pY1068_Caution --> EGFR_pY1173
+ER-alpha_pS118 --> EGFR_pY1173
+PR --> EGFR_pY1173
+Syk --> RSK1-2-3_Caution
+mTOR --> RSK1-2-3_Caution
+YAP_pS127_Caution --> Paxillin_Caution
+Rab25 --> Paxillin_Caution
+dis --> Paxillin_Caution
+alpha-Catenin --> Src
+dis --> Src
+PEA15 --> CD31
+Mre11_Caution --> CD31
+p38 alpha MAPK --> CD31
+4E-BP1 --> ASNS
+dis --> ASNS
+Chk2 --> Chk2_pT68_Caution
+MDMX_MDM4(BetIHC-00108)_Caution --> Chk2_pT68_Caution
+ETS-1 --> 14-3-3_beta
+eIF4G_Caution --> 14-3-3_beta
+ERCC1_Caution --> cIAP_Caution
+Claudin-7 --> Bcl-xL
+PEA15_pS116 --> Bcl-xL
+SETD2_Caution --> Bcl-xL
+alpha-Catenin --> CD49b
+EGFR --> CD49b
+c-Met_Caution --> CD49b
+CDK1 --> 53BP1
+Bap1 c-4 --> 53BP1
+STAT5-alpha --> 53BP1
+PARP_cleaved_Caution --> Caspase-8_Caution
+p27_pT198 --> Caspase-8_Caution
+p62 Lck ligand_Caution --> Caspase-8_Caution
+ERCC1_Caution --> ER-alpha
+AMPK_alpha_Caution --> ER-alpha
+GATA3 --> ER-alpha
+ADAR1 --> C-Raf(MP05-739)
+C-Raf(BD610151)_Caution --> C-Raf(MP05-739)
+E-Cadherin --> Claudin-7
+GSK3-alpha-beta_pS21_S9 --> Di-Ras3_Caution
+ER-alpha --> PDK1_pS241
+PDK1 --> PDK1_pS241
+Src_pY527 --> PDK1_pS241
+Caveolin-1 --> PKC-alpha
+Claudin-7 --> PKC-alpha
+B-Raf_Caution --> PDK1
+TFRC --> PDK1
+PEA15_pS116 --> ERCC1_Caution
+Smac_Caution --> ERCC1_Caution
+VEGFR2 --> 14-3-3_epsilon_Caution
+eIF4G_Caution --> 14-3-3_epsilon_Caution
+Caveolin-1 --> Heregulin
+Shc_pY317 --> Heregulin
+Heregulin --> GSK3-alpha-beta
+GSK-3-BETA_Caution --> GSK3-alpha-beta
+eEF2_Caution --> GSK3-alpha-beta
+dis --> beta-Catenin
+HER3 --> Chk2
+PAI-1 --> Chk2
+eIF4G_Caution --> c-Jun_pS73
+PAI-1 --> c-Jun_pS73
+alpha-Catenin --> E-Cadherin
+GSK3-alpha-beta_pS21_S9 --> E-Cadherin
+PAI-1 --> E-Cadherin
+beta-Catenin --> alpha-Catenin
+A-Raf_pS299_Caution --> alpha-Catenin
+beta-Catenin --> beta-Catenin_pT41_S45
+PR --> beta-Catenin_pT41_S45
+ERK2_Caution --> c-Met_pY1235
+HER3_pY1289_Caution --> c-Met_pY1235
+SF2 --> c-Met_pY1235
+Claudin-7 --> HER3
+EGFR --> HER3
+SF2 --> HER3
+ETS-1 --> beta Actin_Caution
+PAI-1 --> beta Actin_Caution
+TTF1 --> ERK2_Caution
+Mre11_Caution --> ERK2_Caution
+TAZ --> NF2_Caution
+Lck --> NF2_Caution
+IGFBP2 --> JAK2
+C-Raf(BD610151)_Caution --> JAK2
+TAZ --> HER3_pY1289_Caution
+HER2_pY1248_Caution --> HER3_pY1289_Caution
+YAP_pS127_Caution --> EGFR
+VEGFR2 --> EGFR
+Akt_pT308 --> GSK3-alpha-beta_pS21_S9
+ACC1_Caution --> Collagen_VI
+PAI-1 --> Collagen_VI
+Src --> AMPK_pT172
+AMPK_alpha_Caution --> AMPK_pT172
+YAP_Caution --> Gab2
+dis --> Gab2
+Stathmin --> XBP1_Caution
+VEGFR2 --> XBP1_Caution
+ACVRL1_Caution --> Porin
+RBM15 --> Porin
+Chk1_Caution --> Porin
+ETS-1 --> IGFBP2
+Cyclin_E2_Caution --> IGFBP2
+TFRC --> CD20 _Caution
+dis --> CD20 _Caution
+Rictor_Caution --> B-Raf_Caution
+B-Raf_pS445 --> B-Raf_Caution
+Akt --> JNK2_Caution
+N-Ras --> JNK2_Caution
+Stathmin --> Smad4
+Myosin IIa pS1943 --> Smad4
+N-Ras --> Smad4
+EGFR --> Bax
+TIGAR --> Bax
+eIF4E --> DJ-1
+B-Raf_pS445 --> DJ-1
+ETS-1 --> GSK-3-BETA_Caution
+GSK3_pS9 --> GSK-3-BETA_Caution
+CD31 --> p27_pT157_Caution
+Caspase-7_cleavedD198_Caution --> p27_pT157_Caution
+N-Ras --> p27_pT157_Caution
+Caveolin-1 --> TAZ
+Paxillin_Caution --> TAZ
+ETS-1 --> MDM2_pS166
+N-Ras --> MDM2_pS166
+MAPK_pT202_Y204 --> p38_pT180_Y182
+JNK_pT183_Y185 --> p38_pT180_Y182
+Tuberin --> C-Raf(BD610151)_Caution
+Bcl-xL --> C-Raf(BD610151)_Caution
+SF2 --> C-Raf(BD610151)_Caution
+beta-Catenin --> AMPK_alpha_Caution
+Mre11_Caution --> AMPK_alpha_Caution
+dis --> YAP_pS127_Caution
+VEGFR2 --> BRCA2_Caution
+GSK3_pS9 --> BRCA2_Caution
+beta-Catenin --> Cyclin_E1
+Gab2 --> Cyclin_E1
+ER-alpha --> ER-alpha_pS118
+EGFR --> ER-alpha_pS118
+Bak_Caution --> ER-alpha_pS118
+EGFR --> Smad3
+ETS-1 --> Smad3
+P-Cadherin_Caution --> Akt
+Bcl-2 --> Akt
+dis --> Akt
+HER2 --> HER2_pY1248_Caution
+TAZ --> p27
+MDM2_pS166 --> p27
+Bim(EP1036) --> p27
+PCNA_Caution --> Rictor_Caution
+eIF4G_Caution --> Rictor_Caution
+B-Raf_pS445 --> PEA15_pS116
+eEF2_Caution --> PEA15_pS116
+PEA15_pS116 --> TTF1
+eEF2_Caution --> TTF1
+dis --> TTF1
+SETD2_Caution --> p38_MAPK
+p38 alpha MAPK --> p38_MAPK
+Caveolin-1 --> CDK1
+VEGFR2 --> CDK1
+INPP4B --> STAT3_pY705
+SHP-2_pY542_Caution --> STAT3_pY705
+14-3-3_beta --> FOXO3a_pS318_S321_Caution
+SETD2_Caution --> FOXO3a_pS318_S321_Caution
+Rictor_Caution --> IRS1
+FRA1_Caution --> IRS1
+Claudin-7 --> ATM
+MSH2 --> ATM
+beta-Catenin --> Stathmin
+YAP_pS127_Caution --> Stathmin
+eIF4G_Caution --> Dvl3
+Lck --> Dvl3
+P-Cadherin_Caution --> Src_pY416_Caution
+dis --> Src_pY416_Caution
+YAP_pS127_Caution --> Bim(EP1036)
+Bim(CST2933) --> Bim(EP1036)
+EGFR --> Transglutaminase
+VEGFR2 --> Transglutaminase
+SETD2_Caution --> PTEN
+Bcl-2 --> PTEN
+Akt_pT308 --> PTEN
+Bim(EP1036) --> p14 Arf(BetA300-340A)_Caution
+PREX1 --> p14 Arf(BetA300-340A)_Caution
+E-Cadherin --> SCD1
+YAP_pS127_Caution --> Notch1
+c-Myc_Caution --> Notch1
+Tuberin_pT1462 --> SF2
+YAP_pS127_Caution --> SF2
+beta-Catenin --> N-Cadherin
+E-Cadherin --> N-Cadherin
+PEA15_pS116 --> N-Cadherin
+TAZ --> FRA1_Caution
+PAI-1 --> FRA1_Caution
+ACVRL1_Caution --> Beclin_Caution
+STAT5-alpha --> Beclin_Caution
+4E-BP1 --> 4E-BP1_pT70
+4E-BP1_pT37_T46 --> 4E-BP1_pT70
+DJ-1 --> 4E-BP1
+MDMX_MDM4(BetIHC-00108)_Caution --> 4E-BP1
+c-Met_Caution --> Rb_Caution
+Rb_pS807_S811 --> Rb_Caution
+dis --> Rb_Caution
+PKC-pan_BetaII_pS660 --> TSC1_Caution
+TIGAR --> TSC1_Caution
+Gab2 --> VEGFR2
+YAP_Caution --> VEGFR2
+PEA15_pS116 --> PCNA_Caution
+YAP_Caution --> PCNA_Caution
+RAD51 --> PCNA_Caution
+FRA1_Caution --> YB-1
+MYH11 --> YB-1
+Stathmin --> S6_pS235_S236
+Bim(CST2933) --> S6_pS235_S236
+PRAS40_pT246 --> S6_pS235_S236
+Chk2 --> Ku80_Caution
+ER-alpha_pS118 --> Ku80_Caution
+Claudin-7 --> Syk
+YAP_pS127_Caution --> Syk
+Rab25 --> Syk
+CD49b --> p70S6K
+eIF4E --> p70S6K
+PKC-alpha_pS657_Caution --> p90RSK_Caution
+RSK1-2-3_Caution --> p90RSK_Caution
+B-Raf_Caution --> MEK1
+eIF4E --> MEK1
+VAV1_Caution --> eIF4E
+Caveolin-1 --> eIF4E
+HER2 --> eIF4E
+Transglutaminase --> Bap1 c-4
+SF2 --> Bap1 c-4
+TAZ --> NF-kB-p65_pS536_Caution
+S6_pS235_S236 --> NF-kB-p65_pS536_Caution
+ERK2_Caution --> PEA15
+Lck --> PEA15
+PAI-1 --> PEA15
+AMPK_alpha_Caution --> ETS-1
+PEA15_pS116 --> ETS-1
+TTF1 --> ETS-1
+Caveolin-1 --> Smad1
+B-Raf_pS445 --> Smad1
+Chk2 --> Chk1_pS345_Caution
+YAP_Caution --> Chk1_pS345_Caution
+eIF4G_Caution --> ACC1_Caution
+ACC_pS79 --> ACC1_Caution
+Chk2_pT68_Caution --> STAT3_Caution
+Acetyl-a-Tubulin (Lys40)_Caution --> STAT3_Caution
+PEA15_pS116 --> S6_pS240_S244
+S6_pS235_S236 --> S6_pS240_S244
+Bap1 c-4 --> FoxM1
+PRAS40_pT246 --> FoxM1
+RAD51 --> FoxM1
+E-Cadherin --> INPP4B
+Mre11_Caution --> INPP4B
+ETS-1 --> Rad50
+Akt_pT308 --> Rad50
+YAP_pS127_Caution --> YB-1_pS102
+S6_pS235_S236 --> YB-1_pS102
+Caveolin-1 --> FASN
+ACC1_Caution --> FASN
+CD20 _Caution --> MYH11
+Myosin IIa pS1943 --> MYH11
+PR --> MYH11
+Mre11_Caution --> Myosin IIa pS1943
+PAI-1 --> Myosin IIa pS1943
+PR --> Myosin IIa pS1943
+Tuberin --> c-Met_Caution
+Src --> c-Met_Caution
+ERCC1_Caution --> c-Met_Caution
+HER3 --> HER2
+Smad4 --> HER2
+VAV1_Caution --> Shc_pY317
+EGFR_pY1068_Caution --> Shc_pY317
+Rab25 --> Shc_pY317
+CD20 _Caution --> PRDX1
+G6PD --> PRDX1
+P-Cadherin_Caution --> PRDX1
+Tuberin_pT1462 --> SETD2_Caution
+Transglutaminase --> SETD2_Caution
+P-Cadherin_Caution --> SETD2_Caution
+Akt --> p53_Caution
+p14 Arf(BetA300-340A)_Caution --> p53_Caution
+Claudin-7 --> Rab25
+E-Cadherin --> Rab25
+VEGFR2 --> Rab25
+C-Raf(MP05-739) --> C-Raf_pS338
+N-Cadherin --> C-Raf_pS338
+Rictor_pT1135 --> Bad_pS112
+p38_pT180_Y182 --> Bad_pS112
+c-Met_pY1235 --> Bak_Caution
+SF2 --> Bak_Caution
+mTOR --> Raptor
+YAP_Caution --> Raptor
+4E-BP1 --> 4E-BP1_pT37_T46
+PRAS40_pT246 --> 4E-BP1_pT37_T46
+p70S6K_pT389 --> 4E-BP1_pT37_T46
+RSK1-2-3_Caution --> MAPK_pT202_Y204
+PEA15 --> MAPK_pT202_Y204
+p90RSK_pT573_Caution --> MAPK_pT202_Y204
+Cyclin_D1 --> Annexin 1
+Caveolin-1 --> Annexin 1
+YAP_pS127_Caution --> Annexin 1
+Bap1 c-4 --> G6PD
+dis --> G6PD
+Src --> Src_pY527
+CD20 _Caution --> Src_pY527
+GSK3-alpha-beta --> GATA3
+alpha-Catenin --> GATA3
+HER3_pY1289_Caution --> GATA3
+E-Cadherin --> Bim(CST2933)
+YAP_pS127_Caution --> Bim(CST2933)
+p27_pT157_Caution --> HSP70_Caution
+P-Cadherin_Caution --> HSP70_Caution
+PKC-pan_BetaII_pS660 --> PI3K-p85
+dis --> PI3K-p85
+Tuberin_pT1462 --> MEK1_pS217_S221
+YAP_pS127_Caution --> MEK1_pS217_S221
+MAPK_pT202_Y204 --> MEK1_pS217_S221
+E-Cadherin --> P-Cadherin_Caution
+PKC-pan_BetaII_pS660 --> P-Cadherin_Caution
+ER-alpha --> PREX1
+GATA3 --> PREX1
+PI3K-p85 --> PREX1
+Di-Ras3_Caution --> Mre11_Caution
+N-Ras --> Mre11_Caution
+mTOR_pS2448_Caution --> mTOR
+ACC1_Caution --> mTOR
+YAP_pS127_Caution --> Bcl-2
+PI3K-p85 --> Bcl-2
+VAV1_Caution --> Snail_Caution
+E-Cadherin --> Snail_Caution
+c-Met_Caution --> Snail_Caution
+EGFR --> MDMX_MDM4(BetIHC-00108)_Caution
+CD20 _Caution --> MDMX_MDM4(BetIHC-00108)_Caution
+ETS-1 --> Acetyl-a-Tubulin (Lys40)_Caution
+c-Kit --> Acetyl-a-Tubulin (Lys40)_Caution
+SF2 --> RBM15
+p38 alpha MAPK --> RBM15
+E-Cadherin --> c-Kit
+YAP_pS127_Caution --> c-Kit
+PKC-pan_BetaII_pS660 --> Caspase-7_cleavedD198_Caution
+Lck --> Caspase-7_cleavedD198_Caution
+Bcl-xL --> Smac_Caution
+S6_pS235_S236 --> Smac_Caution
+alpha-Catenin --> PKC-pan_BetaII_pS660
+PKC-delta_pS664 --> PKC-pan_BetaII_pS660
+p90RSK_pT573_Caution --> PKC-pan_BetaII_pS660
+ETS-1 --> PI3K-p110-alpha_Caution
+PI3K-p85 --> PI3K-p110-alpha_Caution
+YAP_Caution --> PI3K-p110-alpha_Caution
+HER3_pY1289_Caution --> TIGAR
+YAP_pS127_Caution --> TIGAR
+CDK1 --> TIGAR
+Akt_pT308 --> GSK3_pS9
+GSK3-alpha-beta_pS21_S9 --- GSK3_pS9
+YAP_pS127_Caution --> PARP_cleaved_Caution
+c-Met_Caution --> PARP_cleaved_Caution
+Snail_Caution --> PARP_cleaved_Caution
+dis --> Akt_pS473
+YAP_pS127_Caution --> YAP_Caution
+Paxillin_Caution --> eIF4G_Caution
+FoxM1 --> eIF4G_Caution
+Rab25 --> eIF4G_Caution
+YAP_pS127_Caution --> B-Raf_pS445
+Akt --> B-Raf_pS445
+GSK3_pS9 --> A-Raf_pS299_Caution
+eEF2_Caution --> A-Raf_pS299_Caution
+eIF4E --> Annexin_VII
+Snail_Caution --> Annexin_VII
+p62 Lck ligand_Caution --> Annexin_VII
+YAP_pS127_Caution --> Cyclin_E2_Caution
+Transglutaminase --> Cyclin_E2_Caution
+VAV1_Caution --> PKC-delta_pS664
+Claudin-7 --> PKC-delta_pS664
+PKC-alpha --> PKC-delta_pS664
+TTF1 --> p90RSK_pT359_S363_Caution
+p90RSK_pT573_Caution --> p90RSK_pT359_S363_Caution
+Rictor_pT1135 --> NDRG1_pT346
+dis --> NDRG1_pT346
+Rab25 --> PRAS40_pT246
+Akt_pS473 --> PRAS40_pT246
+SF2 --> Chk1_Caution
+Chk1_pS345_Caution --> Chk1_Caution
+Claudin-7 --> 14-3-3_zeta
+PEA15_pS116 --> 14-3-3_zeta
+AMPK_pT172 --> ACC_pS79
+JNK_pT183_Y185 --> ACC_pS79
+eEF2_Caution --> eEF2K
+c-Myc_Caution --> eEF2K
+Bcl-xL --> TFRC
+ETS-1 --> TFRC
+Cyclin_E1 --> Akt_pT308
+Akt_pS473 --> Akt_pT308
+BRCA2_Caution --> p70S6K_pT389
+S6_pS240_S244 --> p70S6K_pT389
+Claudin-7 --> VHL_Caution
+Smac_Caution --> VHL_Caution
+E-Cadherin --> Lck
+YAP_Caution --> Lck
+dis --> Lck
+Di-Ras3_Caution --> N-Ras
+GSK3_pS9 --> N-Ras
+XBP1_Caution --> eEF2_Caution
+Mre11_Caution --> eEF2_Caution
+p27 --> PDCD4_Caution
+Syk --> PDCD4_Caution
+PKC-pan_BetaII_pS660 --> PDCD4_Caution
+CD20 _Caution --> RAD51
+Syk --> RAD51
+Chk1_Caution --> RAD51
+4E-BP1_pT37_T46 --> 4E-BP1_pS65
+PRAS40_pT246 --> 4E-BP1_pS65
+Bax --> FOXO3a_Caution
+N-Ras --> FOXO3a_Caution
+PEA15_pS116 --> p27_pT198
+PI3K-p85 --> p27_pT198
+dis --> p27_pT198
+Stathmin --> p62 Lck ligand_Caution
+Bcl-2 --> p62 Lck ligand_Caution
+PDCD4_Caution --> p62 Lck ligand_Caution
+p27_pT198 --> STAT5-alpha
+dis --> STAT5-alpha
+PEA15 --> c-Myc_Caution
+FoxM1 --> c-Myc_Caution
+Rab25 --> p21
+Fibronectin --> p21
+Src_pY416_Caution --> SHP-2_pY542_Caution
+Shc_pY317 --> SHP-2_pY542_Caution
+eEF2_Caution --> SHP-2_pY542_Caution
+Bap1 c-4 --> XRCC1_Caution
+PEA15 --> XRCC1_Caution
+Chk1_pS345_Caution --> Rb_pS807_S811
+RAD51 --> Rb_pS807_S811
+MSH6_Caution --> MSH2
+TTF1 --> MSH2
+Mre11_Caution --> MSH2
+Caveolin-1 --> PAI-1
+YAP_Caution --> PAI-1
+SHP-2_pY542_Caution --> JNK_pT183_Y185
+ERK2_Caution --> PR
+Rab25 --> PR
+Mre11_Caution --> PR
+TAZ --> Fibronectin
+VHL_Caution --> Fibronectin
+PAI-1 --> Fibronectin
+VAV1_Caution --> p90RSK_pT573_Caution
+YB-1_pS102 --> p90RSK_pT573_Caution
+Caspase-8_Caution --> p38 alpha MAPK
+Syk --> p38 alpha MAPK
+PI3K-p85 --> p38 alpha MAPK

@@ -1,0 +1,25 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_glyoxylate_and_dicarboxylate_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MTHFD2 --> GRHPR
+dis --> MTHFD1L
+MTHFD2 --- MTHFD1L
+GRHPR --> MDH1
+MTHFD1L --> AFMID
+MDH2 --> CS
+MDH1 --> HYI
+MTHFD2 --> HYI
+HYI --> MDH2
+dis --> MDH2
+GRHPR --> ACO1
+MTHFD1L --> PGP
+ACO2 --> MTHFD1
+dis --> MTHFD2
+GRHPR --> ACO2
+HYI --> ACO2

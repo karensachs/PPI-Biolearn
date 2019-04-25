@@ -1,0 +1,26 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_mtor_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+EIF4B --> RPS6KA3
+dis --> RPS6KA1
+RPS6 --> EIF4B
+EIF4B --> AKT1
+PIK3R1 --> RICTOR
+EIF4B --> CAB39
+dis --> RHEB
+PIK3R1 --> AKT2
+dis --> CAB39L
+dis --> RPS6
+EIF4B --> EIF4E
+CAB39 --> RPTOR
+PIK3R1 --> RPTOR
+EIF4B --> PIK3R1
+MAPK3 --- MAPK1
+MTOR
+PRKAA1

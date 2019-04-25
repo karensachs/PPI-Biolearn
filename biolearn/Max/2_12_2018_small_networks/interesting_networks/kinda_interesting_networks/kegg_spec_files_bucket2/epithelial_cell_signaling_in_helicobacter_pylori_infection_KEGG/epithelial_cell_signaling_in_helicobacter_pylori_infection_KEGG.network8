@@ -1,0 +1,80 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_epithelial_cell_signaling_in_helicobacter_pylori_infection.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ATP6V1G2 --> ATP6V1D
+CDC42 --> ADAM17
+ATP6V1E2 --> ADAM17
+dis --> ADAM17
+IKBKG --> NFKBIA
+PAK1 --> EGFR
+dis --> EGFR
+ATP6V1A --> ATP6V1B1
+MAPK10 --> ATP6V0A1
+ATP6V0D1 --> ATP6V0A1
+F11R --> TCIRG1
+MAPK9 --> MAPK11
+dis --> MAPK11
+MAPK11 --> MAPK12
+ATP6V1C1 --> MAPK12
+RAC1 --> MAPK12
+PLCG2 --> CSK
+ATP6V1H --> CSK
+ATP6V0A1 --> F11R
+dis --> MAPK10
+MAPK10 --> MAPK8
+MAPK13 --> MAPK14
+TJP1 --> MAPK14
+MAPK10 --> RELA
+CHUK --> RELA
+MAP2K4 --> IKBKB
+RAC1 --> IKBKB
+CSK --> ATP6V1G1
+PLCG1 --> SRC
+ATP6V0D2 --> NFKB1
+ATP6V1F --> NFKB1
+ATP6V1H --> CDC42
+RAC1 --> CDC42
+ATP6V1A --> ATP6V1F
+RAC1 --> ATP6V1F
+CDC42 --> PLCG1
+EGFR --> LYN
+ATP6V0D2 --> LYN
+CSK --> LYN
+ATP6V0D1 --> CASP3
+dis --> CASP3
+ATP6V1A --> ATP6V1B2
+dis --> ATP6V1B2
+ATP6V1B2 --> ATP6V1E1
+RAC1 --> ATP6V1G2
+CDC42 --> ATP6V1E2
+RAC1 --> ATP6V1E2
+MAPK14 --> PAK1
+MAPK9 --> ATP6V1A
+MAPK10 --> MAPK9
+IKBKB --> MAPK9
+MAPK11 --> PTPN11
+CDC42 --> PTPN11
+ATP6V1B2 --> PLCG2
+ATP6V1G2 --> ATP6AP1
+ATP6V0D1 --> ATP6AP1
+dis --> MAP2K4
+RAC1 --> CHUK
+EGFR --> ATP6V0D1
+ATP6V0D2 --> ATP6V0D1
+ATP6V1E2 --> IKBKG
+RAC1 --> IKBKG
+F11R --> ATP6V1H
+RAC1 --> ATP6V1H
+F11R --> RAC1
+TJP1 --> RAC1
+NFKBIA --> GIT1
+ATP6V0D1 --> GIT1
+MAPK8 --> TJP1
+ATP6V0A1 --> ADAM10
+RAC1 --> ADAM10

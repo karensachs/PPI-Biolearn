@@ -1,0 +1,37 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_gnrh_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAPK3 --- MAPK1	100% (80% forward, 15% backward)
+PRKACB --- PRKACA	100% (60% forward, 40% backward)
+ITPR2 --- ITPR1	100% (85% forward, 15% backward)
+GNA11 --- GNAQ	100% (35% forward, 25% backward)
+CAMK2B --- CAMK2A	100% (55% forward, 35% backward)
+NRAS --- HRAS	100% (55% forward, 35% backward)
+HRAS --- KRAS	100% (80% forward, 10% backward)
+MAP2K2 --- MAP2K1	100% (65% forward, 35% backward)
+dis --> MAP2K4	100%
+dis --> ITPR3	100%
+dis --> MMP14	100%
+dis --> MAPK14	100%
+dis --> PRKCD	100%
+dis --> CAMK2D	100%
+dis --> GNAS	100%
+dis --> MAPK9	100%
+dis --> SRC	100%
+dis --> MAPK3	95%
+dis --> CALML3	95%
+dis --> MAPK13	95%
+dis --> PRKCA	95%
+MAP2K2 --- MAP2K3	90% (80% forward, 10% backward)
+dis --> GNAQ	85%
+dis --> MMP2	85%
+MMP14 --- MMP2	80% (15% forward, 0% backward)
+dis --> GNA11	80%
+dis --> PLCB3	80%
+CAMK2D --> CAMK2G	80% (75% forward, 0% backward)

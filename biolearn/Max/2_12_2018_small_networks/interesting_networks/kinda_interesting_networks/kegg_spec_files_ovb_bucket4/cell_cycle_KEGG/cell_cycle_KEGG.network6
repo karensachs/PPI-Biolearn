@@ -1,0 +1,50 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_cell_cycle.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MCM2 --> PCNA
+dis --> SMAD4
+dis --> ATM
+SMC3 --- SMC1A
+YWHAH --- YWHAQ
+SMC1A --- CREBBP
+MCM7 --> MCM2
+dis --> PRKDC
+SKP1 --- SMAD3
+YWHAG --- YWHAH
+dis --> MCM7
+MCM5 --> MCM3
+SMC1A --- SKP1
+SMC1A --- HDAC2
+SMC1A --- RB1
+MCM6 --> CDK1
+YWHAB --- YWHAE
+BUB3 --- SMC3
+SMC1A --- CDK4
+CREBBP --- EP300
+YWHAH --- SFN
+PRKDC --> STAG2
+PRKDC --> HDAC1
+YWHAQ --- YWHAZ
+MCM2 --> MCM6
+STAG2 --> STAG1
+MCM6 --> MCM4
+SMAD3 --- SMAD2
+SMC1A --- GSK3B
+SMC1A --- ANAPC7
+YWHAG --- BUB3
+CDK1 --> CDK2
+dis --> RAD21
+SMC1A --- CUL1
+SMC1A --- MAD1L1
+MCM6 --> MCM5
+YWHAG --- YWHAB
+ORC4
+ORC3
+ANAPC2
+CDC23

@@ -1,0 +1,27 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_type_ii_diabetes_mellitus.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MTOR --> PRKCD
+dis --> PRKCD
+HK3 --> HK2
+dis --> HK2
+MAPK9 --> IKBKB
+dis --> IKBKB
+MAPK3 --- MAPK9
+MAPK1 --- MAPK3
+INSR --> MTOR
+PIK3R1 --> INSR
+dis --> INSR
+IKBKB --> HK1
+dis --> HK1
+MAPK9 --> PIK3R1
+dis --> PIK3R1
+MAPK9 --> HK3
+dis --> HK3
+PKLR

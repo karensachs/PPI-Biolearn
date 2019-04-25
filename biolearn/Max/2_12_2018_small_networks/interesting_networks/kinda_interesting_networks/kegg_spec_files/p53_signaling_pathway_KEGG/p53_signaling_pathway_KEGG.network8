@@ -1,0 +1,33 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_p53_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+BID --> RCHY1
+BID --> CYCS
+RCHY1 --> SFN
+CDK2 --> RRM2
+dis --> SERPINB5
+DDB2 --> CDK1
+CDK1 --> CDK2
+dis --> BID
+APAF1 --- CDK4
+dis --> DDB2
+RCHY1 --> TP53I3
+SFN --> CDKN2A
+SERPINB5 --> IGFBP3
+RRM2 --> RRM2B
+RRM2B --> CDK6
+APAF1 --- CHEK2
+CASP8
+CASP9
+BAX
+TSC2
+THBS1
+CASP3
+PTEN
+ATM

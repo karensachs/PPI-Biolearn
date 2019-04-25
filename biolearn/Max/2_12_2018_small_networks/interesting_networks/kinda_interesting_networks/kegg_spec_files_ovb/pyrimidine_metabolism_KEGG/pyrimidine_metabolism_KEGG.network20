@@ -1,0 +1,62 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_pyrimidine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> POLR2B
+dis --> DCK
+RRM2B --> RRM1
+dis --> NT5C
+POLD1 --> POLD2
+DPYD --> NT5E
+dis --> NT5E
+POLR2A --> POLR2I
+dis --> TXNRD2
+POLR1C --> CTPS2
+dis --> NUDT2
+dis --> CMPK1
+POLR2C --> POLR2D
+POLR2E --> POLR2D
+dis --> POLR2H
+dis --> PNP
+dis --> UMPS
+dis --> POLR2A
+POLR2E --- POLR2A
+dis --> DUT
+POLR1C --> POLD1
+dis --> NME2
+NME1 --- NME2
+dis --> RRM2B
+DTYMK --- RRM2B
+dis --> CAD
+POLR2B --- CAD
+dis --> AK3
+POLR2A --- AK3
+dis --> TXNRD1
+dis --> POLR2C
+POLR2A --- POLR2C
+dis --> POLR1C
+POLR2E --- POLR1C
+dis --> POLR3A
+POLR2E --- POLR3A
+TYMP --> DPYD
+dis --> DPYD
+dis --> CMPK2
+POLR2A --- CMPK2
+dis --> ITPA
+dis --> PNPT1
+dis --> NT5C2
+dis --> POLR2E
+dis --> NME1
+POLR2A --- NME1
+POLR2E --> NME3
+CAD --> TYMP
+CMPK2 --> TYMP
+dis --> POLR1A
+dis --> DCTD
+dis --> DTYMK
+POLR2A --- DTYMK

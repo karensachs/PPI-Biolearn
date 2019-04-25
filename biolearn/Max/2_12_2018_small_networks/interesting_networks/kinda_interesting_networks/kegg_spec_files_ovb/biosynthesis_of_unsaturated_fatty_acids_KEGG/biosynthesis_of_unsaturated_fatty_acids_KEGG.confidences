@@ -1,0 +1,19 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_biosynthesis_of_unsaturated_fatty_acids.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+TECR --- HSD17B12	100% (45% forward, 0% backward)
+ACOT2 --- ACOT1	100% (60% forward, 25% backward)
+dis --> ACOT7	100%
+dis --> ACOX1	100%
+dis --> TECR	100%
+dis --> ACAA1	100%
+TECR --- HADHA	90% (55% forward, 0% backward)
+TECR --- ACAA1	90%
+ACOT7 --- TECR	85%
+dis --> ACOT2	80%

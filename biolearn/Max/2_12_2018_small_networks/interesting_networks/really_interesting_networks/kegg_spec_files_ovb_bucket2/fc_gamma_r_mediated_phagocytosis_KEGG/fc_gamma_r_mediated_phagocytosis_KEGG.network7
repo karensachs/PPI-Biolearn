@@ -1,0 +1,89 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_fc_gamma_r_mediated_phagocytosis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+RAC1 --> ARPC1A
+dis --> ARPC1A
+ARPC1B --> ARPC2
+RAC1 --> ARPC2
+DOCK2 --> INPP5D
+PTPRC --- INPP5D
+MAPK1 --> MAPK3
+DNM2 --> DNM1
+dis --> DNM1
+RAC1 --> MAP2K1
+dis --> MAP2K1
+NCF1 --> WASL
+dis --> WASL
+DNM1 --> GSN
+ARPC4 --> GSN
+CFL1 --> CFL2
+MARCKS --> CFL2
+dis --> PAK1
+MARCKS --> PIP4K2B
+dis --> PIP4K2B
+ASAP1 --> CDC42
+dis --> CDC42
+ARPC2 --> MAPK1
+CRKL --> MAPK1
+DOCK2 --> VAV1
+NCF1 --- VAV1
+MAP2K1 --> ARPC5
+ARPC1B --> ARPC5
+RAC1 --> AKT1
+ARPC5 --> CFL1
+DOCK2 --> ARPC1B
+DOCK2 --> PLCG2
+dis --> PLCG2
+HCK --> LYN
+ARPC5 --> ARPC5L
+dis --> ARPC5L
+ARPC5L --> SYK
+RAC2 --> SYK
+MAP2K1 --> DOCK2
+dis --> DOCK2
+PTPRC --> SCIN
+dis --> SCIN
+RAC1 --> MARCKSL1
+dis --> MARCKSL1
+MARCKS --> RAF1
+PRKCA --> VASP
+ARPC4 --> VASP
+ARPC5 --> PRKCA
+PTPRC --> PRKCA
+CFL1 --> LIMK2
+DNM3 --> LIMK2
+PIP4K2B --> DNM1L
+SCIN --> DNM1L
+DOCK2 --> PTPRC
+VAV1 --- PTPRC
+dis --> PRKCD
+DOCK2 --> NCF1
+ARPC1B --> ARPC4
+DOCK2 --> ARPC4
+MARCKS --> ARPC4
+RAC1 --> RAC2
+MARCKS --> RAC2
+DOCK2 --> HCK
+NCF1 --- HCK
+CDC42 --> RAC1
+AKT1 --> AKT2
+PIK3R1 --> AKT2
+MARCKSL1 --> MARCKS
+RAC1 --> MARCKS
+DNM3 --> DNM2
+SCIN --> WASF2
+MARCKS --> WASF2
+dis --> DNM3
+DNM1 --> ASAP1
+MARCKSL1 --> CRKL
+RAC1 --> PIK3R1
+MARCKS --> PIK3R1
+ARF6
+VAV2
+CRK

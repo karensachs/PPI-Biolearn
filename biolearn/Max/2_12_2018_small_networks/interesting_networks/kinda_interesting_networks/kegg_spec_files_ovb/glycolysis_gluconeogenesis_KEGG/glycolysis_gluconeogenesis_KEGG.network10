@@ -1,0 +1,71 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_glycolysis_gluconeogenesis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PGAM2 --> PGM2
+BPGM --> ACSS2
+dis --> ACSS2
+ENO2 --> ALDH1B1
+LDHB --> ENO3
+PGAM2 --> ENO3
+dis --> HK2
+BPGM --> LDHB
+dis --> LDHB
+ENO3 --> ENO2
+dis --> ENO2
+dis --> FBP1
+PDHB --> DLAT
+dis --> PCK2
+TPI1 --> GAPDH
+ENO2 --> TPI1
+ALDOA --> ALDOC
+PDHA1 --> DLD
+PGAM2 --> DLD
+ENO1 --> LDHA
+PDHA1 --> ALDH2
+dis --> ALDH2
+PCK1 --> PDHA1
+ADH1B --> ADH5
+LDHA --> PGAM1
+LDHAL6A --> PGK2
+PGK1 --> PGK2
+dis --> ALDH1A3
+PGK2 --> ALDOA
+dis --> ALDOA
+ALDOA --> PKLR
+dis --> AKR1A1
+dis --> GALM
+ALDH2 --> ADH1B
+dis --> ADH1B
+dis --> PFKM
+ENO3 --> ENO1
+dis --> ENO1
+PGAM2 --> LDHAL6A
+PGK2 --> GPI
+dis --> HK1
+dis --> PGM1
+LDHA --> PGK1
+LDHAL6A --> LDHC
+dis --> ALDH9A1
+PDHA1 --> PDHB
+PGAM2 --> PDHB
+PGAM2 --> ALDH3A2
+dis --> ALDH3A2
+ADH1B --> ADH1C
+dis --> ADH1C
+PCK2 --> PCK1
+dis --> ALDH7A1
+ADH5 --> BPGM
+dis --> BPGM
+PFKP --> HK3
+dis --> HK3
+dis --> ACSS1
+AKR1A1 --> PFKP
+BPGM --> PGAM2
+dis --> PGAM2
+dis --> PFKL

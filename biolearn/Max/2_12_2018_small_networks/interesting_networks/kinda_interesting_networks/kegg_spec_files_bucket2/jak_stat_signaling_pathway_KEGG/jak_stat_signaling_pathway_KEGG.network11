@@ -1,0 +1,38 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_jak_stat_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PIK3R3 --- CREBBP
+JAK1 --- PIK3R3
+CREBBP --- EP300
+PTPN6 --- PIK3CD
+STAM --- STAT1
+CREBBP --- TYK2
+CREBBP --- PIK3R1
+CBL --- CBLB
+STAT5A --- STAT5B
+dis --> IL6ST
+STAT1 --- IRF9
+EP300 --- SOS1
+CREBBP --- AKT3
+STAT1 --- STAT2
+PIK3R3 --- PTPN11
+PIK3CA
+PIK3R2
+PIAS4
+PIAS2
+STAM2
+BCL2L1
+PIAS1
+PIK3CB
+AKT1
+GRB2
+STAT6
+STAT3
+SOS2
+AKT2

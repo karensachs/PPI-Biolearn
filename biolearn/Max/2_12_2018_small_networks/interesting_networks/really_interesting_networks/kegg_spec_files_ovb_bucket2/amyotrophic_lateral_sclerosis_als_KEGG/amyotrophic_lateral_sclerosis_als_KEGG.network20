@@ -1,0 +1,37 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_amyotrophic_lateral_sclerosis_als.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> TOMM40
+dis --> MAP2K6
+dis --> GPX1
+PPP3CA --> PPP3CB
+dis --> PPP3CA
+RAC1 --- PPP3CA
+dis --> RAC1
+MAP2K6 --- RAC1
+CASP1 --> CASP3
+GPX1 --> CASP1
+dis --> BID
+RAC1 --> SOD1
+dis --> MAP2K3
+PPP3CA --- MAP2K3
+SOD1 --> CCS
+dis --> BAX
+GPX1 --> MAPK13
+RAC1 --> MAPK13
+dis --> RAB5A
+dis --> PRPH
+GPX1 --- PRPH
+PRPH --> NEFH
+RAC1 --> CAT
+RAC1 --> APAF1
+DAXX
+MAPK14
+BCL2L1
+CYCS

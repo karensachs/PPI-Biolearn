@@ -1,0 +1,57 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_arginine_and_proline_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+CKMT2 --> ALDH4A1
+GAMT --> ALDH4A1
+MAOB --> ALDH2
+CKM --> GLUL
+GLS --> GLUL
+ALDH9A1 --> ALDH3A2
+MAOB --> GOT2
+P4HA2 --> ALDH1B1
+GAMT --> GLUD1
+GLUD1 --> GATM
+ACY1 --> GATM
+CKM --> CKMT2
+CKMT1A --> CKMT2
+ALDH18A1 --> PRODH
+CKM --> PRODH
+ASS1 --> P4HA2
+CKM --> SRM
+dis --> SRM
+OAT --> CPS1
+GLUD2 --> MAOA
+PYCR2 --> PYCR1
+OAT --> PYCR1
+MAOA --> MAOB
+P4HA2 --> P4HA1
+OAT --> P4HA1
+GOT1 --> ALDH9A1
+LAP3 --> ALDH18A1
+OAT --> ALDH18A1
+GLUD1 --> GLUD2
+MAOB --> CKM
+PYCR2 --> CKM
+ALDH2 --> LAP3
+SRM --> ACY1
+GAMT --> ACY1
+MAOB --> ASS1
+OAT --> ASS1
+dis --> ASS1
+dis --> GAMT
+CKMT2 --> SMS
+CKMT2 --> ASL
+MAOA --> ASL
+LAP3 --> CKMT1A
+dis --> GLS
+CKM --> GOT1
+SRM --> OAT
+GLS --> OAT
+CKB
+ALDH7A1

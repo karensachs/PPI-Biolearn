@@ -1,0 +1,55 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_melanoma.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ARAF --> MAPK3
+MAP2K2 --> MAP2K1
+MAPK3 --> PIK3CA
+RAF1 --> PIK3R2
+MAP2K2 --> PIK3R2
+NRAS --> EGFR
+dis --> EGFR
+RB1 --> ARAF
+PIK3R1 --> ARAF
+PDGFRB --- AKT3
+EGFR --> RAF1
+ARAF --> RAF1
+AKT3 --> AKT1
+AKT2 --> AKT1
+RAF1 --> PIK3CB
+PIK3R1 --> RB1
+CDKN2A --> RB1
+PIK3R3 --> MITF
+PIK3R1 --> MITF
+PIK3CA --> BRAF
+ARAF --> BRAF
+dis --> HRAS
+MITF --> MAP2K2
+PIK3R1 --> MAP2K2
+MITF --> CDK4
+CDKN2A --> CDK4
+AKT1 --> IGF1R
+HRAS --> KRAS
+BAD --> KRAS
+HRAS --> NRAS
+RAF1 --> PIK3R3
+RB1 --> PIK3R3
+PIK3R1 --> PIK3R3
+AKT3 --> PIK3R1
+PTEN --> PIK3R1
+CDK6 --> CDKN2A
+PIK3R3 --> BAD
+PIK3R1 --> BAD
+ARAF --> AKT2
+AKT3 --> AKT2
+MAPK1 --> PIK3CD
+dis --> CDK6
+MAPK3 --> MAPK1
+NRAS --> MAPK1
+CDH1
+FGF1

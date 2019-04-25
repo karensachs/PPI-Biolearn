@@ -1,0 +1,21 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_retinol_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ADH1B --- ADH5
+ADH4 --- RDH11
+ADH4 --- ADH1B
+ALDH1A1 --- ADH4
+dis --> DHRS3
+ADH5 --> RETSAT
+RDH11 --> RETSAT
+RETSAT --> DHRS4
+ADH1B --> ADH1C
+ALDH1A2 --> ADH1C
+RETSAT --> ALDH1A2
+PNPLA4

@@ -1,0 +1,51 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_viral_myocarditis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+RAC2 --> HLA-A
+dis --> HLA-A
+MYH10 --> MYH11
+dis --> MYH11
+FYN --> CD55
+RAC2 --> FYN
+dis --> FYN
+HLA-DRB1 --> HLA-DRA
+RAC3 --> RAC2
+dis --> RAC2
+HLA-A --> HLA-E
+HLA-DPA1 --> HLA-DPB1
+RAC2 --> EIF4G1
+dis --> EIF4G1
+dis --> EIF4G2
+RAC3 --> RAC1
+dis --> DAG1
+dis --> CASP3
+HLA-DRB1 --> HLA-DRB5
+MYH11 --> CAV1
+dis --> CAV1
+MYH14 --> MYH9
+dis --> ICAM1
+HLA-DPB1 --> ITGB2
+dis --> BID
+HLA-DPA1 --> HLA-DRB1
+dis --> MYH14
+HLA-DRB1 --> HLA-DRB3
+ACTG1 --> ACTB
+dis --> CASP8
+HLA-A --> HLA-DMB
+dis --> HLA-DMB
+EIF4G3 --> RAC3
+CAV1 --> EIF4G3
+HLA-DMB --> HLA-DPA1
+dis --> CYCS
+MYH10 --> ACTG1
+dis --> ACTG1
+MYH9 --> MYH10
+HLA-A --> HLA-B
+HLA-B --> HLA-C
+dis --> HLA-C

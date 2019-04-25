@@ -1,0 +1,23 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_propanoate_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+LDHC --- SUCLG1	100% (40% forward, 40% backward)
+ACACB --- ACACA	100% (40% forward, 40% backward)
+LDHAL6A --- LDHC	100% (65% forward, 15% backward)
+LDHAL6B --- LDHA	100% (45% forward, 40% backward)
+PCCA --- PCCB	100% (70% forward, 20% backward)
+dis --> LDHB	100%
+LDHAL6A --- SUCLG1	95% (60% forward, 25% backward)
+HIBCH --- ALDH3A2	95% (60% forward, 30% backward)
+LDHAL6A --- SUCLA2	90% (75% forward, 5% backward)
+ALDH6A1 --- ALDH9A1	90% (65% forward, 25% backward)
+MCEE --- SUCLG2	80% (55% forward, 20% backward)
+LDHAL6A --- HIBCH	80% (50% forward, 25% backward)
+PCCB --- ACAT1	80% (65% forward, 10% backward)
+dis --> ABAT	80%

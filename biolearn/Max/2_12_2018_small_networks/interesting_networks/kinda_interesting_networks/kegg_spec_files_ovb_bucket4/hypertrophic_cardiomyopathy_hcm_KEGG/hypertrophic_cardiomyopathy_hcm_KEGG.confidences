@@ -1,0 +1,25 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_hypertrophic_cardiomyopathy_hcm.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+TPM2 --- TPM4	100% (60% forward, 40% backward)
+TPM2 --- TPM1	100% (65% forward, 35% backward)
+ITGA6 --- ITGB4	100% (5% forward, 0% backward)
+ITGAV --- ITGB5	100% (55% forward, 40% backward)
+ACTG1 --- ACTB	100% (55% forward, 45% backward)
+dis --> DES	100%
+dis --> DAG1	100%
+dis --> ITGA6	100%
+dis --> ITGB4	100%
+dis --> ATP2A2	100%
+ITGA1 --- ITGB1	95% (30% forward, 25% backward)
+dis --> ITGA1	95%
+dis --> PRKAA1	95%
+dis --> ITGB5	85%
+TPM2 --- TPM3	80% (70% forward, 5% backward)
+dis --> ITGB1	80%

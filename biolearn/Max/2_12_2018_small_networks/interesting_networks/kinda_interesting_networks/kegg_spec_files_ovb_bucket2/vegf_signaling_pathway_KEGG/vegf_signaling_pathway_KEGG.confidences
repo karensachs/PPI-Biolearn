@@ -1,0 +1,16 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_vegf_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+NRAS --- HRAS	100% (40% forward, 20% backward)
+HRAS --- KRAS	100% (45% forward, 15% backward)
+PPP3CA --> PPP3CB	95% (90% forward, 0% backward)
+RAC3 --- RAC1	90% (45% forward, 40% backward)
+MAP2K2 --- MAP2K1	90% (70% forward, 15% backward)
+MAPK3 --- MAPK1	80%
+dis --> PLCG2	80%

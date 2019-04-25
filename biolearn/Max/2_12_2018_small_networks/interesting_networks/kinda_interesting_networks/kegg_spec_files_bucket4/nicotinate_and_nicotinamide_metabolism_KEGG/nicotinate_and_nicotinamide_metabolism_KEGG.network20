@@ -1,0 +1,23 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_nicotinate_and_nicotinamide_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+NT5C --> NMNAT1
+NMNAT1 --> NMNAT3
+NAMPT --> NNT
+dis --> NT5C2
+dis --> NUDT12
+NNT --> QPRT
+NMNAT3 --> NNMT
+NUDT12 --> PNP
+dis --> NADK
+NT5C --> ENPP1
+NNT --> NADSYN1
+dis --> NAMPT
+NADSYN1 --> NT5C
+NT5E

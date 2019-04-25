@@ -1,0 +1,44 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_cell_adhesion_molecules_cams.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> NEO1
+ITGB1 --> PECAM1
+HLA-B --> F11R
+dis --> F11R
+HLA-DRB5 --> HLA-DRA
+HLA-A --> HLA-DPB1
+ITGB2 --> ITGAM
+dis --> ITGAM
+dis --> PTPRF
+HLA-DRB1 --> HLA-DRB5
+HLA-DPA1 --> HLA-DRB1
+HLA-E --> HLA-A
+F11R --> ITGB1
+dis --> ITGB1
+ITGB1 --> GLG1
+dis --> GLG1
+dis --> VCAM1
+ITGAM --> ICAM1
+GLG1 --> CADM1
+dis --> CADM1
+dis --> HLA-E
+dis --> ITGA6
+HLA-DRA --> HLA-DRB3
+dis --> HLA-DRB3
+dis --> ALCAM
+ITGB2 --> PTPRC
+VCAM1 --> VCAN
+HLA-E --> HLA-B
+dis --> CDH1
+HLA-A --> ITGB2
+ITGB1 --> ITGAV
+HLA-DPB1 --> HLA-DMB
+HLA-DPB1 --> HLA-DPA1
+HLA-B --> HLA-C
+dis --> HLA-C

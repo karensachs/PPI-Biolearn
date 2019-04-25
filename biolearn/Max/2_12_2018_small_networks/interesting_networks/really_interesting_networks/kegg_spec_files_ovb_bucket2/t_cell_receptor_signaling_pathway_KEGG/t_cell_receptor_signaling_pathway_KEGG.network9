@@ -1,0 +1,75 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_t_cell_receptor_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PIK3R1 --> DLG1
+AKT2 --> MAPK3
+dis --> MAPK3
+dis --> PAK4
+PTPN6 --> MAP2K1
+MAP2K2 --> MAP2K1
+dis --> MAP2K1
+PAK3 --> PAK1
+PRKCQ --> CDC42
+dis --> CDC42
+NRAS --> KRAS
+HRAS --- KRAS
+MAPK3 --> MAPK1
+PAK4 --> PRKCQ
+PTPRC --> PRKCQ
+dis --> PRKCQ
+PTPN6 --> VAV1
+PAK4 --> PAK3
+PIK3R1 --> PAK3
+PRKCQ --> FYN
+RHOA --> FYN
+PIK3R1 --> PPP3CA
+dis --> PPP3CA
+GSK3B --> AKT1
+AKT2 --> AKT1
+PAK4 --> MAPK13
+PIK3R1 --> MAPK13
+PAK4 --> VAV2
+CDC42 --> CDK4
+GSK3B --> CDK4
+FYN --> MAPK14
+PPP3CB --> MAPK14
+MAP2K1 --> RELA
+dis --> RELA
+PPP3CA --> PPP3CB
+PIK3R1 --> PPP3CB
+MAP2K1 --> NFKB1
+VAV1 --> NFKB1
+PAK4 --> NCK1
+VAV1 --> NCK1
+PRKCQ --> RAF1
+MAP2K2 --> RAF1
+PAK4 --> PTPN6
+KRAS --> PTPN6
+PTPN6 --> PTPRC
+VAV1 --- PTPRC
+PRKCQ --> GSK3B
+RHOA --> GSK3B
+MAPK9 --> IKBKB
+dis --> IKBKB
+AKT2 --> MAPK9
+PTPN6 --> GRB2
+dis --> GRB2
+dis --> NRAS
+PAK3 --> PAK2
+MAP2K2 --> PAK2
+CDC42 --> RHOA
+PRKCQ --> RHOA
+PAK1 --> AKT2
+PRKCQ --> AKT2
+NRAS --> HRAS
+PAK4 --> NCK2
+GSK3B --> MAP2K2
+PIK3R1 --> MAP2K2
+PRKCQ --> PIK3R1
+GSK3B --> PIK3R1

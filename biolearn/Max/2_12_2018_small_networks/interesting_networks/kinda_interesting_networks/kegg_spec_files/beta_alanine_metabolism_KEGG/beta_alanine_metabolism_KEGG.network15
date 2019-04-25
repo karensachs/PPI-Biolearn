@@ -1,0 +1,25 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_beta_alanine_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ECHS1 --- ACADM
+AOC3 --- ALDH2
+ALDH1B1 --- DPYD
+ABAT --> MLYCD
+ACADM --- ALDH7A1
+HADHA --- ECHS1
+HIBCH --- ALDH3A2
+DPYS --- ALDH1B1
+EHHADH --- ALDH9A1
+dis --> ABAT
+AOC3 --- HIBCH
+HIBCH --- EHHADH
+AOC3 --- DPYS
+AOC3 --- SMS
+CNDP1
+SRM

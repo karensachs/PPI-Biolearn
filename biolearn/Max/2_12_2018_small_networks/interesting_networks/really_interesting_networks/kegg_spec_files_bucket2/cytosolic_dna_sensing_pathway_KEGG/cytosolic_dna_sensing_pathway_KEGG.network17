@@ -1,0 +1,46 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_cytosolic_dna_sensing_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+POLR1C --> MAVS
+PYCARD --> MAVS
+POLR3F --> NFKBIA
+POLR3D --> POLR1C
+CASP1 --> IL18
+POLR3F --> POLR3A
+dis --> POLR3A
+ADAR --> RIPK1
+MAVS --> TMEM173
+POLR3A --> POLR3B
+IKBKG --> POLR3B
+POLR3B --> POLR3D
+IRF7 --> POLR3D
+dis --> POLR1D
+NFKBIB --> RELA
+IRF7 --> IKBKB
+dis --> IKBKB
+NFKBIB --> POLR3F
+CHUK --> POLR3F
+IL18 --> NFKB1
+IRF7 --> NFKB1
+PYCARD --> DDX58
+dis --> PYCARD
+DDX58 --> ADAR
+POLR1D --> TBK1
+POLR1D --> NFKBIB
+TBK1 --- NFKBIB
+dis --> IRF3
+POLR1D --> CHUK
+IKBKG --> CHUK
+TBK1 --> IKBKG
+IRF7 --> IKBKG
+POLR1D --> IRF7
+NFKBIB --- IRF7
+MAVS --> RIPK3
+dis --> RIPK3
+POLR3A --> CASP1

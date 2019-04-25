@@ -1,0 +1,64 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_systemic_lupus_erythematosus.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> TROVE2
+HIST3H2BB --- HIST1H2BD
+dis --> ACTN2
+HLA-DRB5 --> HLA-DRA
+HLA-DPA1 --> HLA-DRA
+HLA-DRB5 --> HLA-DPB1
+HLA-DPA1 --> HLA-DPB1
+H2AFX --> HIST2H2AB
+H3F3C --> SSB
+dis --> HLA-DRB5
+HLA-DRB5 --> HLA-DRB1
+C5 --> C8G
+C9 --- C8G
+ACTN3 --> ACTN1
+HIST1H2BD --- HIST2H2BF
+HIST3H2BB --- HIST2H2BF
+C5 --> C9
+C1QC --> H2AFV
+dis --> SNRPD1
+C7 --> C5
+C1S --> C1R
+dis --> H2AFX
+ACTN3 --> ACTN4
+SNRPB --> SNRPD3
+C9 --> C2
+C3 --> C2
+ACTN2 --> ACTN3
+HLA-DRB5 --> HLA-DRB3
+C4B --> C4A
+C8G --> C3
+C8G --> C6
+C1QB --> C1QA
+C1S --> C1QA
+CTSG --> C7
+C1S --> C4B
+dis --> CTSG
+HIST2H2AB --> SNRPB
+dis --> SNRPB
+C9 --> C8A
+H3F3C --> C8A
+dis --> TRIM21
+dis --> H2AFY
+H2AFY --> H2AFY2
+HLA-DRB3 --> HLA-DMB
+dis --> HLA-DMB
+H3F3B --> H3F3C
+dis --> H3F3C
+C1S --> C1QB
+C1QC --> C1QB
+ACTN1 --> C1S
+C2 --> C1S
+HLA-DRB1 --> HLA-DPA1
+H2AFV --> H3F3B
+C1R --> C1QC
+dis --> C1QC

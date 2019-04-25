@@ -1,0 +1,18 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_renin_angiotensin_system.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+CTSG --> AGT
+dis --> AGT
+dis --> LNPEP
+CTSG --> NLN
+CTSA --> CTSG
+dis --> CTSG
+CTSG --> ANPEP
+dis --> ANPEP
+THOP1

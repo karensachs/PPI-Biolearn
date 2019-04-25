@@ -1,0 +1,31 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_ecm_receptor_interaction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+LAMC1 --- LAMA4	100% (70% forward, 30% backward)
+ITGB5 --- ITGAV	100% (50% forward, 50% backward)
+FN1 --- TNC	100% (75% forward, 20% backward)
+THBS2 --- THBS1	100% (55% forward, 45% backward)
+ITGB4 --- ITGA6	100% (50% forward, 45% backward)
+LAMC2 --- LAMB3	100% (55% forward, 45% backward)
+COL5A2 --- COL5A1	100% (70% forward, 30% backward)
+dis --> DAG1	100%
+ITGA1 --- COL4A1	95% (50% forward, 45% backward)
+LAMA5 --- AGRN	95% (65% forward, 30% backward)
+dis --> COL2A1	95%
+LAMC1 --- LAMB2	90% (65% forward, 25% backward)
+ITGA1 --- ITGB1	90% (50% forward, 40% backward)
+COMP --- THBS4	90% (75% forward, 15% backward)
+COL1A2 --- COL1A1	90% (45% forward, 45% backward)
+COL1A1 --- COL3A1	90% (55% forward, 35% backward)
+dis --> CD47	90%
+LAMC1 --- LAMB1	85% (50% forward, 35% backward)
+COL11A1 --- THBS2	80% (50% forward, 30% backward)
+COL5A2 --- COL11A1	80% (70% forward, 10% backward)
+LAMA5 --- COL4A2	80% (60% forward, 20% backward)
+LAMB3 --> LAMA3	80% (75% forward, 5% backward)

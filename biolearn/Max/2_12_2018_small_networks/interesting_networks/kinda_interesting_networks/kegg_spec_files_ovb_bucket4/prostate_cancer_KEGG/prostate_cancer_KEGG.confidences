@@ -1,0 +1,31 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_prostate_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAPK3 --- MAPK1	100% (85% forward, 15% backward)
+HSP90AB1 --- HSP90AA1	100% (85% forward, 15% backward)
+NRAS --- HRAS	100% (60% forward, 40% backward)
+HRAS --- KRAS	100% (70% forward, 30% backward)
+MAP2K2 --- MAP2K1	100% (60% forward, 40% backward)
+dis --> ERBB2	100%
+dis --> IGF1R	100%
+dis --> CTNNB1	100%
+dis --> MTOR	100%
+dis --> IKBKB	100%
+dis --> GRB2	100%
+dis --> CDK2	100%
+dis --> GSTP1	100%
+CREBBP --- EP300	95% (85% forward, 10% backward)
+AKT1 --- AKT2	90% (80% forward, 5% backward)
+PIK3R1 --- CREBBP	85% (70% forward, 15% backward)
+PIK3R1 --- GSK3B	85% (45% forward, 40% backward)
+dis --> MAPK3	85%
+dis --> HSP90AB1	85%
+dis --> HSP90B1	85%
+dis --> NFKB1	85%
+dis --> RELA	80%

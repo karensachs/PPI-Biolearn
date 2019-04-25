@@ -1,0 +1,44 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_renal_cell_carcinoma.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PAK1 --> PAK3
+RAC1 --> GRB2
+dis --> GRB2
+RAF1 --> PTPN11
+dis --> PTPN11
+PIK3R1 --> MAPK3
+dis --> MAPK3
+MAPK1 --> FH
+PIK3R1 --> PAK4
+dis --> PAK4
+RAP1B --> RAP1A
+dis --> RAP1B
+dis --> AKT1
+HRAS --> NRAS
+AKT1 --> MAP2K1
+RAC1 --> ARAF
+PAK3 --> PAK2
+MAP2K2 --> RAC1
+dis --> CRK
+dis --> AKT2
+AKT1 --- AKT2
+dis --> HRAS
+KRAS --- HRAS
+ARAF --> RAF1
+RAC1 --> CREBBP
+dis --> CUL2
+dis --> PAK1
+dis --> CRKL
+MAP2K1 --> MAP2K2
+RAC1 --> PIK3R1
+RAC1 --> EGLN1
+CREBBP --> EP300
+RAC1 --> CDC42
+dis --> KRAS
+MAPK3 --> MAPK1

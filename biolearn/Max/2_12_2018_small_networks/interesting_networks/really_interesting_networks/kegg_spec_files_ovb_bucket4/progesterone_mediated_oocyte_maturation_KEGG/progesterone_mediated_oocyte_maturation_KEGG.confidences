@@ -1,0 +1,23 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_progesterone_mediated_oocyte_maturation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAPK3 --- MAPK1	100% (70% forward, 30% backward)
+HSP90AB1 --- HSP90AA1	100% (60% forward, 40% backward)
+PRKACB --- PRKACA	100% (60% forward, 40% backward)
+GNAI3 --- GNAI1	100% (55% forward, 45% backward)
+dis --> IGF1R	100%
+dis --> MAPK13	100%
+dis --> KRAS	100%
+dis --> MAPK14	95%
+dis --> MAPK9	95%
+dis --> ANAPC7	90%
+dis --> GNAI2	90%
+dis --> RPS6KA1	90%
+GNAI1 --> GNAI2	85%
+RAF1 --> CDC23	80%

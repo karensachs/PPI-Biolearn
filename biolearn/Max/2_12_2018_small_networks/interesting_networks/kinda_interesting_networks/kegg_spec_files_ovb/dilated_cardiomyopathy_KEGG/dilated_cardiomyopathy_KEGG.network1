@@ -1,0 +1,41 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_dilated_cardiomyopathy.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PRKACA --> PRKACB
+TPM1 --> TPM2
+ITGB1 --> TPM2
+TPM2 --> LMNA
+dis --> LMNA
+ACTG1 --> TPM1
+ITGB1 --> TPM1
+dis --> ACTB
+dis --> EMD
+ACTG1 --> ITGA5
+ITGAV --> ITGA5
+ACTB --> ACTG1
+PRKACB --> ITGA1
+TPM1 --> ITGA1
+PRKACB --> ITGB1
+dis --> DAG1
+TPM2 --> TPM4
+TPM1 --> TPM4
+ITGB1 --> ITGA6
+dis --> ITGA6
+EMD --> PRKACA
+dis --> ATP2A2
+dis --> GNAS
+TPM1 --> DES
+dis --> DES
+ITGB1 --> ITGB5
+dis --> ITGB5
+TPM1 --> TPM3
+ITGB5 --> ITGAV
+dis --> ITGAV
+ITGA6 --> ITGB4
+dis --> ITGB4

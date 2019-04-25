@@ -1,0 +1,27 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_melanoma.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+NRAS --- HRAS	100% (75% forward, 25% backward)
+NRAS --- KRAS	100% (60% forward, 30% backward)
+AKT2 --- AKT1	100% (50% forward, 45% backward)
+MAP2K2 --- MAP2K1	100% (70% forward, 20% backward)
+MAP2K2 --- PIK3R1	100% (60% forward, 35% backward)
+KRAS --- HRAS	100% (50% forward, 25% backward)
+MAPK1 --- MAPK3	100% (55% forward, 15% backward)
+dis --> IGF1R	100%
+dis --> CDH1	100%
+dis --> MAP2K1	100%
+MAP2K2 --- ARAF	95% (60% forward, 20% backward)
+MAP2K2 --- RAF1	95% (85% forward, 10% backward)
+PIK3R1 --- RB1	90% (60% forward, 30% backward)
+MAPK1 --- PDGFRB	90% (50% forward, 25% backward)
+PIK3R1 --- CDH1	85% (60% forward, 25% backward)
+dis --> NRAS	85%
+dis --> RB1	85%
+PIK3R1 --- IGF1R	80% (55% forward, 20% backward)

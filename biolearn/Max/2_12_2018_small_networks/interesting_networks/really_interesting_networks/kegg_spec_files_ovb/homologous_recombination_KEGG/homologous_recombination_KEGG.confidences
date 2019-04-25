@@ -1,0 +1,17 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_homologous_recombination.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+POLD2 --- POLD1	100% (75% forward, 25% backward)
+RAD50 --- NBN	100% (15% forward, 5% backward)
+dis --> RPA3	100%
+dis --> SSBP1	100%
+dis --> NBN	100%
+RPA3 --> RPA2	100% (90% forward, 10% backward)
+RAD50 --- RPA1	90% (75% forward, 15% backward)
+dis --> RAD50	85%

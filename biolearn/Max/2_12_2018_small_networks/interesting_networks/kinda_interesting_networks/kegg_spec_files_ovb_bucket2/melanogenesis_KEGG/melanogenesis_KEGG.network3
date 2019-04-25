@@ -1,0 +1,39 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_melanogenesis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GNAO1 --> GNAI2
+dis --> GNAI2
+MAPK1 --- MAPK3
+PRKACA --> GNAI1
+GNAI3 --- GNAI1
+MAP2K2 --> MAP2K1
+dis --> MAP2K1
+dis --> PRKACB
+CAMK2B --> CAMK2G
+GSK3B --> CREBBP
+PRKACB --> GNAQ
+HRAS --> KRAS
+dis --> CREB1
+CAMK2B --> CAMK2A
+CREBBP --> EP300
+dis --> CTNNB1
+PRKACA --> CAMK2B
+GSK3B --> RAF1
+PRKACB --> PRKACA
+GNAI2 --> PRKCA
+CAMK2B --> CAMK2D
+GNAI1 --> GSK3B
+PRKACA --> GNAO1
+dis --> NRAS
+NRAS --> HRAS
+PRKACA --> GNAI3
+GSK3B --> MAP2K2
+CALML3
+PLCB3
+GNAS

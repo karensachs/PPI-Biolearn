@@ -1,0 +1,51 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_ppar_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ACSL1 --> ME1
+SLC27A4 --> ME1
+dis --> APOA1
+SORBS1 --> FABP4
+APOC3 --> FABP4
+dis --> ILK
+APOA1 --- ILK
+CPT2 --> SCP2
+ME1 --> DBI
+dis --> DBI
+ILK --> PLTP
+CPT1A --> PLTP
+dis --> PCK2
+PCK1 --- PCK2
+SCP2 --> ACOX1
+APOA2 --> FABP5
+ACSL4 --> FABP5
+APOA1 --> SORBS1
+ILK --> SORBS1
+APOA1 --> SLC27A1
+SCP2 --> EHHADH
+CPT2 --> ACADM
+APOA1 --> APOA2
+APOC3 --> APOA2
+SLC27A4 --> ACSL3
+dis --> ACSL3
+dis --> CPT2
+PCK2 --- CPT2
+dis --> APOC3
+APOA1 --- APOC3
+FABP4 --> ACSL1
+FABP5 --> ACSL1
+dis --> PCK1
+SLC27A1 --> SLC27A4
+dis --> SLC27A4
+dis --> FABP3
+ILK --- FABP3
+FABP5 --> CPT1A
+dis --> CPT1A
+SCP2 --> ACAA1
+SCP2 --> ACSL4
+dis --> ACSL4

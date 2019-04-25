@@ -1,0 +1,18 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_cardiac_muscle_contraction.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+TPM2 --- TPM1	100% (20% forward, 20% backward)
+UQCRC1 --- UQCRC2	100% (5% forward, 0% backward)
+COX6C --- UQCRQ	100% (40% forward, 25% backward)
+COX6C --- COX4I1	95% (60% forward, 0% backward)
+UQCRQ --- UQCRB	95% (65% forward, 0% backward)
+CYC1 --- UQCRH	85%
+UQCRC1 --- UQCRFS1	85% (5% forward, 0% backward)
+dis --> ATP2A2	85%
+ATP1A3 --- ATP1A4	80% (45% forward, 15% backward)

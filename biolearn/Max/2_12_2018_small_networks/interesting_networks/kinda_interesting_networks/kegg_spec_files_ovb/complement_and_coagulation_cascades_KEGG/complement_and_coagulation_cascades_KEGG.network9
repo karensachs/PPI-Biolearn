@@ -1,0 +1,54 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_complement_and_coagulation_cascades.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PROS1 --> SERPIND1
+C6 --- F2
+SERPING1 --- CFH
+C5 --- C9
+PLG --- C7
+C3 --- CFB
+SERPINA1 --- SERPINF2
+FGG --- FGA
+C4A --- C4B
+CD59 --> CD55
+FGG --> C4BPA
+dis --> C4BPA
+C6 --- FGB
+PLG --- C5
+C1S --- C1R
+SERPINA1 --- SERPINC1
+CFH --- A2M
+FGA --> C8A
+dis --> C8A
+FGB --- FGG
+KNG1 --- SERPINA1
+CFB --- C2
+C4BPA --> PROS1
+KLKB1 --> CD59
+dis --> CD59
+CFH --- C8G
+C2 --- CFI
+CFB --- C4A
+F9 --- PLG
+C6 --- F13A1
+C8A --> KLKB1
+C8A --> C1QB
+SERPIND1 --> VWF
+CFH --- C3
+CFI --- F12
+FGB --- C1S
+FGG --- F9
+C1QB --> C1QA
+PLG --> CPB2
+KLKB1 --> CPB2
+SERPINA1 --- SERPING1
+KLKB1 --> CD46
+CFH --- C6
+C1QB --> C1QC
+dis --> C1QC

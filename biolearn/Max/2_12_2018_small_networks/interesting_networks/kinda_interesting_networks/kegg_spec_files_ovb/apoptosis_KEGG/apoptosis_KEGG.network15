@@ -1,0 +1,39 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_apoptosis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> ENDOD1
+dis --> ATM
+PIK3R1 --> PRKACB
+dis --> BAX
+ENDOD1 --> CASP8
+dis --> BCL2L1
+PPP3CB --> PPP3CA
+dis --> CASP7
+dis --> AKT1
+dis --> BID
+PIK3R1 --> RELA
+PIK3R1 --> PPP3CB
+dis --> PRKAR2B
+dis --> NFKB1
+PRKACB --> PRKACA
+PRKACB --> PRKAR1B
+dis --> PRKAR1B
+dis --> CYCS
+AKT1 --> IKBKB
+dis --> CAPN1
+dis --> RIPK1
+dis --> AKT2
+dis --> CASP6
+dis --> CAPN2
+dis --> DFFA
+dis --> PIK3R1
+ATM --> APAF1
+AIFM1
+PRKAR2A
+CASP3

@@ -1,0 +1,65 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_ubiquitin_mediated_proteolysis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> UBE4A
+dis --> UBE2D4
+dis --> UBE2L6
+UBA7 --- UBE2L6
+dis --> UBE2M
+SKP1 --- UBE2M
+UBR5 --> UBE4B
+SKP1 --> STUB1
+dis --> SKP1
+UBE2Z --- SKP1
+dis --> UBE2O
+dis --> UBE2D2
+UBE2D4 --- UBE2D2
+CUL1 --> CUL4A
+dis --> CUL2
+dis --> UBE2L3
+STUB1 --> ANAPC2
+dis --> UBE2H
+SAE1 --> PRPF19
+dis --> ITCH
+dis --> UBE2D3
+UBE2D2 --- UBE2D3
+STUB1 --> TRIP12
+dis --> TRIP12
+SAE1 --> UBA2
+dis --> UBE2K
+dis --> HERC4
+SKP1 --> UBE2F
+dis --> CDC23
+SKP1 --- CDC23
+dis --> CUL3
+dis --> UBE2Z
+dis --> UBA1
+dis --> UBA6
+dis --> SAE1
+SKP1 --> PML
+SKP1 --> ANAPC7
+dis --> UBE2I
+HUWE1 --> UBR5
+dis --> UBR5
+dis --> UBE3A
+dis --> UBA3
+dis --> CUL5
+CUL4B --> HUWE1
+dis --> HUWE1
+TRIP12 --> DDB1
+dis --> TRAF6
+dis --> UBE2D1
+UBE2D4 --- UBE2D1
+dis --> CUL1
+dis --> BIRC6
+dis --> UBE3C
+CUL1 --- UBE3C
+dis --> UBA7
+ANAPC2 --> UBE2N
+SKP1 --> CUL4B

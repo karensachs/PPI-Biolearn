@@ -1,0 +1,86 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_aminoacyl_trna_biosynthesis.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GARS --> CARS2
+DARS --> CARS2
+FARS2 --> FARSA
+FARSB --> FARSA
+RARS --- LARS
+VARS2 --> SARS
+FARS2 --> SARS
+WARS --> SARS
+LARS2 --> RARS2
+IARS2 --> HARS2
+WARS --> HARS2
+MARS --> HARS2
+LARS --> VARS2
+IARS2 --> VARS2
+LARS2 --> IARS2
+dis --> IARS2
+EPRS --- YARS
+SARS --> SEPSECS
+NARS2 --> SEPSECS
+FARS2 --> LARS2
+AARS2 --> LARS2
+LARS2 --> WARS2
+GARS --> WARS2
+IARS2 --> YARS2
+YARS --- FARS2
+YARS --> GARS
+EPRS --> GARS
+dis --> GARS
+RARS2 --> KARS
+AARS --> KARS
+dis --> KARS
+HARS2 --> HARS
+IARS --> FARSB
+NARS2 --> FARSB
+IARS2 --> SARS2
+EPRS --> SARS2
+FARS2 --> AARS2
+PARS2 --> AARS2
+dis --> AARS2
+LARS --- IARS
+RARS --> QARS
+YARS --> QARS
+GARS --> VARS
+PARS2 --> VARS
+EPRS --> VARS
+VARS2 --> DARS
+FARS2 --> DARS
+FARS2 --> NARS2
+dis --> NARS2
+IARS2 --> DARS2
+TARS --> DARS2
+GARS --> WARS
+KARS --> WARS
+IARS2 --> MARS2
+MARS --> MARS2
+IARS2 --> CARS
+NARS2 --> CARS
+dis --> CARS
+HARS2 --> EARS2
+VARS2 --> EARS2
+YARS2 --> AARS
+VARS --> AARS
+YARS2 --> NARS
+HARS --> NARS
+IARS2 --> TARS2
+dis --> TARS2
+CARS --> TARSL2
+TARS --> TARSL2
+GARS --> TARS
+MARS --> TARS
+FARSA --> PARS2
+FARS2 --> PARS2
+IARS --> PARS2
+RARS --- MARS
+EPRS --- MARS
+LARS --- EPRS
+RARS --- EPRS

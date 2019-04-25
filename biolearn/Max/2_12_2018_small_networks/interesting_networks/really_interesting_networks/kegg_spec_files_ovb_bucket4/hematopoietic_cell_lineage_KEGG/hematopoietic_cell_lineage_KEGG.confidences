@@ -1,0 +1,21 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_hematopoietic_cell_lineage.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ITGA1 --- CD44	100% (40% forward, 15% backward)
+dis --> ITGA1	100%
+dis --> ITGA6	100%
+dis --> CD9	100%
+ITGA1 --> ITGA5	95%
+dis --> ITGAM	95%
+dis --> CD14	95%
+dis --> TFRC	90%
+dis --> ANPEP	90%
+dis --> CD55	90%
+HLA-DRB5 --> HLA-DRA	90% (85% forward, 5% backward)
+dis --> CD59	80%

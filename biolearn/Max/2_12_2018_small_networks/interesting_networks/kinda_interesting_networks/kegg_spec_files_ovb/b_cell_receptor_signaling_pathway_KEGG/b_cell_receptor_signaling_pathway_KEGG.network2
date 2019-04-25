@@ -1,0 +1,48 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_b_cell_receptor_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> GSK3B
+AKT1 --- GSK3B
+INPP5D --> VAV1
+dis --> CD81
+RAC2 --> INPP5D
+dis --> INPP5D
+RAC1 --> IKBKB
+dis --> IKBKB
+PIK3R1 --> RELA
+RAF1 --> GRB2
+AKT2 --> MAPK3
+dis --> MAPK3
+RAC3 --> PPP3CA
+PPP3CA --> PPP3CB
+RAC1 --> RAC2
+dis --> NFKB1
+dis --> AKT1
+dis --> NRAS
+MAP2K2 --> MAP2K1
+GSK3B --> RAC1
+RAF1 --> AKT2
+dis --> AKT2
+NRAS --> HRAS
+RAC1 --> RAF1
+INPP5D --> PLCG2
+AKT1 --> VAV2
+GSK3B --> RAC3
+PIK3R1 --> RAC3
+VAV1 --> PTPN6
+dis --> PTPN6
+RAC3 --> MAP2K2
+RAC1 --> PIK3R1
+dis --> PIK3R1
+VAV1 --> LYN
+dis --> LYN
+INPP5D --> SYK
+RAC3 --> SYK
+HRAS --> KRAS
+MAPK3 --> MAPK1

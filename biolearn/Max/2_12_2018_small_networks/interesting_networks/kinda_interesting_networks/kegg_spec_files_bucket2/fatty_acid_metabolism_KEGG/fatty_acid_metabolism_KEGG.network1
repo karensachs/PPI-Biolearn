@@ -1,0 +1,60 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_fatty_acid_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ACADVL --> ACAT2
+ADH1C --> ACAT2
+CPT2 --> ACSL3
+dis --> ACSL3
+ACADM --> HADH
+ADH5 --> HADH
+ACADS --> ACADM
+ACSL1 --> ALDH2
+ADH4 --> ALDH2
+HADHB --> ACOX3
+ECI2 --> ALDH7A1
+ACAT1 --> ALDH7A1
+ACADM --> ECI1
+ACADSB --> ECI1
+ACSL5 --> ACSL6
+ADH5 --> ALDH3A2
+CPT2 --> ALDH3A2
+ALDH7A1 --> ECHS1
+ACADS --> ECHS1
+ACSL3 --> ADH5
+ADH4 --> ADH5
+dis --> ACADSB
+ALDH2 --> ACADS
+ACADSB --> ACADS
+ADH5 --> ALDH1B1
+ACADSB --> ACSL4
+ACADVL --> HADHA
+ACAT2 --> ACOX1
+ACADSB --> ECI2
+HADH --> GCDH
+ADH1C --> ADH1B
+ADH4 --- ADH1B
+HADH --> ACAA2
+ADH4 --> ACAA2
+ACSL5 --> ACSL1
+ACSL6 --- ACSL1
+ADH1C --> ADH4
+ACADM --> ALDH9A1
+ACSL4 --> ACSL5
+HADH --> ACAT1
+HADHA --> HADHB
+ALDH9A1 --> HADHB
+ACADS --> ACADVL
+ACAA2 --> ACADVL
+ACSL1 --> EHHADH
+ACADSB --> CPT1A
+ADH4 --> CPT1A
+ACOX3 --> ACAA1
+ALDH7A1 --> ACAA1
+ACADM --> CPT2
+ACSL6 --> ADH1C

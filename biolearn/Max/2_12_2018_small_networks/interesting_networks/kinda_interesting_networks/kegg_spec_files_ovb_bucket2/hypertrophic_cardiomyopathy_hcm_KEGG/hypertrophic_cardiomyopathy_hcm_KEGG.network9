@@ -1,0 +1,48 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_hypertrophic_cardiomyopathy_hcm.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+DAG1 --> DES
+ACTG1 --> DES
+ITGB1 --> ITGA1
+TPM1 --> ITGA1
+TPM2 --> ITGB1
+ITGB4 --> ITGB1
+EMD --> ITGB1
+TPM2 --> TPM4
+TPM1 --> TPM4
+ITGB4 --> ITGB5
+dis --> ITGB5
+LMNA --> DAG1
+dis --> DAG1
+TPM1 --> TPM2
+dis --> TPM2
+ITGAV --> TPM1
+dis --> TPM1
+ITGB1 --> LMNA
+ITGAV --> LMNA
+TPM2 --> PRKAA1
+PRKAG1 --> PRKAA1
+TPM4 --> TPM3
+TPM2 --> TPM3
+ATP2A2 --> TPM3
+ITGAV --> ITGA5
+ACTG1 --> ITGA5
+ACTG1 --> ACTB
+dis --> ACTB
+ITGA6 --> ITGB4
+dis --> ITGB4
+ITGB5 --> ITGAV
+dis --> ITGAV
+dis --> ATP2A2
+ITGAV --> ACTG1
+ATP2A2 --> ACTG1
+DAG1 --> PRKAG1
+TPM2 --> EMD
+TPM3 --> EMD
+ATP2A2 --> EMD

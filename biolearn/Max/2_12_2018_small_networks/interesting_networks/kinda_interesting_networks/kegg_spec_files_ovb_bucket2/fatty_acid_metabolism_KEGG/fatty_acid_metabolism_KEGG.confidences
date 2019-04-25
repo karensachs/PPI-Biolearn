@@ -1,0 +1,25 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_fatty_acid_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HADHA --- HADHB	100% (70% forward, 25% backward)
+ADH1B --- ADH1C	100% (75% forward, 25% backward)
+dis --> ECI2	100%
+dis --> ADH5	100%
+dis --> CPT2	100%
+dis --> CPT1A	100%
+ADH1B --> ALDH2	100% (90% forward, 10% backward)
+ACAT1 --- HADH	95% (55% forward, 40% backward)
+dis --> ALDH1B1	95%
+dis --> ACADSB	95%
+dis --> ACSL3	95%
+dis --> ACAA2	90%
+dis --> HADHA	90%
+dis --> ACSL4	90%
+ADH1B --- ACSL1	85% (75% forward, 10% backward)
+dis --> ALDH3A2	85%

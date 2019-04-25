@@ -1,0 +1,22 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/no_caution_ccle_experiment/11_gene_ca_test.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 HARD BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+beta-Catenin --> N-Cadherin	100%
+beta-Catenin --- alpha-Catenin	100% (75% forward, 0% backward)
+N-Cadherin --> PEA15_pS116	100%
+p38_MAPK --- p38_alpha_MAPK	100% (60% forward, 40% backward)
+E-Cadherin --> N-Cadherin	100%
+alpha-Catenin --> E-Cadherin	100%
+dis --> beta-Catenin	100%
+dis --> PI3K-p85	100%
+dis --> Lck	100%
+alpha-Catenin --> CD49b	100% (95% forward, 5% backward)
+E-Cadherin --> Lck	95%
+Lck --> PEA15_pS116	90%
+dis --> Fibronectin	80%

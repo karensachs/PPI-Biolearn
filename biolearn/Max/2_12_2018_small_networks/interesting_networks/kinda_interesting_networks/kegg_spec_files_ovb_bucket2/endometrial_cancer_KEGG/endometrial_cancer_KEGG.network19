@@ -1,0 +1,42 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_endometrial_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAP2K2 --> GSK3B
+PIK3R1 --> GSK3B
+MAP2K1 --> ILK
+dis --> ILK
+CDH1 --> CTNNB1
+MAP2K2 --> CTNNB1
+dis --> ERBB2
+MAP2K1 --> GRB2
+MAP2K2 --> ARAF
+PIK3R1 --> ARAF
+AKT2 --> AKT1
+dis --> AKT1
+HRAS --> NRAS
+dis --> NRAS
+dis --> CDH1
+MAPK3 --> MAP2K1
+KRAS --> MAP2K1
+dis --> MAP2K1
+PIK3R1 --> AKT2
+GSK3B --> HRAS
+KRAS --> HRAS
+GSK3B --> RAF1
+ARAF --> RAF1
+MAP2K1 --> MAP2K2
+PIK3R1 --> MAP2K2
+CTNNB1 --> CTNNA2
+ARAF --> CTNNA2
+CDH1 --> PIK3R1
+MAP2K1 --> PIK3R1
+ILK --> CTNNA1
+CTNNB1 --> CTNNA1
+dis --> KRAS
+MAPK3 --- MAPK1

@@ -1,0 +1,39 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_small_cell_lung_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+LAMA5 --> COL4A2
+LAMC1 --> LAMB2
+LAMC2 --> LAMA3
+LAMA4 --> LAMB1
+PIK3R1 --> ITGB1
+dis --> RELA
+dis --> NFKB1
+dis --> AKT1
+LAMC2 --> LAMB3
+dis --> ITGA6
+PIK3R1 --> COL4A1
+PIK3R1 --> RB1
+AKT1 --> AKT2
+PIK3R1 --> MAX
+dis --> BCL2L1
+dis --> PTK2
+COL4A2 --> LAMA4
+MAX --> CDK4
+dis --> LAMC2
+LAMC2 --> PIK3R1
+dis --> LAMA5
+LAMA4 --> LAMC1
+FHIT
+IKBKB
+CDK2
+FN1
+TRAF6
+ITGAV
+CYCS
+APAF1

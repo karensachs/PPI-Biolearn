@@ -1,0 +1,40 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_t_cell_receptor_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PAK1 --- PAK3	100% (35% forward, 15% backward)
+CDC42 --- RHOA	100% (60% forward, 25% backward)
+PPP3CA --- PPP3CB	100% (45% forward, 30% backward)
+AKT1 --- AKT2	100% (80% forward, 10% backward)
+PTPRC --- PTPN6	100% (30% forward, 15% backward)
+NRAS --- HRAS	100% (50% forward, 45% backward)
+MAP2K2 --- MAP2K1	100% (55% forward, 45% backward)
+dis --> MAPK3	100%
+dis --> PAK4	100%
+dis --> FYN	100%
+dis --> PPP3CA	100%
+dis --> MAPK13	100%
+dis --> MAPK14	100%
+dis --> RELA	100%
+dis --> PTPN6	100%
+dis --> IKBKB	100%
+dis --> GRB2	100%
+dis --> AKT2	100%
+dis --> NCK2	100%
+MAPK3 --> MAPK1	100% (95% forward, 5% backward)
+PRKCQ --- GSK3B	95% (50% forward, 40% backward)
+PTPRC --- VAV1	95% (60% forward, 5% backward)
+dis --> PTPRC	95%
+PAK3 --> PAK2	90%
+dis --> VAV2	90%
+dis --> CDK4	90%
+dis --> MAPK9	90%
+KRAS --- HRAS	85% (45% forward, 40% backward)
+dis --> PAK1	85%
+dis --> DLG1	80%
+dis --> MAP2K1	80%

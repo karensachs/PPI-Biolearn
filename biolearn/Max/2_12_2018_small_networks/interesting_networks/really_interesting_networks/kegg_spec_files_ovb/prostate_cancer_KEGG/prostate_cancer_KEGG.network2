@@ -1,0 +1,42 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_prostate_cancer.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> ERBB2
+PDGFRB --> MAPK3
+GSK3B --> MAP2K1
+EP300 --> CREBBP
+HRAS --> KRAS
+MAPK3 --> MAPK1
+PIK3R1 --> IGF1R
+dis --> IGF1R
+dis --> HSP90AB1
+dis --> AKT1
+HSP90AB1 --> HSP90AA1
+AKT1 --> RB1
+PIK3R1 --> EP300
+dis --> HSP90B1
+dis --> CTNNB1
+dis --> RELA
+dis --> MTOR
+GSTP1 --> NFKB1
+PIK3R1 --> RAF1
+dis --> PDGFRB
+dis --> GSK3B
+AKT1 --- GSK3B
+PIK3R1 --> GRB2
+dis --> CDK2
+HRAS --> NRAS
+dis --> AKT2
+dis --> HRAS
+dis --> GSTP1
+GSK3B --> MAP2K2
+GSK3B --> PIK3R1
+MAP2K2 --> ARAF
+CREB1
+IKBKB

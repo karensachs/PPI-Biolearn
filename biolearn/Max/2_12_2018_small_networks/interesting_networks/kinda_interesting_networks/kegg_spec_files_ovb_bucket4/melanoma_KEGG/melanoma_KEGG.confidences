@@ -1,0 +1,13 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_melanoma.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+NRAS --- HRAS	100%
+dis --> IGF1R	100%
+HRAS --- KRAS	95%
+MAP2K1 --- MAP2K2	90% (10% forward, 5% backward)

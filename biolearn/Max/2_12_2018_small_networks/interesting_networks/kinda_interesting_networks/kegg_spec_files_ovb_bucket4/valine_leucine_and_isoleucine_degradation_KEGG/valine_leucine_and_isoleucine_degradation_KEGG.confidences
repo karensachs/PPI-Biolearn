@@ -1,0 +1,28 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_valine_leucine_and_isoleucine_degradation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HADHB --- HADHA	100% (40% forward, 25% backward)
+PCCA --- PCCB	100% (80% forward, 20% backward)
+BCKDHB --- BCKDHA	100% (55% forward, 45% backward)
+dis --> ALDH1B1	100%
+dis --> ACADSB	100%
+dis --> MCCC2	100%
+dis --> IVD	100%
+dis --> EHHADH	100%
+dis --> HMGCS1	100%
+dis --> ALDH3A2	100%
+dis --> ACAA1	100%
+dis --> PCCA	95%
+dis --> MUT	95%
+dis --> ALDH9A1	95%
+dis --> MCCC1	95%
+dis --> ALDH7A1	90%
+dis --> HADHA	85%
+dis --> ACAA2	80%
+dis --> ACAD8	80%

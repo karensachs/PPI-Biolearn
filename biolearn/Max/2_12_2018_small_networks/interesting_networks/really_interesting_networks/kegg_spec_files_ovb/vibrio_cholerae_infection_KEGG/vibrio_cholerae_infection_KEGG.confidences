@@ -1,0 +1,31 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_vibrio_cholerae_infection.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ATP6V1B2 --- ATP6V1A	100% (50% forward, 30% backward)
+PRKACB --- PRKACA	100% (75% forward, 25% backward)
+ACTB --- ACTG1	100% (75% forward, 10% backward)
+ATP6V1A --- ATP6V1E1	100% (60% forward, 20% backward)
+dis --> GNAS	100%
+dis --> ARF1	100%
+dis --> SEC61A1	100%
+dis --> PRKCA	100%
+dis --> ATP6V1G1	100%
+dis --> ATP6V0D1	100%
+dis --> SLC12A2	100%
+dis --> TCIRG1	100%
+dis --> ATP6V1F	95%
+ATP6V1A --- ATP6V1D	90% (80% forward, 5% backward)
+dis --> ATP6V1B1	90%
+dis --> ACTB	90%
+SEC61A1 --- TJP2	85% (70% forward, 0% backward)
+SEC61A1 --- ATP6V0A1	85% (50% forward, 0% backward)
+PLCG2 --- PRKCA	85% (30% forward, 5% backward)
+dis --> PLCG2	85%
+SEC61A1 --> ATP6V1H	80%
+dis --> PDIA4	80%

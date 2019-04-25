@@ -1,0 +1,25 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_prion_diseases.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+PRKACA --- PRKACB	100% (60% forward, 25% backward)
+C1QB --- C1QC	100% (60% forward, 40% backward)
+MAP2K2 --- MAP2K1	100% (65% forward, 30% backward)
+MAP2K2 --- STIP1	100% (50% forward, 40% backward)
+MAPK1 --- MAPK3	100% (20% forward, 15% backward)
+dis --> MAP2K1	100%
+dis --> PRNP	100%
+C1QC --> C1QA	100% (90% forward, 5% backward)
+C9 --- C5	95% (50% forward, 30% backward)
+C8G --- C6	95% (65% forward, 20% backward)
+C6 --- C5	95% (60% forward, 15% backward)
+C8G --- C9	90% (80% forward, 10% backward)
+C7 --> LAMC1	80%
+C5 --- C7	80% (70% forward, 5% backward)
+dis --> PRKACB	80%
+dis --> C8G	80%

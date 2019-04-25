@@ -1,0 +1,18 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_autoimmune_thyroid_disease.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HLA-A --- HLA-E	100% (45% forward, 25% backward)
+HLA-A --- HLA-B	100% (35% forward, 35% backward)
+HLA-DRA --- HLA-DRB5	100% (30% forward, 25% backward)
+HLA-C --- HLA-B	100% (70% forward, 25% backward)
+dis --> HLA-C	100%
+HLA-DPA1 --- HLA-DRB1	95% (45% forward, 35% backward)
+HLA-DRB1 --- HLA-DRB5	90% (55% forward, 20% backward)
+HLA-DRB1 --- HLA-DPB1	85% (75% forward, 10% backward)
+HLA-DRB1 --- HLA-DRA	80% (35% forward, 15% backward)

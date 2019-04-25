@@ -1,0 +1,29 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files/kegg_alanine_aspartate_and_glutamate_metabolism.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+GLUD1 --- ALDH4A1
+ABAT --> ADSL
+GFPT2 --- GFPT1
+PPAT --- CPS1
+dis --> ABAT
+ABAT --> GPT2
+GPT --> GPT2
+GLUD1 --- GLUD2
+GFPT2 --- ASS1
+GPT2 --> ASNS
+GPT2 --> GLS
+NIT2
+GLUL
+GOT2
+ADSS
+CAD
+ALDH5A1
+ASL
+GOT1
+ADSSL1

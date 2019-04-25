@@ -1,0 +1,78 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_wnt_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+RAC3 --> PPP2CA
+dis --> PPP2CA
+CREBBP --> SMAD4
+CTNNB1 --> CSNK2A2
+dis --> CSNK2A2
+dis --> PRKACB
+CAMK2B --> CAMK2G
+CAMK2D --> CAMK2G
+dis --> CTBP2
+RAC1 --> CREBBP
+dis --> CREBBP
+SKP1 --> SMAD3
+PPP2CB --> PPP2R1A
+ROCK1 --> CSNK2B
+dis --> CSNK2B
+RAC3 --> PPP3CA
+dis --> SKP1
+CAMK2B --> CAMK2A
+dis --> CAMK2A
+TBL1X --> TBL1XR1
+dis --> TBL1XR1
+RAC3 --> TBL1X
+dis --> CACYBP
+ROCK1 --> ROCK2
+GSK3B --> ROCK2
+CREBBP --> EP300
+dis --> PLCB3
+PPP3CA --> CTNNB1
+dis --> CTNNB1
+PPP3CA --> PPP3CB
+RAC1 --> PPP3CB
+PPP2R1A --> PPP2R1B
+dis --> PPP2R1B
+SMAD3 --> CAMK2B
+CAMK2D --> CAMK2B
+PRKCA --> RUVBL1
+dis --> RUVBL1
+PRKACB --> PRKACA
+RAC3 --> PRKACA
+RAC2 --> PRKCA
+dis --> PRKCA
+RAC1 --> RAC3
+dis --> RAC3
+PPP2R5C --> PPP2R5D
+RAC3 --> ROCK1
+dis --> ROCK1
+SKP1 --> SMAD2
+SMAD3 --- SMAD2
+CSNK2B --> CSNK2A1
+CSNK1A1 --> CSNK1E
+PPP2R5A --> CSNK1E
+CTBP2 --> CTBP1
+RAC3 --> CAMK2D
+dis --> CAMK2D
+RAC3 --> GSK3B
+dis --> GSK3B
+dis --> CSNK1A1
+dis --> MAPK9
+RAC1 --> RAC2
+PRKACB --> RAC1
+RHOA --> RAC1
+SMAD2 --> RHOA
+GSK3B --> CUL1
+PPP2CA --> PPP2CB
+dis --> PPP2CB
+RAC3 --> PPP2R5A
+dis --> PPP2R5A
+GSK3B --> PPP2R5C
+dis --> PPP2R5C

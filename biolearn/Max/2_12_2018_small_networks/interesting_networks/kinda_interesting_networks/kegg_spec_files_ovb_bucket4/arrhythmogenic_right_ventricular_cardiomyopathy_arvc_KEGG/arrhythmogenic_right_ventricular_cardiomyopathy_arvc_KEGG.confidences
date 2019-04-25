@@ -1,0 +1,28 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_arrhythmogenic_right_ventricular_cardiomyopathy_arvc.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ITGA1 --- ITGB1	100% (45% forward, 15% backward)
+ITGA6 --- ITGB4	100% (5% forward, 5% backward)
+ACTN3 --- ACTN2	100% (65% forward, 35% backward)
+ACTN3 --- ACTN1	100% (55% forward, 35% backward)
+ACTB --- ACTG1	100% (65% forward, 35% backward)
+ITGAV --- ITGB5	100% (65% forward, 25% backward)
+DSG2 --- JUP	100% (70% forward, 30% backward)
+dis --> DES	100%
+dis --> DAG1	100%
+dis --> DSP	100%
+dis --> ITGA6	100%
+dis --> ITGB4	100%
+dis --> ATP2A2	100%
+CTNNB1 --- CTNNA1	95% (75% forward, 10% backward)
+dis --> DSC2	95%
+dis --> PKP2	90%
+dis --> ITGB1	85%
+dis --> ITGB5	80%
+ACTN2 --> ACTN4	80% (75% forward, 5% backward)

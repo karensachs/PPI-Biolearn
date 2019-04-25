@@ -1,0 +1,37 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_long_term_depression.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ITPR1 --> GNA13
+dis --> IGF1R
+GNAO1 --> GNAI2
+GNAI3 --> GNAI1
+ITPR2 --> ITPR1
+GNAI1 --> GNAO1
+MAP2K2 --> ARAF
+HRAS --> NRAS
+MAP2K2 --> MAP2K1
+dis --> ITPR3
+KRAS --> HRAS
+MAP2K2 --> RAF1
+PPP2CA --- PPP2CB
+ITPR2 --> GNAI3
+ITPR3 --> ITPR2
+GNA11 --> GNAQ
+GNAI1 --> MAP2K2
+dis --> GUCY1B3
+GNAI1 --> GNA12
+ITPR1 --> GNA11
+dis --> KRAS
+MAPK3 --- MAPK1
+PLCB3
+GNAS
+PPP2R1B
+PRKCA
+LYN
+PPP2R1A

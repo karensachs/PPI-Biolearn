@@ -1,0 +1,34 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_glioma.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+NRAS --- KRAS	100% (60% forward, 40% backward)
+CAMK2A --- CAMK2B	100% (60% forward, 10% backward)
+AKT2 --- AKT1	100% (55% forward, 40% backward)
+HRAS --- NRAS	100% (55% forward, 40% backward)
+HRAS --- KRAS	100% (50% forward, 40% backward)
+MAP2K2 --- ARAF	100% (80% forward, 15% backward)
+MAP2K2 --- MAP2K1	100% (60% forward, 30% backward)
+MAP2K2 --- PIK3R1	100% (60% forward, 40% backward)
+MAPK1 --- MAPK3	100% (50% forward, 35% backward)
+dis --> IGF1R	100%
+dis --> MAP2K1	100%
+dis --> PLCG2	100%
+dis --> CAMK2A	95%
+dis --> CALML3	95%
+PRKCA --> PLCG2	95% (90% forward, 5% backward)
+CAMK2B --- CAMK2D	90% (80% forward, 10% backward)
+CAMK2B --- CAMK2G	90% (80% forward, 5% backward)
+CAMK2G --- CAMK2D	90% (65% forward, 25% backward)
+PIK3R1 --- RB1	90% (60% forward, 20% backward)
+PIK3R1 --> AKT2	90%
+dis --> SHC1	90%
+CAMK2A --- CAMK2G	85% (75% forward, 5% backward)
+MAPK1 --- PDGFRB	80% (35% forward, 25% backward)
+dis --> RB1	80%
+MAP2K2 --> RAF1	80% (75% forward, 5% backward)

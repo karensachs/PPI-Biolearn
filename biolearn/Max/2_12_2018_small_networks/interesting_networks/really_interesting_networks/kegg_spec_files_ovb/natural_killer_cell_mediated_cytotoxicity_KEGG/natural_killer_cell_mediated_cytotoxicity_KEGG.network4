@@ -1,0 +1,42 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_natural_killer_cell_mediated_cytotoxicity.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 3 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> MAPK3
+MAP2K2 --- MAP2K1
+HRAS --- KRAS
+MAPK3 --> MAPK1
+ITGB2 --> HLA-A
+dis --> HLA-A
+PTPN6 --> VAV1
+dis --> FYN
+PIK3R1 --- PPP3CA
+dis --> BID
+PPP3CA --- PPP3CB
+HLA-A --> HLA-E
+RAC1 --- RAF1
+PTPN6 --> PRKCA
+dis --> PTPN6
+HLA-E --> HLA-B
+RAC3 --- RAC2
+HRAS --- NRAS
+RAC3 --- RAC1
+VAV1 --> ITGB2
+RAC3 --- MAP2K2
+RAC3 --- PIK3R1
+RAF1 --- ARAF
+HLA-E --> HLA-C
+PAK1
+PTPN11
+CASP3
+ICAM1
+PLCG2
+VAV2
+SYK
+SHC1
+GRB2

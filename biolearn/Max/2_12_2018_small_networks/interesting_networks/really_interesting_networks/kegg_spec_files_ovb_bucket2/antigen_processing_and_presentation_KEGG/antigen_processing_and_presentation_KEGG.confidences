@@ -1,0 +1,38 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_antigen_processing_and_presentation.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+HSPA1L --- HSPA6	100% (50% forward, 25% backward)
+HLA-DRA --- HLA-DRB5	100% (45% forward, 45% backward)
+TAPBP --- TAP2	100% (75% forward, 15% backward)
+TAP2 --- TAP1	100% (75% forward, 20% backward)
+HSP90AB1 --- HSP90AA1	100% (55% forward, 45% backward)
+CALR --- HSPA5	100% (50% forward, 40% backward)
+HSPA5 --- PDIA3	100% (75% forward, 20% backward)
+PSME2 --- PSME1	100% (50% forward, 45% backward)
+HSPA1B --- HSPA1L	100% (60% forward, 40% backward)
+HSPA1B --- HSPA6	100% (80% forward, 20% backward)
+HLA-B --- HLA-A	100% (65% forward, 35% backward)
+dis --> HSPA2	100%
+dis --> CREB1	100%
+dis --> TAPBP	100%
+dis --> CANX	100%
+HLA-C --> HLA-B	100% (95% forward, 5% backward)
+HLA-A --- HLA-E	95% (70% forward, 20% backward)
+dis --> IFI30	95%
+CTSS --> LGMN	95% (90% forward, 5% backward)
+TAPBP --- HLA-A	90% (60% forward, 30% backward)
+TAPBP --> TAP1	90%
+TAPBP --- HLA-C	90% (45% forward, 20% backward)
+HLA-DPA1 --- HLA-DRB1	90% (65% forward, 25% backward)
+dis --> HSPA1B	90%
+HSPA6 --> HSPA2	90% (85% forward, 5% backward)
+HLA-DRB1 --- HLA-DRB5	85% (70% forward, 15% backward)
+HLA-C --- IFI30	80% (40% forward, 15% backward)
+HLA-C --- HLA-E	80% (70% forward, 5% backward)
+dis --> HLA-DPA1	80%

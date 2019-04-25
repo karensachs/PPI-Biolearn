@@ -1,0 +1,36 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_toll_like_receptor_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+dis --> MAP2K4
+dis --> MAPK3
+MAP2K2 --> MAP2K1
+dis --> CASP8
+dis --> TOLLIP
+dis --> CD14
+MAPK3 --> MAPK1
+RAC1 --> AKT1
+dis --> MAPK13
+dis --> STAT1
+dis --> MAPK14
+dis --> RELA
+IKBKB --> NFKB1
+dis --> IRF3
+PIK3R1 --> MAP2K3
+PIK3R1 --> MAP2K6
+dis --> IKBKB
+AKT1 --> MAPK9
+dis --> LBP
+dis --> RAC1
+dis --> RIPK1
+dis --> TRAF6
+AKT1 --> AKT2
+dis --> AKT2
+dis --> CTSK
+RAC1 --> MAP2K2
+RAC1 --> PIK3R1

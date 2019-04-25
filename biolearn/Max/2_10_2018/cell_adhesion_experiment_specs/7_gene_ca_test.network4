@@ -1,0 +1,16 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/cell_adhesion_experiment/7_gene_ca_test.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 2 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+ITGAV --- ITGB1
+ITGB1 --- PECAM1
+ITGB1 --- CD99
+CD99 --- ITGA4
+ITGA6
+CDH5
+dis

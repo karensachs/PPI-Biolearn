@@ -1,0 +1,30 @@
+# Score BDe 10.0
+# Prior EdgePenalty fraction 0.99999
+# data DataPointPerLine /Users/maxgold/Lab/disease_causality/kegg_data_files_ovb/kegg_toll_like_receptor_signaling_pathway.txt
+# Sample 0.9
+# dis ROOT
+# DiscretizationBuckets 4 SOFT BYDISTANCE
+# Algorithm GreedyHillClimbing 5
+# Constraint ParentMaximum 3
+#-------------------------------
+MAPK3 --- MAPK1	100% (75% forward, 25% backward)
+MAP2K2 --- MAP2K1	100% (55% forward, 45% backward)
+dis --> CASP8	100%
+dis --> TOLLIP	100%
+dis --> MAPK13	100%
+dis --> STAT1	100%
+dis --> MAPK14	100%
+dis --> IRF3	100%
+dis --> IKBKB	100%
+dis --> LBP	100%
+dis --> RIPK1	100%
+dis --> TRAF6	100%
+dis --> CTSK	100%
+AKT1 --- AKT2	95% (55% forward, 15% backward)
+MAP2K2 --- RAC1	95% (60% forward, 35% backward)
+dis --> MAP2K4	95%
+dis --> MAPK3	95%
+dis --> CD14	95%
+dis --> RELA	95%
+dis --> AKT2	90%
+RAC1 --> PIK3R1	90% (85% forward, 5% backward)
