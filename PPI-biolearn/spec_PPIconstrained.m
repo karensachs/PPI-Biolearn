@@ -63,7 +63,7 @@ end
         fprintf(fid,'%s ','batch');
         for i=1:numvar
             for j=i+1:numvar
-                if ppiM(i,j)==1 | ppiM(j,i)==1
+                if ppiM(i,j)==0 & ppiM(j,i)==0
                     var1=variable_names{i};
                     var2=variable_names{j};
                     fprintf(fid,'\n')
