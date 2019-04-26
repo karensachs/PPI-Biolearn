@@ -1,8 +1,8 @@
 
-% spec_PPIconstrained creates a spec file which will be automatically used by Biolearn to create a PPI-constrained network.
+% spec_PPIconstrained creates a spec file which Biolearn will apply to create a PPI-constrained network.
 %The spec file (biolearn.spec) created by this program should be in the same directory when biolearn is run. If biolearn is run in Interactive Mode, it is also possible to browse to access the spec file.
 % As input, this program accepts ppi, a 2 column matrix indicating all
-% pairs of PPI edges
+% pairs of PPI edges,
 % It also accepts as input a networkname (text string),filelist, a textfile listing
 %the list of data files, and variable_names, a list of variables in the
 %order they appear in the data array(s)
