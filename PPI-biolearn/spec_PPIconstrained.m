@@ -64,8 +64,8 @@ end
         for i=1:numvar
             for j=i+1:numvar
                 if ppiM(i,j)==1 | ppiM(j,i)==1
-                    var1=variable_names(i);
-                    var2=variable_names(j);
+                    var1=variable_names{i};
+                    var2=variable_names{j};
                     fprintf(fid,'\n')
                     fprintf(fid,'%s ',['Constraint NoEdge ',var1, ' ',var2])
                 end
