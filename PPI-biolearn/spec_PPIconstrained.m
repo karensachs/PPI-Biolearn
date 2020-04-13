@@ -8,7 +8,7 @@
 %order they appear in the data array(s)
 %Karen Sachs 2019
 
-function [Specfilename] = spec_PPIconstrained(networkname,filelist,variable_names);
+function [Specfilename] = spec_PPIconstrained(networkname,filelist,variable_names,ppi);
 
 %could add as input options:
 % filelistforspec,celltype,condindex,drugname,doselist,scoretype,discBuckets,numruns,numcells)
@@ -26,11 +26,26 @@ for i=1:size(ppi,1)
 end
 
 %% Make spec file
-        Specfilename=['biolearn.spec'];
+% DefaultNetworkName pcsfLINCS_constrained_BN
+% Score BDe 10.0
+% DiscretizationBuckets 3 SOFT BYDISTANCE
+% algorithm GreedyHillClimbing 5
+% dataformat DataPointPerLine 
+% sample 1
+% numruns 10
+% confidencethreshold 30
+% columnStatusFile biolearn.columnstatus.txt
+% constraint ParentMaximum 3
+% Prior EdgePenalty Fraction .99999
+% columnStatusFile biolearn.columnstatus.txt
+
+discBuckets=3;
+numruns=10;
+        Specfilename=['biolearnPPI.spec'];
         
         fid = fopen(Specfilename,'w+');
         fprintf(fid,'%s ','DefaultNetworkName ');
-        fprintf(fid,'%s ',networkName);
+        fprintf(fid,'%s ',networkname);
         fprintf(fid,'\n');
         fprintf(fid,'%s ','discretescore BDe 5');
         fprintf(fid,'\n');
@@ -40,10 +55,10 @@ end
         fprintf(fid,'\n');
         fprintf(fid,'%s ','data MultipleInputFiles DataPointPerLine ');
 %         fprintf(fid,'%s',fldir);
-        fprintf(fid,'%s ',filelist);%forspec);
+%         fprintf(fid,'%s ',filelist);%forspec);
         fprintf(fid,'\n');
         fprintf(fid,'%s ','sample ');
-        fprintf(fid,'%s ',num2str(numcells));
+        fprintf(fid,'%s 1');%,num2str(numcells));
         fprintf(fid,'\n');
         fprintf(fid,'%s ','DiscretizationBuckets ');
         fprintf(fid,'%s ',num2str(discBuckets));
@@ -70,6 +85,7 @@ end
                     fprintf(fid,'%s ',['Constraint NoEdge ',var1, ' ',var2])
                 end
             end
+        end
         fprintf(fid,'\n');
         fclose(fid);
 
