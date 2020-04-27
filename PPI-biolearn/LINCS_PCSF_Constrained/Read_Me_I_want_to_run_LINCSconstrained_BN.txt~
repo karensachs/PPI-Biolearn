@@ -1,0 +1,9 @@
+This file gives instructions on running BL on pre-created files, that enable running the 100 line data on a BN that is constrained to allow only edges from the PCSF model created from the LINCS data.
+
+The PCSF model comes from Ernest Fraenkel's lab at MIT, and was created by Johnny Li in 2019. The data is from day 18 iMNs.
+
+PCSF model is here: W_1.00_B_2.00_G_4.50.robust_network.graphml
+Script to extract edges in csv or text files: extract_edges_fromPCSF.py
+Also on colab:
+https://colab.research.google.com/drive/1WfYYPBUrA_iq0mRAV-kNIrjIIMjg_28p
+

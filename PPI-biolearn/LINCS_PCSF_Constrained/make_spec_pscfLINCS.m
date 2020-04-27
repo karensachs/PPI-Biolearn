@@ -16,11 +16,12 @@
 %order they appear in the data array(s)
 %Karen Sachs 2019
 % function [Specfilename] = spec_PPIconstrained(networkname,filelist,variable_names);
+Specfilename = constrained.spec.txt
 load edges_LINCSpcsf %edges
 load nodes_LINCSpcsf %nodes
 load edgesindexed_LINCSpcsf %edgesIndexed
 networkname='pcsfLINCS_constrained_BN';
-filelist='BL_LINCSpcsf_DS_G_CT_C9nodesMarch28.txt'; %d32 RNA data
+filelist='BL_LINCSpcsf_DS_G_CT_C9nodesMarch28_31.txt'; %d32 RNA data
 variable_names=nodes;
 ppi=edgesIndexed;
 [Specfilename] = spec_PPIconstrained_v2(networkname,filelist,variable_names,ppi);

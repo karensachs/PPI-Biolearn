@@ -1,0 +1,10 @@
+DefaultNetworkName BN_hillclimbing
+Score BDe 10.0
+DiscretizationBuckets 3 SOFT BYDISTANCE
+algorithm GreedyHillClimbing 5
+dataformat DataPointPerLine 
+sample 1
+numruns 10
+confidencethreshold 30
+constraint ParentMaximum 3
+Prior EdgePenalty Fraction .99999

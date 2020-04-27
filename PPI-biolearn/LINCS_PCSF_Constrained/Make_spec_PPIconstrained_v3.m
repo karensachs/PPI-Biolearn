@@ -1,6 +1,3 @@
- %v3 -bug fix Apr 1 2020 - BL expects directed constraints, so i need to put in both directions to block an edge
-%I also start with the Sp Candidate alg starterspec
-
 
 % spec_PPIconstrained creates a spec file which Biolearn will apply to create a PPI-constrained network.
 %The spec file (biolearn.spec) created by this program should be in the same directory when biolearn is run. If biolearn is run in Interactive Mode, it is also possible to browse to access the spec file.
@@ -11,7 +8,7 @@
 %order they appear in the data array(s)
 %Karen Sachs 2019
 
-function spec_PPIconstrained_v3(networkname,filelist,variable_names,ppi);
+function [Specfilename] = spec_PPIconstrained(networkname,filelist,variable_names,ppi);
 
 %could add as input options:
 % filelistforspec,celltype,condindex,drugname,doselist,scoretype,discBuckets,numruns,numcells)
@@ -44,50 +41,48 @@ end
 
 discBuckets=3;
 numruns=10;
-%         Specfilename=['biolearnPPI.spec'];
+        Specfilename=['biolearnPPI.spec'];
         
-%         fid = fopen(Specfilename,'w+');
-        fid = fopen('starterspec_SCAlg.spec.txt', 'a+');
-%         fprintf(fid,'%s ','DefaultNetworkName ');
-%         fprintf(fid,'%s ',networkname);
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','discretescore BDe 5');
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','VariableStatusFile biolearn.columnstatus.txt');
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','algorithm GreedyHillClimbing 5');
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','data MultipleInputFiles DataPointPerLine ');
-% %         fprintf(fid,'%s',fldir);
-% %         fprintf(fid,'%s ',filelist);%forspec);
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','sample ');
-%         fprintf(fid,'%s 1');%,num2str(numcells));
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','DiscretizationBuckets ');
-%         fprintf(fid,'%s ',num2str(discBuckets));
-%         fprintf(fid,'%s ',' soft bydistance');
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','numruns ');
-%         fprintf(fid,'%s ',num2str(numruns));
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','confidencethreshold 50');
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','discretizedFileSuffix discr');
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','constraint ParentMaximum 4');
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','Prior EdgePenalty Fraction .2');
-%         fprintf(fid,'\n');
-%         fprintf(fid,'%s ','batch');
+        fid = fopen(Specfilename,'w+');
+        fprintf(fid,'%s ','DefaultNetworkName ');
+        fprintf(fid,'%s ',networkname);
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','discretescore BDe 5');
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','VariableStatusFile biolearn.columnstatus.txt');
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','algorithm GreedyHillClimbing 5');
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','data MultipleInputFiles DataPointPerLine ');
+%         fprintf(fid,'%s',fldir);
+%         fprintf(fid,'%s ',filelist);%forspec);
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','sample ');
+        fprintf(fid,'%s 1');%,num2str(numcells));
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','DiscretizationBuckets ');
+        fprintf(fid,'%s ',num2str(discBuckets));
+        fprintf(fid,'%s ',' soft bydistance');
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','numruns ');
+        fprintf(fid,'%s ',num2str(numruns));
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','confidencethreshold 50');
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','discretizedFileSuffix discr');
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','constraint ParentMaximum 4');
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','Prior EdgePenalty Fraction .2');
+        fprintf(fid,'\n');
+        fprintf(fid,'%s ','batch');
         for i=1:numvar
-            for j=1:numvar %bug fix Apr 1 2020 - BL expects directed constraints, so i need to put in both directions to block an edge
+            for j=i+1:numvar
                 if ppiM(i,j)==0 & ppiM(j,i)==0
                     var1=variable_names{i};
                     var2=variable_names{j};
-                    
-                    fprintf(fid,'%s ',['Constraint NoEdge ',var1, ' ',var2])
                     fprintf(fid,'\n')
+                    fprintf(fid,'%s ',['Constraint NoEdge ',var1, ' ',var2])
                 end
             end
         end

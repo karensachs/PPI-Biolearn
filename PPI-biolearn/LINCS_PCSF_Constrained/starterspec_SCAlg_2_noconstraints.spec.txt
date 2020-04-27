@@ -1,0 +1,12 @@
+DefaultNetworkName SCA_BN
+Score BDe 10.0
+DiscretizationBuckets 3 SOFT BYDISTANCE
+algorithm SparseCandidate 3 GreedyHillClimbing 5
+dataformat DataPointPerLine 
+sample 1
+numruns 10
+confidencethreshold 30
+columnStatusFile biolearn.columnstatus.txt
+constraint ParentMaximum 3
+Prior EdgePenalty Fraction .99999
+columnStatusFile biolearn.columnstatus.txt
